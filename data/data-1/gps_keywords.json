@@ -1,0 +1,23 @@
+[
+    "Windows Desktop", "Windows 7", "Windows 8", "windows xp","Windows 10", "Windows 11",
+    "windows server", "windows vista", "WordPress ", "Adobe Flash Player", "Apple OS X", 
+    "OS X", "Google Chrome", "Mozilla Firefox", "firefox ", "HangFire ", "Grafana ", "Zydis ", 
+    "Jupyter Notebooks", "xen hypervisor", "Eucalyptus ", "OpenNebula ",
+    "Minio Console", "Microsoft Office", "Microsoft Word", "Microsoft Excel",
+    "Visual Studio", "Microsoft OneNote", "Microsoft Exchange", "Pydio Cells",
+    "Apache ", "Kirby ", "baserCMS ", "XAMPP ", "OpenStack ", "Cloud stack", "Wireshark ",
+    "Metasploit ", " Xen ", "Opera Mini", "Fedora ", "Red Hat Enterprise",
+    "Brave Browser", "Google Maps", "Google Earth", "Google Docs", "Sendmail ",
+    "Chromium ", "Bentley View", "OpenCV ", "ImageMagick ", "EMC", "Sun Solaris",
+    "VirtualBox ", "Django ", "Moodle ", "JBoss ", "Kallithea", "Windows Bluetooth Driver",
+    "Dell XPS 13", "Dell PowerEdge", "HPE ProLiant", "IBM System x", "Huawei FusionServer",
+    "Ubuntu ", "VMware ", "Oracle Database","Adobe Photoshop", "GIMP ", " Slack ", " Trello ", 
+    " Zoom " , " Skype ", " GitHub ", " Bitbucket ", " Ansible ", " Terraform ",
+    " AWS ", " Azure ", "Google Cloud Platform", " Node.js ",
+    " React ", "Angular ", " Vue.js ", "Ruby on Rails", " Laravel ", " Flask ",
+    " Elasticsearch ", " Redis ", " RabbitMQ ", "Apache Kafka", " Jenkins ", "Travis CI",
+    " CircleCI ", "Adobe Illustrator", " Inkscape ", " Blender ", " Unity ", "Unreal Engine",
+    " Eclipse ", "Visual Studio Code", "nvida drivers", "nvidia geforce experience", 
+    "nvidia control panel", "nvidia geforce", "nvidia graphics driver", "nvidia geforce drivers",
+    "sublime text"
+]
