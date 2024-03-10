@@ -1,17 +1,22 @@
 from bs4 import BeautifulSoup
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+#from selenium import webdriver
+#from selenium.webdriver.common.by import By
+#from selenium.webdriver.support.ui import WebDriverWait
+#from selenium.webdriver.support import expected_conditions as EC
 from tqdm import tqdm
 #from es_vuln_extraction import tools
 import requests
 import csv
 import pandas as pd
+import re
 
 tqdm.pandas()
-
+def clean_text(text):
+    # Replace sequences of whitespace characters with a single space
+    text = re.sub(r'\s+', ' ', text)
+    # Strip leading and trailing whitespace
+    return text.strip()
 # Initialize a session
 session = requests.Session()
 
@@ -25,27 +30,37 @@ header = {
 # Function to extract details from an HTML page
 def extract_details(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
-    var_id = soup.find('h4', text='ID').find_next_sibling('div').p.get_text(strip=True)
-    cve_id = soup.find('h4', text='CVE').find_next_sibling('div').p.get_text(strip=True)
-    title = soup.find('h4', text='TITLE').find_next_sibling('div').p.get_text(strip=True)
-    description = soup.find('h4', text='DESCRIPTION').find_next_sibling('div').p.get_text(strip=True)
-    category = soup.find('small', text='category:').find_next('td').get_text(strip=True)
-    vendor = soup.find('small', text='vendor:').find_next('td').get_text(strip=True)
-    model = soup.find('small', text='model:').find_next('td').get_text(strip=True)
-    version = soup.find('small', text='version:').find_next('td').get_text(strip=True)
-    patch_title = soup.find('small', text='title:').find_next('td').get_text(strip=True)
-    patch_url = soup.find('small', text='url:').find_next('td').get_text(strip=True)
-    sources = ', '.join([source.get_text(strip=True) for source in soup.select('div:contains("SOURCES") + div table td:nth-of-type(2)')])
-    references = ', '.join([ref.get_text(strip=True) for ref in soup.select('div:contains("REFERENCES") + div table td:nth-of-type(2)')])
+    h4_tags = soup.find_all('h4')
+    var_id = 'N/A'
+    cve_id = 'N/A'
+    description = 'N/A'
+    for h4 in h4_tags:
+        if h4.string == 'ID':
+            var_id = clean_text(h4.find_parent('div').find_next_sibling('div').find('p').get_text(strip=True))
+        elif h4.string == 'CVE':
+            cve_id = clean_text(h4.find_parent('div').find_next_sibling('div').p.get_text(strip=True))
+        #if h4.string == 'TITLE':
+        #    title = clean_text(h4.find_parent('div').find_next_sibling('div').p.get_text(strip=True))
+        elif h4.string == 'DESCRIPTION':
+            description = clean_text(h4.find_parent('div').find_next_sibling('div').p.get_text(strip=True))
+        
+    #category = clean_text(soup.find('small', string='category:').find_next('td').get_text(strip=True))
+    #vendor = clean_text(soup.find('small', string='vendor:').find_next('td').get_text(strip=True))
+    #model = clean_text(soup.find('small', string='model:').find_next('td').get_text(strip=True))
+    #version = clean_text(soup.find('small', string='version:').find_next('td').get_text(strip=True))
+    #patch_title = clean_text(soup.find('small', string='title:').find_next('td').get_text(strip=True))
+    #patch_url = clean_text(soup.find('small', string='url:').find_next('td').get_text(strip=True))
+    #sources = ', '.join([source.get_text(strip=True) for source in soup.select('div:contains("SOURCES") + div table td:nth-of-type(2)')])
+    #references = ', '.join([ref.get_text(strip=True) for ref in soup.select('div:contains("REFERENCES") + div table td:nth-of-type(2)')])
 
-    return [var_id, cve_id, title, description, category, vendor, model, version, sources, references, patch_title, patch_url]
+    return [var_id, cve_id, description]# category, vendor, model, version, sources, references, patch_title, patch_url]
 
 # Set up the Selenium WebDriver
 #driver = webdriver.Chrome("../driver/chromedriver", options=options)  # Replace with the appropriate driver for your browser
 with open('../data/VarIoT_data/vulnerabilities.csv', 'w', newline='') as file:
     writer = csv.writer(file)
      # Write the header row
-    writer.writerow(['VAR ID', 'CVE ID', 'Title', 'Description', 'Category', 'Vendor', 'Model', 'Version', 'Sources', 'References', 'Patch Title', 'Patch URL'])
+    writer.writerow(['VAR ID', 'CVE ID', 'Description',])# 'Category', 'Vendor', 'Model', 'Version', 'Sources', 'References', 'Patch Title', 'Patch URL'])
 # Define CSV file to write to
 #with open('../data/VarIoT_data/var_links.csv', 'w', newline='') as file:
  #   writer = csv.writer(file)
@@ -65,9 +80,8 @@ with open('../data/VarIoT_data/vulnerabilities.csv', 'w', newline='') as file:
         data = extract_details(html_content)
     
         # Append the extracted data to the CSV file
-        with open('/mnt/data/vulnerabilities.csv', 'a', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(data)
+          
+        writer.writerow(data)
         # Assuming all relevant data is within table rows (<tr>)
         #rows = soup.find_all('tr')
 
