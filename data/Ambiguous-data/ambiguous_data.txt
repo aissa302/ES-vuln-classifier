@@ -1499,4 +1499,3 @@ Internet Message Access Protocol (IMAP) Remote Command Execution Vulnerability
 Network File System (NFS) Remote Code Execution Vulnerability
 Remote Procedure Call (RPC) Remote Command Execution Vulnerability
 Virtual Private Network (VPN) Remote Code Execution Vulnerability
-
