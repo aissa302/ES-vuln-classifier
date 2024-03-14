@@ -5,3 +5,5 @@ notbooks/java爬虫爬取cnvd,CNVD.py-CSDN博客.pdf
 data/zdi-data/zdi_data.csv
 data/cnnvd-data/cnnvd_data_12_03_24.csv
 data/VarIoT_data/vulnerabilities.csv
+data/cnnvd-data/cnnvd_data_12_03_24_translated.csv
+data/CNVD/xml_files/
