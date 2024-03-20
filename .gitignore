@@ -7,3 +7,9 @@ data/cnnvd-data/cnnvd_data_12_03_24.csv
 data/VarIoT_data/vulnerabilities.csv
 data/cnnvd-data/cnnvd_data_12_03_24_translated.csv
 data/CNVD/xml_files/
+data/Ambiguous-data/test_real_ambiguous_augemented_data.csv
+data/Ambiguous-data/training_ambiguous_augemented_data.csv
+data/cnnvd-data/cnnvd_data_translated.csv
+data/CNVD/cnvd_data_cleaned.csv
+data/CNVD/cnvd_translated_descriptions.txt
+data/CNVD/cnvd_data.csv
